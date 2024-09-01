@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generating Quiz...</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(231, 220, 206);
+        }
+
+        #loading {
+            font-size: larger;
+            color: rgb(184, 99, 73);
+            font-weight: bold;
+            width: 90vw;
+            margin-top: 20px;
+            padding: 15px;
+            text-align: center;
+            border: 5px solid rgb(174, 139, 94);
+            border-radius: 20px;
+            background-color: rgb(226, 242, 255);
+
+            display: none;
+        }
+
+        .quiz-list {
+            /* background-color: #fff; */
+            width: 90vw;
+            margin: 20px;
+        }
+
+        .quiz-list>ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+        }
+
+        li>button {
+            font-size: medium;
+            color: rgb(188, 145, 60);
+            font-weight: bold;
+            padding: 10px 50px;
+            margin: 0 20px;
+            text-align: center;
+            border: 3px solid rgb(199, 125, 112);
+            border-radius: 10px;
+            background-color: rgb(226, 242, 255);
+        }
+
+        li>button:hover {
+            cursor: pointer;
+        }
+
+        #quizResult {
+            width: 90vw;
+            border: 5px solid rgb(174, 139, 94);
+            padding: 10px 50px;
+            margin: 0 20px;
+            color: rgb(255, 153, 0);
+            padding: 10px 50px;
+            margin: 0 20px;
+            border-radius: 20px;
+            background-color: rgb(226, 242, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading">
+        <p></p>
+    </div>
+    <div class="quiz-list">
+        <ul>
+            <li><button onclick="quiz(1)">Quiz 1</button></li>
+            <li><button onclick="quiz(2)">Quiz 2</button></li>
+            <li><button onclick="quiz(3)">Quiz 3</button></li>
+        </ul>
+    </div>
+    <div id="quizResult">
+        <h2>Generated Quiz</h2>
+        <h3>Quiz: </h3>
+        <pre id="quizContent"></pre>
+    </div>
+
+    <script type="text/javascript">
+        // Preset topic
+        let quizs = {}
+        quiz(1)
+        function quiz(quizNo) {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('quizContent').textContent = '';
+            document.getElementById('loading').firstChild.textContent = "Please wait while the quiz: " + quizNo + " is being generated.."
+            document.querySelector('h3').textContent = "Quiz: " + quizNo
+            var topic = "article 5 of indian costitution";  // Replace with your desired topic
+            console.log(!quizs.hasOwnProperty(quizNo))
+            if (!quizs.hasOwnProperty(quizNo)) {
+
+                // Send an AJAX request to the Flask server
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '/generate_quiz', true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        // Parse the JSON response
+                        var response = JSON.parse(xhr.response);
+                        console.log(response)
+                        var quiz = response.quiz;
+                        // Hide the loading message
+                        quizs[quizNo] = response
+                        let question = response.quiz_question
+                        document.getElementById('loading').style.display = 'none';
+                        // Show the quiz result
+                        document.getElementById('quizContent').textContent = quiz;
+                    }
+                };
+                xhr.send('topic=' + encodeURIComponent(topic));
+            } else {
+                document.getElementById('loading').style.display = 'none'
+                document.getElementById('quizContent').textContent = quizs[quizNo].quiz
+            }
+        }
+    </script>
+</body>
+
+</html>
