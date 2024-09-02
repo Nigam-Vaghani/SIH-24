@@ -1,7 +1,4 @@
-hello this is SIH 24
-team _> NIRMa
-dhanesh
-
+UPDATE OR ADD -> RohitFrontEnd folder (it is final folder)
 
 git access to you main file
 git init
