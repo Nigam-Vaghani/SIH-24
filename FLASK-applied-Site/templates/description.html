@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description - Indian Constitution</title>
+    <!-- Bootstrap CSS -->
+    <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/assets/custom/css/custom.css" rel="stylesheet">
+    <style>
+        /* Custom styles for better structure */
+        .result-box {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-box h3 {
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+        }
+
+        .result-box h5 {
+            border-left: 5px solid #28a745;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+  <div class="search-section">
+        <a class="close-search" href="#"></a>
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <form method="post" action="#" class="w-50">
+                <div class="row">
+                    <div class="col-10">
+                        <input type="search" value="" class="form-control palce bg-transparent border-0 search-input"
+                            placeholder="Search Here ..." />
+                    </div>
+                    <div class="col-2 mt-3">
+                        <button type="submit" class="btn bg-transparent text-white"> <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="ju-loading-screen">
+        <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div>
+    </div>
+
+
+    <!-- /End Top Header -->
+
+    <!-- Start Fables Navigation -->
+    <div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-10 col-lg-9 pr-md-0">
+
+                    <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+
+                        <div class="collapse navbar-collapse" id="fablesNavDropdown">
+
+                            <ul class="navbar-nav mx-auto fables-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link toggle" href="/" id="sub-nav1" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link toggle" href="/about3" id="sub-nav2" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link toggle" href="/description" id="sub-nav" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Article descriptions
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link toggle" href="/resources" id="sub-nav4" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Resources
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="sub-nav5" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Games
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="sub-nav6">
+                                        <li><a class="dropdown-item" href="/quiz">Quiz</a></li>
+                                        <li><a class="dropdown-item" href="#">Spin the wheel</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link toggle" href="/contact" id="sub-nav7">
+                                        Contact
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
+
+                    <div class="fables-header-icons">
+
+
+
+                        <a href="/signin"
+                            class="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"><span
+                                class="fables-iconuser"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /End Fables Navigation -->
+
+    <!-- Start Header -->
+    <div class="fables-header fables-after-overlay overlay-lighter bg-rules"
+        style="background-image: url(../static/assets/custom/images/header.jpg);">
+        <div class="container overflow-hidden">
+            <div class="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig"
+                data-wow-duration="2s">
+                <div>
+                    <h1 class="white-color bold-font mt-lg-5 mb-4">Constitution Simplified:<br>
+                        <span class="fables-second-text-color">Key Insights at a Glance</span>
+                    </h1>
+                    <p class="fables-third-text-color mt-3 mb-5 light-font fables-header-slider-details">
+                        An intuitive platform that delivers clear, concise summaries of constitutional articles for easy
+                        understanding and quick reference
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /End Header -->
+
+
+    <!-- Description Section -->
+    <div class="container mt-5">
+        <h2 class="text-center">Indian Constitution - Article Details</h2>
+
+        <!-- Search Bar with Dropdown -->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="articleSearch"
+                placeholder="Search for an article... (e.g., Article 5)">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" onclick="searchArticle()">Search</button>
+            </div>
+        </div>
+        <div class="dropdown">
+            <ul class="dropdown-menu w-100" id="searchSuggestions">
+                <!-- Suggestions will be inserted here dynamically -->
+            </ul>
+        </div>
+
+        <!-- Search Result Display -->
+        <div id="searchResult" class="mt-4">
+            <!-- Title Box -->
+            <div class="result-box" id="titleBox">
+                <h3 id="articleTitle"></h3>
+            </div>
+
+            <!-- Description Box -->
+            <div class="result-box" id="descriptionBox">
+                <h5>Full Description:</h5>
+                <p id="articleDescription"></p>
+            </div>
+
+            <!-- Simplified Version Box -->
+            <div class="result-box" id="simplifiedBox">
+                <h5>Simplified Version:</h5>
+                <p id="articleSimplified"></p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Bootstrap JS and dependencies -->
+     <script src="../static/assets/custom/js/description.js"></script>
+    <script src="../static/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

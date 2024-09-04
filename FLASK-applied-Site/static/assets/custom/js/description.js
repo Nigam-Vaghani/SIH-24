@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     function fetchAndCombineJSON() {
         Promise.all([
-            fetch('data/constitution_of_india.json').then(response => response.json()),
-            fetch('data/simplified_.json').then(response => response.json())
+            fetch('/static/data/constitution_of_india.json').then(response => response.json()),
+            fetch('/static/data/simplified_.json').then(response => response.json())
         ])
         .then(([descriptionData, simplifiedData]) => {
             combinedArticles = combineJSONData(descriptionData, simplifiedData);
