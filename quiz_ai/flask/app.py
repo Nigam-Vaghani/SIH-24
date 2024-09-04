@@ -9,7 +9,7 @@ def generate_quiz(topic):
     response = ollama.chat(model=desiredModel, messages=[
         {
             'role': 'system',
-            'content': 'You are a quiz generator. Generate quizzes with one question and four options. Mark the correct option. and only give question abcd options and a correct only give anything else beside it don\'t mention question no or anything also provide the answer at the end but without marking only A, B, C, D '
+            'content': 'You are a quiz generator. Generate quizzes with one question and four options. (write answer at the bottom of all option). and only give question abcd options and a correct only give anything else beside it don\'t mention question no or anything also provide the answer at the end but without marking only A, B, C, D '
         },
         {
             'role': 'user',
@@ -50,13 +50,13 @@ def extract_question(text):
         return None
     
 def extract_answer(text):
-    answer_match = re.search(r'Answer:\s([A-D])', text)
+    answer_match = re.search(r'Correct:\s([A-D])', text)
     if answer_match:
         return answer_match.group(1)
     else:
         return None
 
-def extract_option(text):W
+def extract_option(text):
     options = re.findall(r'([A-D])\)\s(.*?)(?=\n|$)', text)
     options_dict = {key: value for key, value in options}
     return options_dict

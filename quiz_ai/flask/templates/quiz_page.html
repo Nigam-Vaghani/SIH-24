@@ -98,16 +98,23 @@
     <script type="text/javascript">
         // Preset topic
         let quizs = {}
+        let quiz_pressed = {
+            1:false,
+            2:false,
+            3:false
+        }
         quiz(1)
         function quiz(quizNo) {
             document.getElementById('loading').style.display = 'block';
             document.getElementById('quizContent').textContent = '';
             document.getElementById('loading').firstChild.textContent = "Please wait while the quiz: " + quizNo + " is being generated.."
             document.querySelector('h3').textContent = "Quiz: " + quizNo
-            var topic = "article 5 of indian costitution";  // Replace with your desired topic
+            var topic = "article 5 of indian costitution";  
+            // Replace with your desired topic
+            
             console.log(!quizs.hasOwnProperty(quizNo))
-            if (!quizs.hasOwnProperty(quizNo)) {
-
+            if (!quizs.hasOwnProperty(quizNo) && !quiz_pressed[quizNo]) {
+                quiz_pressed[quizNo] = true
                 // Send an AJAX request to the Flask server
                 var xhr = new XMLHttpRequest();
                 xhr.open('POST', '/generate_quiz', true);
@@ -128,7 +135,7 @@
                     }
                 };
                 xhr.send('topic=' + encodeURIComponent(topic));
-            } else {
+            } else if (quiz[quizNo]!=undefined) {
                 document.getElementById('loading').style.display = 'none'
                 document.getElementById('quizContent').textContent = quizs[quizNo].quiz
             }
