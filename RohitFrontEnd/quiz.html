@@ -1,262 +1,791 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Fables" />
+    <meta name="author" content="Enterprise Development" />
+    <link rel="shortcut icon" href="assets/custom/images/shortcut.png" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz - Indian Constitution</title>
+    <title>Home 4</title>
+
+    <!-- animate.css-->
+    <link
+      href="assets/vendor/animate.css-master/animate.min.css"
+      rel="stylesheet"
+    />
+    <!-- Load Screen -->
+    <link href="assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome 5 -->
+    <link
+      href="assets/vendor/fontawesome/css/fontawesome-all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Fables Icons -->
+    <link href="assets/custom/css/fables-icons.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap-4-navbar.css"
+      rel="stylesheet"
+    />
+    <!-- portfolio filter gallery -->
+    <link
+      href="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css"
+      rel="stylesheet"
+    />
+    <!-- Video Background -->
+    <link
+      href="assets/vendor/video-background/video-background.css"
+      rel="stylesheet"
+    />
+    <!-- FANCY BOX -->
+    <link
+      href="assets/vendor/fancybox-master/jquery.fancybox.min.css"
+      rel="stylesheet"
+    />
+    <!-- RANGE SLIDER -->
+    <link href="assets/vendor/range-slider/range-slider.css" rel="stylesheet" />
+    <!-- OWL CAROUSEL  -->
+    <link
+      href="assets/vendor/owlcarousel/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/owlcarousel/owl.theme.default.min.css"
+      rel="stylesheet"
+    />
+    <!-- FABLES CUSTOM CSS FILE -->
+    <link href="assets/custom/css/custom.css" rel="stylesheet" />
+    <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+    <link href="assets/custom/css/custom-responsive.css" rel="stylesheet" />
+
     <style>
-        .article-card {
-            background-color: #f8f9fa;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            flex: 1 1 30%;
-            text-align: center;
-        }
+      .article-card {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        flex: 1 1 30%;
+        text-align: center;
+      }
 
-        .article-card h4 {
-            margin-bottom: 10px;
-        }
+      .article-card h4 {
+        margin-bottom: 10px;
+      }
 
-        .article-card button {
-            margin-top: 10px;
-        }
+      .article-card button {
+        margin-top: 10px;
+      }
 
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap; 
+        
+        justify-content: space-around;
+      }
 
-        .quiz-section {
-            display: none;
-        }
+      .quiz-section {
+        display: none;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="search-section">
+      <a class="close-search" href="#"></a>
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <form method="post" action="#" class="w-50">
+          <div class="row">
+            <div class="col-10">
+              <input
+                type="search"
+                value=""
+                class="form-control palce bg-transparent border-0 search-input"
+                placeholder="Search Here ..."
+              />
+            </div>
+            <div class="col-2 mt-3">
+              <button type="submit" class="btn bg-transparent text-white">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="home1.html">Indian Constitution</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
-                <li class="nav-item"><a class="nav-link" href="about3.html">About Us</a></li>
-                <li class="nav-item active"><a class="nav-link" href="quiz.html">Quiz</a></li>
-                <li class="nav-item"><a class="nav-link" href="description.html">Description</a></li>
-                <li class="nav-item"><a class="nav-link" href="contactus1.html">Contact Us</a></li>
-            </ul>
+    <!-- Loading Screen -->
+    <div id="ju-loading-screen">
+      <div class="sk-double-bounce">
+        <div class="sk-child sk-double-bounce1"></div>
+        <div class="sk-child sk-double-bounce2"></div>
+      </div>
+    </div>
+
+    <!-- /End Top Header -->
+
+    <!-- Start Fables Navigation -->
+    <div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-9 pr-md-0">
+            <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+              <div class="collapse navbar-collapse" id="fablesNavDropdown">
+                <ul class="navbar-nav mx-auto fables-nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link toggle"
+                      href="index.html"
+                      id="sub-nav1"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link toggle"
+                      href="about3.html"
+                      id="sub-nav2"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link toggle"
+                      href="description.html"
+                      id="sub-nav"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Article descriptions
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link toggle"
+                      href="resources.html"
+                      id="sub-nav4"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Resources
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="sub-nav5"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Games
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sub-nav6">
+                      <li>
+                        <a class="dropdown-item" href="quiz.html">Quiz</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Spin the wheel</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link toggle"
+                      href="contactus1.html"
+                      id="sub-nav7"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
+            <div class="fables-header-icons">
+              <a
+                href="signin.html"
+                class="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"
+                ><span class="fables-iconuser"></span
+              ></a>
+            </div>
+          </div>
         </div>
-    </nav>
+      </div>
+    </div>
+    <!-- /End Fables Navigation -->
 
+    <!-- Start Header -->
+    <div
+      class="fables-header fables-after-overlay overlay-lighter bg-rules"
+      style="background-image: url(assets/custom/images/header.jpg)"
+    >
+      <div class="container overflow-hidden">
+        <div
+          class="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig"
+          data-wow-duration="2s"
+        >
+          <div>
+            <h1 class="white-color bold-font mt-lg-5 mb-4">
+              Constitution Simplified:<br />
+              <span class="fables-second-text-color"
+                >Key Insights at a Glance</span
+              >
+            </h1>
+            <p
+              class="fables-third-text-color mt-3 mb-5 light-font fables-header-slider-details"
+            >
+              An intuitive platform that delivers clear, concise summaries of
+              constitutional articles for easy understanding and quick reference
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /End Header -->
+
+    <!-- Start page content -->
     <!-- Article Selection Section -->
     <div class="container mt-5" id="articleSelection">
-        <h2 class="text-center">Select an Article to Play Quiz</h2>
-        <div class="flex-container">
-            <!-- Generate cards for Articles 1 to 15 -->
-            <!-- Static cards -->
-            <div class="article-card" id="article1">
-                <h4>Article 1</h4>
-                <p>Name and territory of the Union</p>
-                <button class="btn btn-primary" onclick="startQuiz('article1')">Play Quiz</button>
+      <h2 class="text-center">Select an Article to Play Quiz</h2>
+      <div class="flex-container">
+        <!-- Generate cards for Articles 1 to 15 -->
+        <!-- Static cards -->
+            <!-- Part 1 -->
+            <div class="article-card" id="part1">
+                <h4>Part 1</h4>
+                <p>The Union and its Territories</p>
+                <p>Articles : 1 – 4</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
             </div>
-            <div class="article-card" id="article2">
-                <h4>Article 2</h4>
-                <p>Admission or establishment of new States</p>
-                <button class="btn btn-primary" onclick="startQuiz('article2')">Play Quiz</button>
+        
+            <!-- Part 2 -->
+            <div class="article-card" id="part2">
+                <h4>Part 2</h4>
+                <p>Citizenship</p>
+                <p>Articles : 5 – 11</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
             </div>
-            <!-- Add cards for Articles 3 to 15 similarly -->
-            <div class="article-card" id="article5">
-                <h4>Article 5</h4>
-                <p>Citizenship at the commencement of the Constitution</p>
-                <button class="btn btn-primary" onclick="startQuiz('article5')">Play Quiz</button>
+        
+            <!-- Part 3 -->
+            <div class="article-card" id="part3">
+                <h4>Part 3</h4>
+                <p>Fundamental Rights</p>
+                <p>Articles : 12 – 35</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
             </div>
-            <div class="article-card" id="article14">
-                <h4>Article 14</h4>
-                <p>Equality before law</p>
-                <button class="btn btn-primary" onclick="startQuiz('article14')">Play Quiz</button>
+        
+            <!-- Part 4 -->
+            <div class="article-card" id="part4">
+                <h4>Part 4</h4>
+                <p>Directive Principles of State Policy</p>
+                <p>Articles : 36 – 51</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
             </div>
-            <!-- Repeat for Articles 6 to 13 and 15 -->
-        </div>
+        
+            <!-- Part 5 -->
+            <div class="article-card" id="part5">
+                <h4>Part 5</h4>
+                <p>The Union</p>
+                <p>Articles : 52 – 151</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 6 -->
+            <div class="article-card" id="part6">
+                <h4>Part 6</h4>
+                <p>The States</p>
+                <p>Articles : 152 – 237</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 7 -->
+            <div class="article-card" id="part7">
+                <h4>Part 7</h4>
+                <p>States in Part B of the First Schedule</p>
+                <p>Articles : 238</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 8 -->
+            <div class="article-card" id="part8">
+                <h4>Part 8</h4>
+                <p>The Union Territories</p>
+                <p>Articles : 239 – 242</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 9 -->
+            <div class="article-card" id="part9">
+                <h4>Part 9</h4>
+                <p>Panchayats</p>
+                <p>Articles : 243 – 243O</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 9A -->
+            <div class="article-card" id="part9A">
+                <h4>Part 9A</h4>
+                <p>Municipalities</p>
+                <p>Articles : 243P – 243ZG</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 9B -->
+            <div class="article-card" id="part9B">
+                <h4>Part 9B</h4>
+                <p>Co-operative Societies</p>
+                <p>Articles : 243ZH – 243ZT</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 10 -->
+            <div class="article-card" id="part10">
+                <h4>Part 10</h4>
+                <p>Scheduled and Tribal Areas</p>
+                <p>Articles : 244 – 244A</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 11 -->
+            <div class="article-card" id="part11">
+                <h4>Part 11</h4>
+                <p>Relations Between the Union and the States</p>
+                <p>Articles : 245 – 263</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 12 -->
+            <div class="article-card" id="part12">
+                <h4>Part 12</h4>
+                <p>Finance, Property, Contracts, and Suits</p>
+                <p>Articles : 264 – 300A</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 13 -->
+            <div class="article-card" id="part13">
+                <h4>Part 13</h4>
+                <p>Trade, Commerce, and Intercourse within the Territory of India</p>
+                <p>Articles : 301 – 307</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 14 -->
+            <div class="article-card" id="part14">
+                <h4>Part 14</h4>
+                <p>Services Under the Union and the States</p>
+                <p>Articles : 308 – 323</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 14A -->
+            <div class="article-card" id="part14A">
+                <h4>Part 14A</h4>
+                <p>Tribunals</p>
+                <p>Articles : 323A – 323B</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 15 -->
+            <div class="article-card" id="part15">
+                <h4>Part 15</h4>
+                <p>Elections</p>
+                <p>Articles : 324 – 329A</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 16 -->
+            <div class="article-card" id="part16">
+                <h4>Part 16</h4>
+                <p>Special Provisions Relating to Certain Classes</p>
+                <p>Articles : 330 – 342</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 17 -->
+            <div class="article-card" id="part17">
+                <h4>Part 17</h4>
+                <p>Official Language</p>
+                <p>Articles : 343 – 351</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 18 -->
+            <div class="article-card" id="part18">
+                <h4>Part 18</h4>
+                <p>Emergency Provisions</p>
+                <p>Articles : 352 – 360</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 19 -->
+            <div class="article-card" id="part19">
+                <h4>Part 19</h4>
+                <p>Miscellaneous</p>
+                <p>Articles : 361 – 367</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 20 -->
+            <div class="article-card" id="part20">
+                <h4>Part 20</h4>
+                <p>Amendment of the Constitution</p>
+                <p>Articles : 368</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 21 -->
+            <div class="article-card" id="part21">
+                <h4>Part 21</h4>
+                <p>Temporary, Transitional and Special Provisions</p>
+                <p>Articles : 369 – 392</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+            <!-- Part 22 -->
+            <div class="article-card" id="part22">
+                <h4>Part 22</h4>
+                <p>Short Title, Commencement, Authoritative Text in Hindi and Repeals</p>
+                <p>Articles : 393 – 395</p>
+                <button class="btn btn-primary" href="#">Play Quiz</button>
+            </div>
+        
+        <!-- Repeat for Articles 6 to 13 and 15 -->
+      </div>
     </div>
 
     <!-- Quiz Section -->
     <div class="container mt-5 quiz-section" id="quizSection">
-        <h2 class="text-center">Quiz on <span id="articleTitle"></span></h2>
-        <form id="quizForm">
-            <!-- Questions will be dynamically inserted here -->
-        </form>
-        <button class="btn btn-success mt-4" onclick="submitQuiz()">Submit Quiz</button>
+      <h2 class="text-center">Quiz on <span id="articleTitle"></span></h2>
+      <form id="quizForm">
+        <!-- Questions will be dynamically inserted here -->
+      </form>
+      <button class="btn btn-success mt-4" onclick="submitQuiz()">
+        Submit Quiz
+      </button>
     </div>
 
     <!-- Quiz Result Section -->
     <div class="container mt-5 quiz-section" id="quizResult">
-        <h2 class="text-center">Your Quiz Results</h2>
-        <p id="resultMessage" class="text-center"></p>
-        <button class="btn btn-primary d-block mx-auto" onclick="restartQuiz()">Restart Quiz</button>
+      <h2 class="text-center">Your Quiz Results</h2>
+      <p id="resultMessage" class="text-center"></p>
+      <button class="btn btn-primary d-block mx-auto" onclick="restartQuiz()">
+        Restart Quiz
+      </button>
     </div>
 
+    <!-- /End page content -->
+
+    <!-- Start Footer 2 Background Image  -->
+    <div
+      class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+            <h2
+              class="font-20 semi-font fables-second-border-color border-bottom pb-3"
+            >
+              Article Insights
+            </h2>
+            <p class="font-15 fables-third-text-color">
+              Read clear, concise summaries of constitutional articles for easy
+              understanding and quick reference
+            </p>
+            <p class="font-15 fables-third-text-color">
+              Stay informed with the latest amendments and interpretations,
+              ensuring your understanding is always up-to-date
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <h2
+              class="font-20 semi-font fables-second-border-color border-bottom pb-3"
+            >
+              Contact us
+            </h2>
+            <div class="my-3">
+              <h4 class="font-16 semi-font">
+                <span
+                  class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"
+                ></span>
+                Address Information
+              </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">
+                level13, 2Elizabeth St, Melbourne, Victor 2000
+              </p>
+            </div>
+            <div class="my-3">
+              <h4 class="font-16 semi-font">
+                <span
+                  class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"
+                ></span>
+                Call Now
+              </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">
+                +333 111 111 000
+              </p>
+            </div>
+            <div class="my-3">
+              <h4 class="font-16 semi-font">
+                <span
+                  class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"
+                ></span>
+                Mail
+              </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">
+                adminsupport@website.com
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <h2
+              class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3"
+            >
+              EXPLORE OUR SITE
+            </h2>
+            <ul class="nav fables-footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Article Description</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="copyright fables-main-background-color mt-0 border-0 white-color"
+    >
+      <ul
+        class="nav fables-footer-social-links just-center fables-light-footer-links"
+      >
+        <li>
+          <a href="#" target="_blank"
+            ><i class="fab fa-google-plus-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"
+            ><i class="fab fa-pinterest-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <p class="mb-0">Copyright © ArticleInsights 2024. All rights reserved.</p>
+    </div>
+
+    <!-- /End Footer 2 Background Image -->
+
     <!-- JavaScript -->
-    <script>
-        const quizData = {
-            'article1': {
-                title: 'Article 1',
-                questions: [
-                    {
-                        text: 'What does Article 1 of the Indian Constitution state?',
-                        options: {
-                            'A': 'Name and territory of the Union',
-                            'B': 'Admission or establishment of new States',
-                            'C': 'Equality before law',
-                            'D': 'Right to Freedom'
-                        },
-                        correctAnswer: 'A'
-                    },
-                    // Additional questions for Article 1
-                    {
-                        text: 'Which of the following is included in Article 1?',
-                        options: {
-                            'A': 'Territorial boundaries of India',
-                            'B': 'Union territories',
-                            'C': 'Establishment of States',
-                            'D': 'Right to Information'
-                        },
-                        correctAnswer: 'B'
-                    },
-                    {
-                        text: 'Article 1 defines India as which of the following?',
-                        options: {
-                            'A': 'A federal state',
-                            'B': 'A Union of States',
-                            'C': 'A sovereign nation',
-                            'D': 'A socialist state'
-                        },
-                        correctAnswer: 'B'
-                    }
-                ]
+    <!-- <script>
+      const quizData = {
+        article1: {
+          title: "Article 1",
+          questions: [
+            {
+              text: "What does Article 1 of the Indian Constitution state?",
+              options: {
+                A: "Name and territory of the Union",
+                B: "Admission or establishment of new States",
+                C: "Equality before law",
+                D: "Right to Freedom",
+              },
+              correctAnswer: "A",
             },
-            'article2': {
-                title: 'Article 2',
-                questions: [
-                    {
-                        text: 'What is Article 2 about?',
-                        options: {
-                            'A': 'Name and territory of the Union',
-                            'B': 'Admission or establishment of new States',
-                            'C': 'Equality before law',
-                            'D': 'Right to Freedom'
-                        },
-                        correctAnswer: 'B'
-                    }
-                    // Additional questions for Article 2
-                ]
+            // Additional questions for Article 1
+            {
+              text: "Which of the following is included in Article 1?",
+              options: {
+                A: "Territorial boundaries of India",
+                B: "Union territories",
+                C: "Establishment of States",
+                D: "Right to Information",
+              },
+              correctAnswer: "B",
             },
-            'article5': {
-                title: 'Article 5',
-                questions: [
-                    {
-                        text: 'What does Article 5 of the Indian Constitution deal with?',
-                        options: {
-                            'A': 'Citizenship at the commencement of the Constitution',
-                            'B': 'Equality before law',
-                            'C': 'Right to freedom',
-                            'D': 'Right against exploitation'
-                        },
-                        correctAnswer: 'A'
-                    }
-                    // Additional questions for Article 5
-                ]
+            {
+              text: "Article 1 defines India as which of the following?",
+              options: {
+                A: "A federal state",
+                B: "A Union of States",
+                C: "A sovereign nation",
+                D: "A socialist state",
+              },
+              correctAnswer: "B",
             },
-            'article14': {
-                title: 'Article 14',
-                questions: [
-                    {
-                        text: 'What does Article 14 of the Indian Constitution ensure?',
-                        options: {
-                            'A': 'Citizenship at the commencement of the Constitution',
-                            'B': 'Equality before law',
-                            'C': 'Right to freedom',
-                            'D': 'Right against exploitation'
-                        },
-                        correctAnswer: 'B'
-                    }
-                    // Additional questions for Article 14
-                ]
-            }
-            // Add data for Articles 3 to 13, 15 as needed
-        };
+          ],
+        },
+        article2: {
+          title: "Article 2",
+          questions: [
+            {
+              text: "What is Article 2 about?",
+              options: {
+                A: "Name and territory of the Union",
+                B: "Admission or establishment of new States",
+                C: "Equality before law",
+                D: "Right to Freedom",
+              },
+              correctAnswer: "B",
+            },
+            // Additional questions for Article 2
+          ],
+        },
+        article5: {
+          title: "Article 5",
+          questions: [
+            {
+              text: "What does Article 5 of the Indian Constitution deal with?",
+              options: {
+                A: "Citizenship at the commencement of the Constitution",
+                B: "Equality before law",
+                C: "Right to freedom",
+                D: "Right against exploitation",
+              },
+              correctAnswer: "A",
+            },
+            // Additional questions for Article 5
+          ],
+        },
+        article14: {
+          title: "Article 14",
+          questions: [
+            {
+              text: "What does Article 14 of the Indian Constitution ensure?",
+              options: {
+                A: "Citizenship at the commencement of the Constitution",
+                B: "Equality before law",
+                C: "Right to freedom",
+                D: "Right against exploitation",
+              },
+              correctAnswer: "B",
+            },
+            // Additional questions for Article 14
+          ],
+        },
+        // Add data for Articles 3 to 13, 15 as needed
+      };
 
-        let currentArticle = '';
+      let currentArticle = "";
 
-        function startQuiz(articleKey) {
-            currentArticle = articleKey;
-            const article = quizData[articleKey];
-            document.getElementById('articleSelection').style.display = 'none';
-            document.getElementById('quizSection').style.display = 'block';
-            document.getElementById('quizResult').style.display = 'none';
-            document.getElementById('articleTitle').innerText = article.title;
+      function startQuiz(articleKey) {
+        currentArticle = articleKey;
+        const article = quizData[articleKey];
+        document.getElementById("articleSelection").style.display = "none";
+        document.getElementById("quizSection").style.display = "block";
+        document.getElementById("quizResult").style.display = "none";
+        document.getElementById("articleTitle").innerText = article.title;
 
-            // Load questions dynamically
-            const quizForm = document.getElementById('quizForm');
-            quizForm.innerHTML = ''; // Clear previous questions
-            article.questions.forEach((question, index) => {
-                const questionHtml = `
-                <div class="quiz-question mb-4">
-                    <h5>${index + 1}. ${question.text}</h5>
-                    ${Object.keys(question.options).map(optionKey => `
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="question${index}" id="q${index}${optionKey}" value="${optionKey}">
-                            <label class="form-check-label" for="q${index}${optionKey}">
-                                ${optionKey}. ${question.options[optionKey]}
-                            </label>
-                        </div>
-                    `).join('')}
-                </div>
-            `;
-                quizForm.innerHTML += questionHtml;
-            });
-        }
+        // Load questions dynamically
+        const quizForm = document.getElementById("quizForm");
+        quizForm.innerHTML = ""; // Clear previous questions
+        article.questions.forEach((question, index) => {
+          const questionHtml = `
+            <div class="quiz-question mb-4">
+                <h5>${index + 1}. ${question.text}</h5>
+                ${Object.keys(question.options)
+                  .map(
+                    (optionKey) => `
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question${index}" id="q${index}${optionKey}" value="${optionKey}">
+                        <label class="form-check-label" for="q${index}${optionKey}">
+                            ${optionKey}. ${question.options[optionKey]}
+                        </label>
+                    </div>
+                `
+                  )
+                  .join("")}
+            </div>
+        `;
+          quizForm.innerHTML += questionHtml;
+        });
+      }
 
-        function submitQuiz() {
-            const article = quizData[currentArticle];
-            let score = 0;
-            article.questions.forEach((question, index) => {
-                const selectedAnswer = document.querySelector(`input[name="question${index}"]:checked`);
-                if (selectedAnswer && selectedAnswer.value === question.correctAnswer) {
-                    score++;
-                }
-            });
+      function submitQuiz() {
+        const article = quizData[currentArticle];
+        let score = 0;
+        article.questions.forEach((question, index) => {
+          const selectedAnswer = document.querySelector(
+            `input[name="question${index}"]:checked`
+          );
+          if (
+            selectedAnswer &&
+            selectedAnswer.value === question.correctAnswer
+          ) {
+            score++;
+          }
+        });
 
-            const totalQuestions = article.questions.length;
-            const resultMessage = `You answered ${score} out of ${totalQuestions} questions correctly.`;
-            document.getElementById('resultMessage').innerText = resultMessage;
+        const totalQuestions = article.questions.length;
+        const resultMessage = `You answered ${score} out of ${totalQuestions} questions correctly.`;
+        document.getElementById("resultMessage").innerText = resultMessage;
 
-            document.getElementById('quizSection').style.display = 'none';
-            document.getElementById('quizResult').style.display = 'block';
-        }
+        document.getElementById("quizSection").style.display = "none";
+        document.getElementById("quizResult").style.display = "block";
+      }
 
-        function restartQuiz() {
-            document.getElementById('articleSelection').style.display = 'block';
-            document.getElementById('quizSection').style.display = 'none';
-            document.getElementById('quizResult').style.display = 'none';
-            document.getElementById('quizForm').reset();
-            document.getElementById('resultMessage').innerText = '';
-        }
-    </script>
+      function restartQuiz() {
+        document.getElementById("articleSelection").style.display = "block";
+        document.getElementById("quizSection").style.display = "none";
+        document.getElementById("quizResult").style.display = "none";
+        document.getElementById("quizForm").reset();
+        document.getElementById("resultMessage").innerText = "";
+      }
+    </script> -->
 
     <!-- Bootstrap JS and dependencies -->
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
 
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/timeline/jquery.timelify.js"></script>
+    <script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+    <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+    <script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
+    <script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+    <script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+    <script src="assets/custom/js/custom.js"></script>
+  </body>
 </html>
