@@ -1,0 +1,2260 @@
+[
+    {
+        "article": "1",
+        "title": "India as a Union of States",
+        "simplfied": "India, also referred to as Bharat, is a Union of States. The territories of India are defined in the First Schedule."
+    },
+    {
+        "article": "2",
+        "title": "Admission or Establishment of New States",
+        "simplfied": "Parliament has the authority to admit new states into the Union of India or establish new states."
+    },
+    {
+        "article": "3",
+        "title": "Formation of New States and Alteration of Areas, Boundaries, or Names of Existing States",
+        "simplfied": "Parliament can create new states, alter the areas, boundaries, or names of existing states, but must first consult the legislature of the affected state."
+    },
+    {
+        "article": "4",
+        "title": "Laws Made Under Articles 2 and 3",
+        "simplfied": "Laws made under Articles 2 and 3 can also amend the First and Fourth Schedules of the Constitution without being considered a constitutional amendment."
+    },
+    {
+        "article": "5",
+        "title": "Citizenship at the Commencement of the Constitution",
+        "simplfied": "Anyone born or living in India at the time the Constitution began is a citizen of India."
+    },
+    {
+        "article": "6",
+        "title": "Rights of Citizenship of Certain Persons Who Have Migrated to India from Pakistan",
+        "simplfied": "People who migrated from Pakistan to India before the Constitution started are considered Indian citizens."
+    },
+    {
+        "article": "7",
+        "title": "Rights of Citizenship of Certain Migrants to Pakistan",
+        "simplfied": "People who moved to Pakistan but later returned to India with permission can become citizens."
+    },
+    {
+        "article": "8",
+        "title": "Rights of Citizenship of Certain Persons of Indian Origin Residing Outside India",
+        "simplfied": "People of Indian origin living abroad can be Indian citizens if registered by Indian officials."
+    },
+    {
+        "article": "9",
+        "title": "Persons Voluntarily Acquiring Citizenship of a Foreign State Not to Be Citizens",
+        "simplfied": "If someone voluntarily becomes a citizen of another country, they lose their Indian citizenship."
+    },
+    {
+        "article": "10",
+        "title": "Continuance of the Rights of Citizenship",
+        "simplfied": "Indian citizens continue to be citizens unless a law says otherwise."
+    },
+    {
+        "article": "11",
+        "title": "Parliament to Regulate the Right of Citizenship by Law",
+        "simplfied": "Parliament has the power to make laws about who can be a citizen."
+    },
+    {
+        "article": "12",
+        "title": "Definition of the State",
+        "simplfied": "The term 'State' includes the government and all its branches at national and state levels."
+    },
+    {
+        "article": "13",
+        "title": "Laws Inconsistent with or in Derogation of the Fundamental Rights",
+        "simplfied": "Any laws that contradict the Fundamental Rights in the Constitution are invalid."
+    },
+    {
+        "article": "14",
+        "title": "Equality Before Law",
+        "simplfied": "Everyone in India is equal before the law."
+    },
+    {
+        "article": "15",
+        "title": "Prohibition of Discrimination on Grounds of Religion, Race, Caste, Sex, or Place of Birth",
+        "simplfied": "The state cannot discriminate against anyone based on religion, race, caste, sex, or place of birth."
+    },
+    {
+        "article": "16",
+        "title": "Equality of Opportunity in Matters of Public Employment",
+        "simplfied": "Everyone has equal opportunity in public employment."
+    },
+    {
+        "article": "17",
+        "title": "Abolition of Untouchability",
+        "simplfied": "Untouchability is abolished, and practicing it is illegal."
+    },
+    {
+        "article": "18",
+        "title": "Abolition of Titles",
+        "simplfied": "No titles (like 'Sir' or 'Lord') are allowed except for military or academic honors."
+    },
+    {
+        "article": "19",
+        "title": "Protection of Certain Rights Regarding Freedom of Speech, etc.",
+        "simplfied": "Citizens have the right to freedom of speech, assembly, association, movement, residence, and profession."
+    },
+    {
+        "article": "20",
+        "title": "Protection in Respect of Conviction for Offences",
+        "simplfied": "No one can be punished under a law that wasn't in force when the act was committed, tried for the same offense twice, or forced to testify against themselves."
+    },
+    {
+        "article": "21",
+        "title": "Protection of Life and Personal Liberty",
+        "simplfied": "Every person has the right to life and personal liberty, except as per the law."
+    },
+    {
+        "article": "21A",
+        "title": "Right to Education",
+        "simplfied": "The state must provide free and compulsory education to children aged 6-14."
+    },
+    {
+        "article": "22",
+        "title": "Protection Against Arrest and Detention in Certain Cases",
+        "simplfied": "Anyone arrested must be informed of the reason and presented before a magistrate within 24 hours."
+    },
+    {
+        "article": "23",
+        "title": "Prohibition of Traffic in Human Beings and Forced Labour",
+        "simplfied": "Human trafficking and forced labor are illegal."
+    },
+    {
+        "article": "24",
+        "title": "Prohibition of Employment of Children in Factories, etc.",
+        "simplfied": "Children under 14 cannot be employed in factories or dangerous jobs."
+    },
+    {
+        "article": "25",
+        "title": "Freedom of Conscience and Free Profession, Practice, and Propagation of Religion",
+        "simplfied": "Everyone has the right to practice and propagate their religion, subject to public order, morality, and health."
+    },
+    {
+        "article": "26",
+        "title": "Freedom to Manage Religious Affairs",
+        "simplfied": "Religious groups can manage their religious affairs, own property, and run institutions."
+    },
+    {
+        "article": "27",
+        "title": "Freedom as to Payment of Taxes for Promotion of Any Particular Religion",
+        "simplfied": "No one is forced to pay taxes for promoting any religion."
+    },
+    {
+        "article": "28",
+        "title": "Freedom as to Attendance at Religious Instruction or Religious Worship in Certain Educational Institutions",
+        "simplfied": "No religious instruction is allowed in state-funded educational institutions unless they are established by an endowment or trust."
+    },
+    {
+        "article": "29",
+        "title": "Protection of Interests of Minorities",
+        "simplfied": "Minorities have the right to preserve their culture, language, and script, and cannot be denied admission to state-funded institutions based on religion, race, or language."
+    },
+    {
+        "article": "30",
+        "title": "Right of Minorities to Establish and Administer Educational Institutions",
+        "simplfied": "Minorities can establish and manage their educational institutions and are protected against discrimination by the state."
+    },
+    {
+        "article": "31",
+        "title": "(Repealed)",
+        "simplfied": "This article was repealed."
+    },
+    {
+        "article": "31A",
+        "title": "Saving of Laws Providing for Acquisition of Estates, etc.",
+        "simplfied": "Laws related to the acquisition of estates by the state are protected from being challenged under certain fundamental rights."
+    },
+    {
+        "article": "31B",
+        "title": "Validation of Certain Acts and Regulations",
+        "simplfied": "Certain laws, listed in the Ninth Schedule, are protected from being challenged under fundamental rights."
+    },
+    {
+        "article": "31C",
+        "title": "Saving of Laws Giving Effect to Certain Directive Principles",
+        "simplfied": "Laws aimed at implementing certain Directive Principles cannot be challenged on the grounds that they violate fundamental rights."
+    },
+    {
+        "article": "31D",
+        "title": "(Repealed)",
+        "simplfied": "This article was repealed."
+    },
+    {
+        "article": "32",
+        "title": "Remedies for Enforcement of Rights Conferred by this Part",
+        "simplfied": "Citizens can approach the Supreme Court to enforce their fundamental rights."
+    },
+    {
+        "article": "32A",
+        "title": "(Repealed)",
+        "simplfied": "This article was repealed."
+    },
+    {
+        "article": "33",
+        "title": "Power of Parliament to Modify the Rights Conferred by this Part in Their Application to Forces, etc.",
+        "simplfied": "Parliament can modify the application of fundamental rights for armed forces and related services to maintain discipline."
+    },
+    {
+        "article": "34",
+        "title": "Restriction on Rights Conferred by this Part While Martial Law is in Force in any Area",
+        "simplfied": "Parliament can restrict fundamental rights during martial law to maintain order."
+    },
+    {
+        "article": "35",
+        "title": "Legislation to Give Effect to the Provisions of this Part",
+        "simplfied": "Parliament has the power to make laws to enforce the provisions of Part III (Fundamental Rights)."
+    },
+    {
+        "article": "36",
+        "title": "Definition",
+        "simplfied": "In this Part, unless the context otherwise requires, ‘the State’ has the same meaning as in Part III."
+    },
+    {
+        "article": "37",
+        "title": "Application of the Principles Contained in this Part",
+        "simplfied": "The principles in this Part are fundamental in the governance of the country and it is the duty of the State to apply them in making laws."
+    },
+    {
+        "article": "38",
+        "title": "State to Secure a Social Order for the Promotion of Welfare of the People",
+        "simplfied": "The State shall strive to promote the welfare of the people by securing and protecting a social order in which justice, social, economic, and political, shall inform all the institutions of the national life."
+    },
+    {
+        "article": "39",
+        "title": "Certain Principles of Policy to be Followed by the State",
+        "simplfied": "The State shall, in particular, direct its policy towards securing: (a) adequate means of livelihood for all citizens; (b) ownership and control of material resources to subserve the common good; (c) operation of the economic system does not result in the concentration of wealth; (d) equal pay for equal work for both men and women; (e) health and strength of workers, men, and women, and the tender age of children are not abused; and (f) opportunities for healthy development of children."
+    },
+    {
+        "article": "39A",
+        "title": "Equal Justice and Free Legal Aid",
+        "simplfied": "The State shall secure that the operation of the legal system promotes justice, on a basis of equal opportunity, and shall, in particular, provide free legal aid."
+    },
+    {
+        "article": "40",
+        "title": "Organisation of Village Panchayats",
+        "simplfied": "The State shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government."
+    },
+    {
+        "article": "41",
+        "title": "Right to Work, to Education and to Public Assistance in Certain Cases",
+        "simplfied": "The State shall provide support for work, education, and public assistance in cases of unemployment, old age, sickness, and disability within its economic capacity."
+    },
+    {
+        "article": "42",
+        "title": "Provision for Just and Humane Conditions of Work and Maternity Relief",
+        "simplfied": "The State shall make provisions for securing just and humane conditions of work and maternity relief."
+    },
+    {
+        "article": "43",
+        "title": "Living Wage, etc., for Workers",
+        "simplfied": "The State shall endeavor to secure, by suitable legislation or economic organization, a living wage and decent standard of life for all workers."
+    },
+    {
+        "article": "43A",
+        "title": "Participation of Workers in Management of Industries",
+        "simplfied": "The State shall take steps to ensure the participation of workers in the management of industries."
+    },
+    {
+        "article": "44",
+        "title": "Uniform Civil Code for the Citizens",
+        "simplfied": "The State shall endeavor to secure a Uniform Civil Code for all citizens across India."
+    },
+    {
+        "article": "45",
+        "title": "Provision for Early Childhood Care and Education to Children Below the Age of Six Years",
+        "simplfied": "The State shall provide early childhood care and education for all children below the age of six years."
+    },
+    {
+        "article": "46",
+        "title": "Promotion of Educational and Economic Interests of Scheduled Castes, Scheduled Tribes, and Other Weaker Sections",
+        "simplfied": "The State shall promote the educational and economic interests of the Scheduled Castes, Scheduled Tribes, and other weaker sections of society."
+    },
+    {
+        "article": "47",
+        "title": "Duty of the State to Raise the Level of Nutrition and the Standard of Living and to Improve Public Health",
+        "simplfied": "The State shall raise the level of nutrition, the standard of living, and improve public health."
+    },
+    {
+        "article": "48",
+        "title": "Organisation of Agriculture and Animal Husbandry",
+        "simplfied": "The State shall organize agriculture and animal husbandry on modern and scientific lines."
+    },
+    {
+        "article": "48A",
+        "title": "Protection and Improvement of Environment and Safeguarding of Forests and Wildlife",
+        "simplfied": "The State shall protect and improve the environment and safeguard forests and wildlife."
+    },
+    {
+        "article": "49",
+        "title": "Protection of Monuments and Places and Objects of National Importance",
+        "simplfied": "The State shall protect every monument or place or object of artistic or historic interest that is of national importance."
+    },
+    {
+        "article": "50",
+        "title": "Separation of Judiciary from Executive",
+        "simplfied": "The State shall take steps to separate the judiciary from the executive in the public services of the State."
+    },
+    {
+        "article": "51",
+        "title": "Promotion of International Peace and Security",
+        "simplfied": "The State shall promote international peace and security, maintain just and honorable relations between nations, foster respect for international law, and encourage settlement of international disputes by arbitration."
+    },
+    {
+        "article": "51A",
+        "title": "Fundamental Duties",
+        "simplfied": "It shall be the duty of every citizen of India: (a) to abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem; (b) to cherish and follow the noble ideals which inspired our national struggle for freedom; (c) to uphold and protect the sovereignty, unity, and integrity of India; (d) to defend the country and render national service when called upon to do so; (e) to promote harmony and the spirit of common brotherhood amongst all the people of India; (f) to value and preserve the rich heritage of our composite culture; (g) to protect and improve the natural environment; (h) to develop scientific temper, humanism, and the spirit of inquiry and reform; (i) to safeguard public property and to abjure violence; (j) to strive towards excellence in all spheres of individual and collective activity; (k) to provide opportunities for education to children or ward."
+    },
+    {
+        "article": "52",
+        "title": "The President of India",
+        "simplfied": "There shall be a President of India."
+    },
+    {
+        "article": "53",
+        "title": "Executive Power of the Union",
+        "simplfied": "The executive power of the Union shall be vested in the President and exercised by him either directly or through officers subordinate to him in accordance with the Constitution.",
+        "clauses": [
+            {
+                "article": "53(1)",
+                "simplfied": "The executive power of the Union shall be vested in the President and shall be exercised by him either directly or through officers subordinate to him in accordance with this Constitution."
+            },
+            {
+                "article": "53(2)",
+                "simplfied": "Without prejudice to the generality of the foregoing provision, the supreme command of the Defence Forces of the Union shall be vested in the President and the exercise thereof shall be regulated by law."
+            },
+            {
+                "article": "53(3)",
+                "simplfied": "Nothing in this article shall— (a) be deemed to transfer to the President any functions conferred by any existing law on the Government of any State or other authority; or (b) prevent Parliament from conferring by law functions on authorities other than the President."
+            }
+        ]
+    },
+    {
+        "article": "54",
+        "title": "Election of President",
+        "simplfied": "The President shall be elected by the members of an electoral college consisting of the elected members of both Houses of Parliament and the Legislative Assemblies of States."
+    },
+    {
+        "article": "55",
+        "title": "Manner of Election of President",
+        "simplfied": "The election of the President shall be in accordance with the system of proportional representation by means of the single transferable vote, and the voting at such election shall be by secret ballot."
+    },
+    {
+        "article": "56",
+        "title": "Term of Office of President",
+        "simplfied": "The President shall hold office for a term of five years from the date on which he enters upon his office.",
+        "clauses": [
+            {
+                "article": "56(1)",
+                "simplfied": "The President shall hold office for a term of five years from the date on which he enters upon his office."
+            },
+            {
+                "article": "56(2)",
+                "simplfied": "Notwithstanding the expiration of his term, the President shall continue to hold office until his successor enters upon his office."
+            },
+            {
+                "article": "56(3)",
+                "simplfied": "The President may, by writing under his hand addressed to the Vice President, resign his office."
+            },
+            {
+                "article": "56(4)",
+                "simplfied": "A President may be removed from office by impeachment for violation of the Constitution."
+            },
+            {
+                "article": "56(5)",
+                "simplfied": "The procedure for the impeachment of the President shall be as provided in Article 61."
+            }
+        ]
+    },
+    {
+        "article": "57",
+        "title": "Eligibility for Re-election",
+        "simplfied": "A person who holds, or who has held, office as President shall be eligible for re-election to that office."
+    },
+    {
+        "article": "58",
+        "title": "Qualifications for Election as President",
+        "simplfied": "No person shall be eligible for election as President unless he is a citizen of India, has completed 35 years of age, and is qualified for election as a member of the House of the People."
+    },
+    {
+        "article": "59",
+        "title": "Conditions of President's Office",
+        "simplfied": "The President shall not be a member of either House of Parliament or of a House of the Legislature of any State, and shall not hold any other office of profit.",
+        "clauses": [
+            {
+                "article": "59(1)",
+                "simplfied": "The President shall not be a member of either House of Parliament or of a House of the Legislature of any State, and if a member of either House of Parliament or of a House of the Legislature of any State be elected President, he shall be deemed to have vacated his seat in that House on the date on which he enters upon his office as President."
+            },
+            {
+                "article": "59(2)",
+                "simplfied": "The President shall not hold any other office of profit."
+            },
+            {
+                "article": "59(3)",
+                "simplfied": "The President shall be entitled without payment of rent to the use of his official residences and shall be also entitled to such emoluments, allowances, and privileges as may be determined by Parliament by law."
+            },
+            {
+                "article": "59(4)",
+                "simplfied": "The emoluments and allowances of the President shall not be diminished during his term of office."
+            }
+        ]
+    },
+    {
+        "article": "60",
+        "title": "Oath or Affirmation by the President",
+        "simplfied": "The President shall take an oath or affirmation before entering upon his office, swearing to faithfully execute his duties and to preserve, protect, and defend the Constitution and the law."
+    },
+    {
+        "article": "61",
+        "title": "Procedure for Impeachment of the President",
+        "simplfied": "The President can be impeached for the violation of the Constitution.",
+        "clauses": [
+            {
+                "article": "61(1)",
+                "simplfied": "When a President is to be impeached, the charge shall be preferred by either House of Parliament."
+            },
+            {
+                "article": "61(2)",
+                "simplfied": "No charge shall be preferred unless it is signed by at least one-fourth of the total number of members of the House and is passed by a majority of not less than two-thirds of the total membership of the House."
+            },
+            {
+                "article": "61(3)",
+                "simplfied": "When a charge has been preferred by either House, the other House shall investigate the charge or cause the charge to be investigated."
+            },
+            {
+                "article": "61(4)",
+                "simplfied": "If, as a result of the investigation, a two-thirds majority of that House supports the charge, the President shall be removed from office."
+            }
+        ]
+    },
+    {
+        "article": "62",
+        "title": "Time of Holding Election to Fill Vacancy in the Office of President and the Term of Office of Person Elected to Fill Casual Vacancy",
+        "simplfied": "An election to fill a vacancy in the office of President must be held within six months of the occurrence of the vacancy, and the person elected shall hold office for the full term of five years."
+    },
+    {
+        "article": "63",
+        "title": "The Vice President of India",
+        "simplfied": "There shall be a Vice President of India."
+    },
+    {
+        "article": "64",
+        "title": "The Vice President to be Ex Officio Chairman of the Council of States",
+        "simplfied": "The Vice President shall be ex officio Chairman of the Council of States and shall not hold any other office of profit."
+    },
+    {
+        "article": "65",
+        "title": "The Vice President to Act as President or to Discharge His Functions During Casual Vacancies in the Office, or During the Absence, of President",
+        "simplfied": "In the event of a vacancy in the office of the President, the Vice President shall act as President until a new President is elected. If the President is temporarily unable to perform his duties, the Vice President shall discharge those functions.",
+        "clauses": [
+            {
+                "article": "65(1)",
+                "simplfied": "The Vice President shall act as President in the event of a vacancy in the office of President by reason of his death, resignation, or removal, or otherwise."
+            },
+            {
+                "article": "65(2)",
+                "simplfied": "When the President is unable to discharge his functions due to absence, illness, or any other cause, the Vice President shall discharge his functions until the President resumes his duties."
+            },
+            {
+                "article": "65(3)",
+                "simplfied": "The Vice President, when discharging the duties of the President, shall have all the powers and immunities of the President."
+            }
+        ]
+    },
+    {
+        "article": "66",
+        "title": "Election of Vice President",
+        "simplfied": "The Vice President shall be elected by the members of an electoral college consisting of the members of both Houses of Parliament."
+    },
+    {
+        "article": "67",
+        "title": "Term of Office of Vice President",
+        "simplfied": "The Vice President shall hold office for a term of five years. He may resign by writing to the President or may be removed from office by a resolution of the Council of States passed by a majority and agreed to by the House of the People."
+    },
+    {
+        "article": "68",
+        "title": "Time of Holding Election to Fill Vacancy in the Office of Vice President and the Term of Office of Person Elected to Fill Casual Vacancy",
+        "simplfied": "An election to fill a vacancy in the office of Vice President must be held as soon as possible, and the person elected shall hold office for the full term of five years."
+    },
+    {
+        "article": "69",
+        "title": "Oath or Affirmation by the Vice President",
+        "simplfied": "The Vice President shall take an oath or affirmation before entering upon his office, swearing to faithfully discharge his duties."
+    },
+    {
+        "article": "70",
+        "title": "Discharge of President's Functions in Other Contingencies",
+        "simplfied": "Parliament may make provisions for discharging the President's functions in any contingency not provided for in the Constitution."
+    },
+    {
+        "article": "71",
+        "title": "Matters Relating to, or Connected with, the Election of a President or Vice President",
+        "simplfied": "All doubts and disputes relating to the election of the President or Vice President shall be inquired into and decided by the Supreme Court.",
+        "clauses": [
+            {
+                "article": "71(1)",
+                "simplfied": "All doubts and disputes arising out of or in connection with the election of a President or Vice President shall be inquired into and decided by the Supreme Court."
+            },
+            {
+                "article": "71(2)",
+                "simplfied": "If the election of a person as President or Vice President is declared void by the Supreme Court, acts done by him in the office of President or Vice President before the date of such declaration shall not be invalidated."
+            },
+            {
+                "article": "71(3)",
+                "simplfied": "Subject to the provisions of this Constitution, Parliament may by law regulate any matter relating to or connected with the election of a President or Vice President."
+            },
+            {
+                "article": "71(4)",
+                "simplfied": "The election of a person as President or Vice President shall not be challenged on the ground of any vacancy in the electoral college electing him."
+            }
+        ]
+    },
+    {
+        "article": "72",
+        "title": "Power of President to Grant Pardons, etc., and to Suspend, Remit, or Commute Sentences in Certain Cases",
+        "simplfied": "The President shall have the power to grant pardons, reprieves, respites, or remissions of punishment, or to suspend, remit, or commute the sentence of any person convicted of any offense.",
+        "clauses": [
+            {
+                "article": "72(1)",
+                "simplfied": "The President shall have the power to grant pardons, reprieves, respites, or remissions of punishment or to suspend, remit, or commute the sentence of any person convicted of any offense."
+            },
+            {
+                "article": "72(2)",
+                "simplfied": "The President's power under this article extends to cases where the punishment or sentence is by a court-martial, for offenses against laws relating to matters within the executive power of the Union, or where the sentence is of death."
+            }
+        ]
+    },
+    {
+        "article": "73",
+        "title": "Extent of Executive Power of the Union",
+        "simplfied": "The executive power of the Union shall extend to matters with respect to which Parliament has power to make laws, and to the exercise of such rights, authority, and jurisdiction as are exercisable by the Government of India by virtue of any treaty or agreement.",
+        "clauses": [
+            {
+                "article": "73(1)",
+                "simplfied": "The executive power of the Union shall extend to matters with respect to which Parliament has power to make laws."
+            },
+            {
+                "article": "73(2)",
+                "simplfied": "The executive power referred to in clause (1) shall not, save as expressly provided in this Constitution or in any law made by Parliament, extend in any State to matters with respect to which the Legislature of the State has also power to make laws."
+            }
+        ]
+    },
+    {
+        "article": "74",
+        "title": "Council of Ministers to Aid and Advise President",
+        "simplfied": "There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President.",
+        "clauses": [
+            {
+                "article": "74(1)",
+                "simplfied": "There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President who shall, in the exercise of his functions, act in accordance with such advice."
+            },
+            {
+                "article": "74(2)",
+                "simplfied": "The question whether any, and if so what, advice was tendered by Ministers to the President shall not be inquired into in any court."
+            }
+        ]
+    },
+    {
+        "article": "75",
+        "title": "Other Provisions as to Ministers",
+        "simplfied": "The Prime Minister shall be appointed by the President and the other Ministers shall be appointed by the President on the advice of the Prime Minister.",
+        "clauses": [
+            {
+                "article": "75(1)",
+                "simplfied": "The Prime Minister shall be appointed by the President and the other Ministers shall be appointed by the President on the advice of the Prime Minister."
+            },
+            {
+                "article": "75(2)",
+                "simplfied": "The Ministers shall hold office during the pleasure of the President."
+            },
+            {
+                "article": "75(3)",
+                "simplfied": "The Council of Ministers shall be collectively responsible to the House of the People."
+            },
+            {
+                "article": "75(4)",
+                "simplfied": "Before a Minister enters upon his office, the President shall administer to him the oaths of office and of secrecy."
+            },
+            {
+                "article": "75(5)",
+                "simplfied": "A Minister who for any period of six consecutive months is not a member of either House of Parliament shall at the expiration of that period cease to be a Minister."
+            },
+            {
+                "article": "75(6)",
+                "simplfied": "The salaries and allowances of Ministers shall be such as Parliament may from time to time by law determine and, until Parliament so determines, shall be as specified in the Second Schedule."
+            }
+        ]
+    },
+    {
+        "article": "76",
+        "title": "Attorney-General for India",
+        "simplfied": "The President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court to be Attorney-General for India.",
+        "clauses": [
+            {
+                "article": "76(1)",
+                "simplfied": "The President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court to be Attorney-General for India."
+            },
+            {
+                "article": "76(2)",
+                "simplfied": "It shall be the duty of the Attorney-General to give advice to the Government of India upon such legal matters, and to perform such other duties of a legal character, as may from time to time be referred or assigned to him by the President."
+            },
+            {
+                "article": "76(3)",
+                "simplfied": "In the performance of his duties, the Attorney-General shall have the right of audience in all courts in the territory of India."
+            },
+            {
+                "article": "76(4)",
+                "simplfied": "The Attorney-General shall hold office during the pleasure of the President and shall receive such remuneration as the President may determine."
+            }
+        ]
+    },
+    {
+        "article": "77",
+        "title": "Conduct of Business of the Government of India",
+        "simplfied": "All executive action of the Government of India shall be expressed to be taken in the name of the President.",
+        "clauses": [
+            {
+                "article": "77(1)",
+                "simplfied": "All executive action of the Government of India shall be expressed to be taken in the name of the President."
+            },
+            {
+                "article": "77(2)",
+                "simplfied": "Orders and other instruments made and executed in the name of the President shall be authenticated as specified by rules to be made by the President."
+            },
+            {
+                "article": "77(3)",
+                "simplfied": "The validity of an order or instrument which is authenticated in accordance with rules shall not be called into question on the ground that it is not an order or instrument made or executed by the President."
+            }
+        ]
+    },
+    {
+        "article": "78",
+        "title": "Duties of Prime Minister as Respecting the Furnishing of Information to the President, etc.",
+        "simplfied": "It shall be the duty of the Prime Minister to communicate to the President all decisions of the Council of Ministers relating to the administration of the Union and proposals for legislation.",
+        "clauses": [
+            {
+                "article": "78(1)",
+                "simplfied": "It shall be the duty of the Prime Minister to communicate to the President all decisions of the Council of Ministers relating to the administration of the Union and proposals for legislation."
+            },
+            {
+                "article": "78(2)",
+                "simplfied": "The Prime Minister shall furnish such information relating to the administration of the affairs of the Union and proposals for legislation as the President may call for."
+            },
+            {
+                "article": "78(3)",
+                "simplfied": "If the President so requires, the Prime Minister shall submit for the consideration of the Council of Ministers any matter on which a decision has been taken by a Minister but which has not been considered by the Council."
+            }
+        ]
+    },
+    {
+        "article": "79",
+        "title": "Constitution of Parliament",
+        "simplfied": "There shall be a Parliament for the Union which shall consist of the President and two Houses, to be known respectively as the Council of States and the House of the People."
+    },
+    {
+        "article": "80",
+        "title": "Composition of the Council of States",
+        "simplfied": "The Council of States shall consist of not more than 250 members, of whom 12 are nominated by the President and the rest are elected by the elected members of the Legislative Assemblies of the States and Union territories.",
+        "clauses": [
+            {
+                "article": "80(1)",
+                "simplfied": "The Council of States shall consist of— (a) twelve members to be nominated by the President; and (b) not more than two hundred and thirty-eight representatives of the States and of the Union territories."
+            },
+            {
+                "article": "80(2)",
+                "simplfied": "The twelve members to be nominated by the President shall consist of persons having special knowledge or practical experience in literature, science, art, and social service."
+            },
+            {
+                "article": "80(3)",
+                "simplfied": "The allocation of seats in the Council of States to be filled by representatives of the States and of the Union territories shall be in accordance with the provisions in that behalf contained in the Fourth Schedule."
+            },
+            {
+                "article": "80(4)",
+                "simplfied": "The representatives of each State in the Council of States shall be elected by the elected members of the Legislative Assembly of the State in accordance with the system of proportional representation by means of the single transferable vote."
+            },
+            {
+                "article": "80(5)",
+                "simplfied": "The representatives of the Union territories in the Council of States shall be chosen in such manner as Parliament may by law prescribe."
+            }
+        ]
+    },
+    {
+        "article": "81",
+        "title": "Composition of the House of the People",
+        "simplfied": "The House of the People shall consist of not more than 550 members, of whom not more than 20 members represent Union territories and 530 members represent the States."
+    },
+    {
+        "article": "82",
+        "title": "Readjustment after Each Census",
+        "simplfied": "Upon the completion of each census, the allocation of seats in the House of the People and the division of each State into territorial constituencies shall be readjusted by such authority and in such manner as Parliament may by law determine."
+    },
+    {
+        "article": "83",
+        "title": "Duration of Houses of Parliament",
+        "simplfied": "The Council of States shall be a permanent body and shall not be subject to dissolution. The House of the People, unless sooner dissolved, shall continue for five years from the date appointed for its first meeting."
+    },
+    {
+        "article": "84",
+        "title": "Qualification for Membership of Parliament",
+        "simplfied": "A person shall not be qualified to be chosen to fill a seat in Parliament unless he is a citizen of India, and makes and subscribes before a person authorized in that behalf by the Election Commission an oath or affirmation according to the form set out for the purpose in the Third Schedule."
+    },
+    {
+        "article": "85",
+        "title": "Sessions of Parliament, Prorogation, and Dissolution",
+        "simplfied": "The President shall from time to time summon each House of Parliament to meet at such time and place as he thinks fit, and in respect of each session, prorogue the House and dissolve the House of the People."
+    },
+    {
+        "article": "86",
+        "title": "Right of President to Address and Send Messages to Houses",
+        "simplfied": "The President may address either House of Parliament or both Houses assembled together, and may for that purpose require the attendance of members. The President may also send messages to either House, whether with respect to a Bill then pending in Parliament or otherwise, and a House to which any message is so sent shall with all convenient dispatch consider any matter required by the message to be taken into consideration."
+    },
+    {
+        "article": "87",
+        "title": "Special Address by the President",
+        "simplfied": "At the commencement of the first session after each general election to the House of the People and at the commencement of the first session of each year, the President shall address both Houses of Parliament assembled together and inform Parliament of the causes of its summons."
+    },
+    {
+        "article": "88",
+        "title": "Rights of Ministers and Attorney-General as Respects Houses",
+        "simplfied": "Every Minister and the Attorney-General of India shall have the right to speak in and otherwise to take part in the proceedings of, either House, any joint sitting of the Houses, and any committee of Parliament of which he may be named a member, but shall not by virtue of this article be entitled to vote."
+    },
+    {
+        "article": "89",
+        "title": "The Chairman and Deputy Chairman of the Council of States",
+        "simplfied": "The Vice President of India shall be ex officio Chairman of the Council of States, and the Council of States shall, as soon as may be, choose a member of the Council to be Deputy Chairman thereof."
+    },
+    {
+        "article": "90",
+        "title": "Vacation and Resignation of, and Removal from, the Office of Deputy Chairman",
+        "simplfied": "A member holding office as Deputy Chairman of the Council of States may be removed from his office by a resolution of the Council passed by a majority of all the then members of the Council."
+    },
+    {
+        "article": "91",
+        "title": "Power of the Deputy Chairman or Other Person to Perform the Duties of the Office of, or to Act as, Chairman",
+        "simplfied": "While the office of Chairman is vacant, or during any period when the Vice President is acting as, or discharging the functions of, President, the duties of the office shall be performed by the Deputy Chairman, or if the office of Deputy Chairman is also vacant, by such member of the Council of States as the President may appoint for the purpose."
+    },
+    {
+        "article": "92",
+        "title": "The Chairman or the Deputy Chairman Not to Preside While a Resolution for His Removal from Office is under Consideration",
+        "simplfied": "The Chairman or Deputy Chairman shall not preside over a meeting of the Council when a resolution for his removal from office is under consideration."
+    },
+    {
+        "article": "93",
+        "title": "The Speaker and Deputy Speaker of the House of the People",
+        "simplfied": "The House of the People shall, as soon as may be, choose two members of the House to be respectively Speaker and Deputy Speaker thereof."
+    },
+    {
+        "article": "94",
+        "title": "Vacation and Resignation of, and Removal from, the Offices of Speaker and Deputy Speaker",
+        "simplfied": "A member holding office as Speaker or Deputy Speaker of the House of the People may be removed from his office by a resolution of the House passed by a majority of all the then members of the House."
+    },
+    {
+        "article": "95",
+        "title": "Power of the Deputy Speaker or Other Person to Perform the Duties of the Office of, or to Act as, Speaker",
+        "simplfied": "While the office of Speaker is vacant, the duties of the office shall be performed by the Deputy Speaker, or if the office of Deputy Speaker is also vacant, by such member of the House of the People as the President may appoint for the purpose."
+    },
+    {
+        "article": "96",
+        "title": "The Speaker or the Deputy Speaker Not to Preside While a Resolution for His Removal from Office is under Consideration",
+        "simplfied": "The Speaker or Deputy Speaker shall not preside over a meeting of the House when a resolution for his removal from office is under consideration."
+    },
+    {
+        "article": "97",
+        "title": "Salaries and Allowances of the Chairman and Deputy Chairman and the Speaker and Deputy Speaker",
+        "simplfied": "There shall be paid to the Chairman and the Deputy Chairman of the Council of States, and to the Speaker and the Deputy Speaker of the House of the People, such salaries and allowances as may be respectively fixed by Parliament by law and, until provision in that behalf is so made, such salaries and allowances as are specified in the Second Schedule."
+    },
+    {
+        "article": "98",
+        "title": "Secretariat of Parliament",
+        "simplfied": "Each House of Parliament shall have a separate secretarial staff: Provided that nothing in this clause shall be construed as preventing the creation of posts common to both Houses of Parliament."
+    },
+    {
+        "article": "99",
+        "title": "Oath or Affirmation by Members",
+        "simplfied": "Every member of either House of Parliament shall, before taking his seat, make and subscribe before the President, or some person appointed in that behalf by him, an oath or affirmation according to the form set out for the purpose in the Third Schedule."
+    },
+    {
+        "article": "100",
+        "title": "Voting in Houses, Power of Houses to Act Notwithstanding Vacancies, and Quorum",
+        "simplfied": "All questions at any sitting of either House or joint sitting of the Houses shall be determined by a majority of votes of the members present and voting, other than the Speaker or person acting as Chairman or Speaker, who shall not vote in the first instance, but shall have and exercise a casting vote in the case of an equality of votes."
+    },
+    {
+        "article": "101",
+        "title": "Vacation of Seats",
+        "simplfied": "A member of either House of Parliament shall vacate his seat if he is disqualified under any law made by Parliament or if he is convicted of certain offenses."
+    },
+    {
+        "article": "102",
+        "title": "Disqualification of Members",
+        "simplfied": "A person shall be disqualified from being a member of either House of Parliament if they hold an office of profit under the Government of India or if they are found guilty of certain offenses."
+    },
+    {
+        "article": "103",
+        "title": "Decision on Questions as to Disqualification of Members",
+        "simplfied": "The decision on questions related to the disqualification of members of Parliament shall be made by the President of India based on the advice of the Election Commission."
+    },
+    {
+        "article": "104",
+        "title": "Penalties for Sitting or Voting Before Taking Oath",
+        "simplfied": "A member of Parliament who sits or votes in either House before taking the oath or affirmation is subject to penalties."
+    },
+    {
+        "article": "105",
+        "title": "Powers, Privileges, and Immunities of the Houses of Parliament and Their Members",
+        "simplfied": "The Houses of Parliament and their members have certain powers, privileges, and immunities necessary for the functioning of Parliament."
+    },
+    {
+        "article": "106",
+        "title": "Salaries and Allowances of Members of Parliament",
+        "simplfied": "Salaries and allowances of members of Parliament shall be determined by Parliament, and until then, as specified in the Second Schedule."
+    },
+    {
+        "article": "107",
+        "title": "Provisions Relating to the Composition of the Council of States and the House of the People",
+        "simplfied": "This article provides provisions relating to the composition of the Council of States and the House of the People."
+    },
+    {
+        "article": "108",
+        "title": "Joint Sitting of Both Houses",
+        "simplfied": "In the case of a disagreement between the two Houses of Parliament on a bill, a joint sitting of both Houses may be convened."
+    },
+    {
+        "article": "109",
+        "title": "Procedure at Joint Sitting",
+        "simplfied": "The procedure at a joint sitting of both Houses of Parliament is regulated by this article."
+    },
+    {
+        "article": "110",
+        "title": "Money Bills",
+        "simplfied": "Money Bills can only be introduced in the House of the People, and the Council of States can only make recommendations on such bills."
+    },
+    {
+        "article": "111",
+        "title": "Assent to Bills",
+        "simplfied": "The President can either give assent to a bill, withhold assent, or return the bill with a request for reconsideration."
+    },
+    {
+        "article": "112",
+        "title": "Annual Financial Statement",
+        "simplfied": "The President must present an Annual Financial Statement to Parliament detailing the estimated revenues and expenditures of the Government of India."
+    },
+    {
+        "article": "113",
+        "title": "Appropriation Bills",
+        "simplfied": "Appropriation Bills must be passed by Parliament to authorize the expenditure of funds from the Consolidated Fund of India."
+    },
+    {
+        "article": "114",
+        "title": "Bills Reserved for the Consideration of the President",
+        "simplfied": "Certain bills are reserved by the President for consideration, and the President can either assent to them or return them with a request for reconsideration."
+    },
+    {
+        "article": "115",
+        "title": "Special Provisions as to Financial Bills",
+        "simplfied": "Financial Bills have special provisions for their consideration and passage in Parliament."
+    },
+    {
+        "article": "116",
+        "title": "Procedure in the House of the People",
+        "simplfied": "This article outlines the procedure for the consideration of bills and other matters in the House of the People."
+    },
+    {
+        "article": "117",
+        "title": "Provisions Relating to the Speaker and Deputy Speaker",
+        "simplfied": "This article provides provisions relating to the Speaker and Deputy Speaker of the House of the People."
+    },
+    {
+        "article": "118",
+        "title": "Rules of Procedure in the Houses of Parliament",
+        "simplfied": "Each House of Parliament shall make its own rules of procedure, subject to the provisions of the Constitution."
+    },
+    {
+        "article": "119",
+        "title": "Powers and Privileges of the Houses of Parliament and Their Members",
+        "simplfied": "The powers and privileges of the Houses of Parliament and their members are outlined in this article."
+    },
+    {
+        "article": "120",
+        "title": "Language to be Used in the Houses of Parliament",
+        "simplfied": "The language used in the Houses of Parliament and their proceedings is specified in this article."
+    },
+    {
+        "article": "121",
+        "title": "Restriction on Discussion in Parliament",
+        "simplfied": "This article places restrictions on the discussion of certain matters in Parliament."
+    },
+    {
+        "article": "122",
+        "title": "Validity of Proceedings of Parliament",
+        "simplfied": "The validity of proceedings in Parliament shall not be questioned on the grounds of any procedural irregularities."
+    },
+    {
+        "article": "123",
+        "title": "Power of the President to Issue Ordinances",
+        "simplfied": "The President has the power to issue ordinances during the recess of Parliament, which must be laid before Parliament."
+    },
+    {
+        "article": "124",
+        "title": "Constitution of Supreme Court",
+        "simplfied": "The Supreme Court of India is constituted and its composition is provided for under this article."
+    },
+    {
+        "article": "125",
+        "title": "Salaries and Allowances of Judges",
+        "simplfied": "The salaries and allowances of judges of the Supreme Court are determined by Parliament."
+    },
+    {
+        "article": "126",
+        "title": "Acting Chief Justice",
+        "simplfied": "The President can appoint an acting Chief Justice of the Supreme Court when the office is vacant."
+    },
+    {
+        "article": "127",
+        "title": "Appointment of Additional Judges",
+        "simplfied": "The President can appoint additional judges to the Supreme Court when necessary."
+    },
+    {
+        "article": "128",
+        "title": "Attendance of Retired Judges",
+        "simplfied": "Retired judges of the Supreme Court can be invited to sit and act as judges in the Supreme Court."
+    },
+    {
+        "article": "129",
+        "title": "Supreme Court to be a Court of Record",
+        "simplfied": "The Supreme Court of India is a court of record and its judgments and orders are binding on all courts in India."
+    },
+    {
+        "article": "130",
+        "title": "Seat of the Supreme Court",
+        "simplfied": "The seat of the Supreme Court of India is in Delhi, but Parliament can establish its seat elsewhere."
+    },
+    {
+        "article": "131",
+        "title": "Jurisdiction of the Supreme Court",
+        "simplfied": "The Supreme Court has original jurisdiction to resolve disputes between states or between the Union and states."
+    },
+    {
+        "article": "132",
+        "title": "Appeal to the Supreme Court in Certain Cases",
+        "simplfied": "The Supreme Court can hear appeals from High Courts on important constitutional or legal issues."
+    },
+    {
+        "article": "133",
+        "title": "Appeal to the Supreme Court in Civil Cases",
+        "simplfied": "Appeals can be made to the Supreme Court from civil cases decided by High Courts if they involve significant questions of law."
+    },
+    {
+        "article": "134",
+        "title": "Appeal to the Supreme Court in Criminal Cases",
+        "simplfied": "The Supreme Court can hear appeals in criminal cases from High Courts if they involve serious offenses or important questions of law."
+    },
+    {
+        "article": "135",
+        "title": "Review of Judgment or Order",
+        "simplfied": "The Supreme Court can review its own judgments or orders to correct any errors."
+    },
+    {
+        "article": "136",
+        "title": "Special Leave to Appeal",
+        "simplfied": "The Supreme Court can grant special leave to appeal in cases where there is no appeal as a matter of right."
+    },
+    {
+        "article": "137",
+        "title": "Review of Supreme Court Decisions",
+        "simplfied": "The Supreme Court can review its own decisions if there is an error apparent on the face of the record."
+    },
+    {
+        "article": "138",
+        "title": "Enlargement of the Supreme Court’s Jurisdiction",
+        "simplfied": "The Supreme Court's jurisdiction can be extended by Parliament to include other types of cases or matters."
+    },
+    {
+        "article": "139",
+        "title": "Powers of the Supreme Court to Issue Certain Orders",
+        "simplfied": "The Supreme Court can issue writs and orders to enforce fundamental rights and other legal rights."
+    },
+    {
+        "article": "140",
+        "title": "Rules of the Supreme Court",
+        "simplfied": "The Supreme Court can make rules for regulating its own procedures and practices."
+    },
+    {
+        "article": "141",
+        "title": "Law Declared by the Supreme Court to be Binding",
+        "simplfied": "The law declared by the Supreme Court is binding on all courts within the territory of India."
+    },
+    {
+        "article": "142",
+        "title": "Enforcement of Orders and Judgments",
+        "simplfied": "The Supreme Court has the authority to enforce its orders and judgments throughout India."
+    },
+    {
+        "article": "143",
+        "title": "Advisory Jurisdiction",
+        "simplfied": "The Supreme Court can give advisory opinions on legal questions referred to it by the President."
+    },
+    {
+        "article": "144",
+        "title": "Civil and Criminal Procedure",
+        "simplfied": "All authorities, civil and criminal, are required to act in accordance with the Supreme Court's decisions."
+    },
+    {
+        "article": "145",
+        "title": "Rules of the Supreme Court",
+        "simplfied": "The Supreme Court can make rules for regulating the practice and procedure of the court."
+    },
+    {
+        "article": "146",
+        "title": "Officers and Staff of the Supreme Court",
+        "simplfied": "The officers and staff of the Supreme Court are appointed and their conditions of service are determined by the President."
+    },
+    {
+        "article": "147",
+        "title": "Interpretation",
+        "simplfied": "The Supreme Court has the authority to interpret the Constitution and laws of India."
+    },
+    {
+        "article": "148",
+        "title": "Comptroller and Auditor General of India",
+        "simplfied": "The Comptroller and Auditor General of India is appointed by the President and is responsible for auditing government accounts."
+    },
+    {
+        "article": "149",
+        "title": "Powers and Functions of the Comptroller and Auditor General",
+        "simplfied": "The Comptroller and Auditor General has the powers to audit and report on the accounts of the Union and State Governments."
+    },
+    {
+        "article": "150",
+        "title": "Form of Accounts",
+        "simplfied": "The accounts of the Union and State Governments shall be kept in the form prescribed by the Comptroller and Auditor General."
+    },
+    {
+        "article": "151",
+        "title": "Audit Reports",
+        "simplfied": "The Comptroller and Auditor General submits audit reports to the President and the Governors of States, which are then laid before Parliament or State Legislatures."
+    },
+    {
+        "article": "152",
+        "title": "Definition of State",
+        "simplfied": "In the Constitution, 'State' refers to the Government and its various branches at the national and state levels."
+    },
+    {
+        "article": "153",
+        "title": "Governor for Each State",
+        "simplfied": "Each State in India shall have a Governor appointed by the President."
+    },
+    {
+        "article": "154",
+        "title": "Executive Powers of the Governor",
+        "simplfied": "The executive powers of the State shall be vested in the Governor, who acts on the advice of the Council of Ministers."
+    },
+    {
+        "article": "155",
+        "title": "Appointment of the Governor",
+        "simplfied": "The Governor is appointed by the President and holds office at the President’s pleasure."
+    },
+    {
+        "article": "156",
+        "title": "Term of Office of the Governor",
+        "simplfied": "The Governor holds office for a term determined by the President, but can be removed or transferred by the President."
+    },
+    {
+        "article": "157",
+        "title": "Qualifications for the Governor",
+        "simplfied": "A person must be at least 35 years old and not hold any office of profit to be eligible for appointment as Governor."
+    },
+    {
+        "article": "158",
+        "title": "Conditions of the Governor’s Office",
+        "simplfied": "The Governor must reside in the State and will be entitled to such emoluments and allowances as prescribed by law."
+    },
+    {
+        "article": "159",
+        "title": "Oath or Affirmation by the Governor",
+        "simplfied": "Before assuming office, the Governor must take an oath or affirmation of office before the President."
+    },
+    {
+        "article": "160",
+        "title": "Special Provisions Relating to the Governor of a State",
+        "simplfied": "Special provisions are made for the appointment, powers, and duties of the Governor in specific States."
+    },
+    {
+        "article": "161",
+        "title": "Powers of the Governor to Grant Pardons, etc.",
+        "simplfied": "The Governor has the power to grant pardons, reprieves, respites, or remissions of punishment for offenses committed within the State."
+    },
+    {
+        "article": "162",
+        "title": "Extent of Executive Powers of the State",
+        "simplfied": "The executive powers of the State extend to all matters on which the State Legislature has the power to make laws."
+    },
+    {
+        "article": "163",
+        "title": "Council of Ministers to Aid and Advise Governor",
+        "simplfied": "The Governor acts on the advice of the Council of Ministers headed by the Chief Minister, except in cases where the Governor is required to act according to his discretion."
+    },
+    {
+        "article": "164",
+        "title": "Chief Minister and Council of Ministers",
+        "simplfied": "The Chief Minister is appointed by the Governor and is required to have the support of the majority in the State Legislature."
+    },
+    {
+        "article": "165",
+        "title": "Powers of the Chief Minister",
+        "simplfied": "The Chief Minister exercises powers related to the State Government’s administration and decision-making."
+    },
+    {
+        "article": "166",
+        "title": "Duties of the Chief Minister",
+        "simplfied": "The Chief Minister must communicate the decisions of the Council of Ministers to the Governor and ensure the implementation of the Governor’s orders."
+    },
+    {
+        "article": "167",
+        "title": "Council of Ministers’ Responsibility",
+        "simplfied": "The Council of Ministers is collectively responsible to the State Legislature for its actions and decisions."
+    },
+    {
+        "article": "168",
+        "title": "State Legislatures",
+        "simplfied": "Each State shall have a Legislature consisting of either one House (Legislative Assembly) or two Houses (Legislative Assembly and Legislative Council)."
+    },
+    {
+        "article": "169",
+        "title": "Composition of the Legislative Councils",
+        "simplfied": "The composition of the Legislative Council (if it exists) is defined and includes members elected by various methods."
+    },
+    {
+        "article": "170",
+        "title": "Composition of the Legislative Assemblies",
+        "simplfied": "The Legislative Assembly consists of members elected by direct election from constituencies in the State."
+    },
+    {
+        "article": "171",
+        "title": "Reservation of Seats for Scheduled Castes and Scheduled Tribes in State Legislatures",
+        "simplfied": "Seats are reserved for Scheduled Castes and Scheduled Tribes in State Legislatures to ensure their representation."
+    },
+    {
+        "article": "172",
+        "title": "Term of the State Legislature",
+        "simplfied": "The term of the State Legislature is five years unless dissolved earlier. The Governor can dissolve the Legislature before the term expires."
+    },
+    {
+        "article": "173",
+        "title": "Qualifications for Membership of the State Legislature",
+        "simplfied": "Eligibility criteria for becoming a member of the State Legislature include age, citizenship, and not holding any office of profit."
+    },
+    {
+        "article": "174",
+        "title": "Sessions of the State Legislature and Prorogation",
+        "simplfied": "The State Legislature meets in sessions. The Governor can prorogue or dissolve the Legislature."
+    },
+    {
+        "article": "175",
+        "title": "Powers of the Legislative Assembly",
+        "simplfied": "The Legislative Assembly has the power to make laws on various subjects, subject to the provisions of the Constitution."
+    },
+    {
+        "article": "176",
+        "title": "Special Address by the Governor",
+        "simplfied": "The Governor addresses the State Legislature at the commencement of each session and may also address it at other times."
+    },
+    {
+        "article": "177",
+        "title": "Resignation and Vacancies of Members",
+        "simplfied": "A member of the State Legislature may resign or be disqualified from holding office, leading to a vacancy that must be filled."
+    },
+    {
+        "article": "178",
+        "title": "Salaries and Allowances of Members",
+        "simplfied": "The salaries and allowances of members of the State Legislature are determined by the State Legislature and are paid from the State Treasury."
+    },
+    {
+        "article": "179",
+        "title": "Vacation of Seats",
+        "simplfied": "Seats in the State Legislature become vacant under certain conditions such as disqualification or resignation."
+    },
+    {
+        "article": "180",
+        "title": "Speaker and Deputy Speaker of the Legislative Assembly",
+        "simplfied": "The Legislative Assembly elects a Speaker and a Deputy Speaker from among its members."
+    },
+    {
+        "article": "181",
+        "title": "Powers of the Speaker and Deputy Speaker",
+        "simplfied": "The Speaker and Deputy Speaker of the Legislative Assembly have specific powers and duties related to the functioning of the Assembly."
+    },
+    {
+        "article": "182",
+        "title": "Salaries and Allowances of the Speaker and Deputy Speaker",
+        "simplfied": "The Speaker and Deputy Speaker of the Legislative Assembly receive salaries and allowances as determined by the State Legislature."
+    },
+    {
+        "article": "183",
+        "title": "Resignation and Removal of Speaker and Deputy Speaker",
+        "simplfied": "The Speaker and Deputy Speaker can be removed from office by a resolution passed by a majority of the members of the Legislative Assembly."
+    },
+    {
+        "article": "184",
+        "title": "Powers of the Speaker in Respect of Proceedings",
+        "simplfied": "The Speaker has the authority to maintain order and regulate proceedings in the Legislative Assembly."
+    },
+    {
+        "article": "185",
+        "title": "Speaker’s Role in the Event of Resignation or Removal",
+        "simplfied": "If the office of Speaker becomes vacant, the Deputy Speaker or another member appointed by the Governor will perform the Speaker’s duties."
+    },
+    {
+        "article": "186",
+        "title": "Quorum of the Legislative Assembly",
+        "simplfied": "The quorum required for a meeting of the Legislative Assembly is specified, and if not met, the Assembly cannot conduct its business."
+    },
+    {
+        "article": "187",
+        "title": "Summoning and Prorogation of the Legislative Assembly",
+        "simplfied": "The Governor has the power to summon, prorogue, or dissolve the Legislative Assembly."
+    },
+    {
+        "article": "188",
+        "title": "Oath or Affirmation by Members",
+        "simplfied": "Members of the Legislative Assembly must take an oath or affirmation before taking their seat in the Assembly."
+    },
+    {
+        "article": "189",
+        "title": "Powers and Privileges of the Legislative Assembly",
+        "simplfied": "The Legislative Assembly has certain powers and privileges necessary for its functioning and for maintaining order."
+    },
+    {
+        "article": "190",
+        "title": "Vacation of Seats in the Legislative Assembly",
+        "simplfied": "Seats in the Legislative Assembly become vacant under specified conditions, such as disqualification or resignation."
+    },
+    {
+        "article": "191",
+        "title": "Disqualification of Members",
+        "simplfied": "Members of the Legislative Assembly can be disqualified under certain conditions as specified by law."
+    },
+    {
+        "article": "192",
+        "title": "Decision on Disqualification",
+        "simplfied": "Decisions on disqualification of members are made by the Governor based on the advice of the Election Commission."
+    },
+    {
+        "article": "193",
+        "title": "Power of the State Legislature to Make Laws",
+        "simplfied": "The State Legislature has the power to make laws on matters enumerated in the State List and Concurrent List."
+    },
+    {
+        "article": "194",
+        "title": "Procedure for Passing Bills",
+        "simplfied": "The procedure for passing bills in the State Legislature is specified, including the process of introduction, debate, and voting."
+    },
+    {
+        "article": "195",
+        "title": "Governor’s Role in Bills",
+        "simplfied": "Bills passed by the State Legislature are sent to the Governor for assent, who can either assent, withhold assent, or return the bill with a request for reconsideration."
+    },
+    {
+        "article": "196",
+        "title": "State Legislatures and the Governor",
+        "simplfied": "This article outlines the relationship between the State Legislature and the Governor, including powers and responsibilities."
+    },
+    {
+        "article": "197",
+        "title": "State Budget",
+        "simplfied": "The State Legislature considers and approves the State Budget presented by the State Government."
+    },
+    {
+        "article": "198",
+        "title": "Finance Commission",
+        "simplfied": "A Finance Commission is established to make recommendations on the distribution of financial resources between the State and the Union."
+    },
+    {
+        "article": "199",
+        "title": "Procedure for Impeachment of the President",
+        "simplfied": "The procedure for impeaching the President includes presenting charges to both Houses of Parliament and conducting a trial."
+    },
+    {
+        "article": "200",
+        "title": "Governor’s Assent to Bills",
+        "simplfied": "The Governor must give assent to bills passed by the State Legislature before they become law."
+    },
+    {
+        "article": "201",
+        "title": "Governor’s Powers Regarding Bills",
+        "simplfied": "The Governor can either assent, withhold assent, or return a bill with a request for reconsideration by the State Legislature."
+    },
+    {
+        "article": "202",
+        "title": "Annual Financial Statement",
+        "simplfied": "The State Government must present an Annual Financial Statement (Budget) to the State Legislature."
+    },
+    {
+        "article": "203",
+        "title": "State Budget",
+        "simplfied": "The State Budget is presented by the Finance Minister and includes estimates of revenue and expenditure."
+    },
+    {
+        "article": "204",
+        "title": "Appropriation Bill",
+        "simplfied": "An Appropriation Bill is introduced to authorize the expenditure of funds from the State Treasury."
+    },
+    {
+        "article": "205",
+        "title": "Supplementary, Additional, or Excess Grants",
+        "simplfied": "The State Legislature can approve supplementary, additional, or excess grants if the original budget is insufficient."
+    },
+    {
+        "article": "206",
+        "title": "State Contingency Fund",
+        "simplfied": "The State Contingency Fund is used for emergency expenditure that requires immediate authorization."
+    },
+    {
+        "article": "207",
+        "title": "State Finance Commission",
+        "simplfied": "The State Finance Commission makes recommendations on the distribution of financial resources between the State and local bodies."
+    },
+    {
+        "article": "208",
+        "title": "Accounts of the State Government",
+        "simplfied": "The State Government's accounts must be maintained and audited in accordance with the law."
+    },
+    {
+        "article": "209",
+        "title": "Audit Reports",
+        "simplfied": "The Comptroller and Auditor General of India audits State Government accounts and presents reports to the State Legislature."
+    },
+    {
+        "article": "210",
+        "title": "Audit Reports of State Accounts",
+        "simplfied": "The State Legislature receives and examines the audit reports of the State Government’s accounts."
+    },
+    {
+        "article": "211",
+        "title": "Procedure for Appropriation",
+        "simplfied": "The procedure for appropriation includes passing an Appropriation Bill and approving expenditures by the State Legislature."
+    },
+    {
+        "article": "212",
+        "title": "Powers of the Speaker of the Legislative Assembly",
+        "simplfied": "The Speaker of the Legislative Assembly has powers to maintain order and regulate proceedings in the Assembly."
+    },
+    {
+        "article": "213",
+        "title": "Governor’s Powers to Dissolve the Legislative Assembly",
+        "simplfied": "The Governor can dissolve the Legislative Assembly if necessary, based on the advice of the Chief Minister."
+    },
+    {
+        "article": "214",
+        "title": "High Courts for States",
+        "simplfied": "Each State or group of States shall have a High Court, which is the highest court of appeal in the State."
+    },
+    {
+        "article": "215",
+        "title": "Constitution of High Courts",
+        "simplfied": "The High Courts are constituted by the President, and their jurisdiction and powers are defined by law."
+    },
+    {
+        "article": "216",
+        "title": "Jurisdiction of High Courts",
+        "simplfied": "The High Courts have jurisdiction over civil and criminal matters and can issue writs for enforcement of fundamental rights."
+    },
+    {
+        "article": "217",
+        "title": "Appointment and Conditions of Service of High Court Judges",
+        "simplfied": "High Court judges are appointed by the President, and their conditions of service are determined by law."
+    },
+    {
+        "article": "218",
+        "title": "Powers of High Court Judges",
+        "simplfied": "High Court judges have powers to hear and decide cases, and their decisions are binding within the State."
+    },
+    {
+        "article": "219",
+        "title": "Oath or Affirmation by High Court Judges",
+        "simplfied": "High Court judges must take an oath or affirmation of office before assuming their duties."
+    },
+    {
+        "article": "220",
+        "title": "Restrictions on Practice by High Court Judges",
+        "simplfied": "High Court judges are prohibited from practicing law after their appointment."
+    },
+    {
+        "article": "221",
+        "title": "Salaries and Allowances of High Court Judges",
+        "simplfied": "The salaries and allowances of High Court judges are determined by law and are paid from the State Treasury."
+    },
+    {
+        "article": "222",
+        "title": "Transfer of High Court Judges",
+        "simplfied": "High Court judges can be transferred from one High Court to another by the President."
+    },
+    {
+        "article": "223",
+        "title": "Acting Chief Justice",
+        "simplfied": "The President can appoint an Acting Chief Justice of the High Court if the Chief Justice is unable to perform duties."
+    },
+    {
+        "article": "224",
+        "title": "Appointment of Additional Judges",
+        "simplfied": "The President can appoint additional judges to a High Court for temporary periods to handle increased workload."
+    },
+    {
+        "article": "225",
+        "title": "Powers of High Court",
+        "simplfied": "The High Court has powers to supervise and control subordinate courts and to issue orders and writs."
+    },
+    {
+        "article": "226",
+        "title": "Powers of High Court to Issue Writs",
+        "simplfied": "The High Court can issue writs for the enforcement of fundamental rights and other legal rights."
+    },
+    {
+        "article": "227",
+        "title": "Superintendence over Subordinate Courts",
+        "simplfied": "The High Court has superintendence over all subordinate courts and can control their functioning."
+    },
+    {
+        "article": "228",
+        "title": "Transfer of Cases",
+        "simplfied": "The High Court can transfer cases from subordinate courts to itself or other courts if necessary."
+    },
+    {
+        "article": "229",
+        "title": "State Judiciary",
+        "simplfied": "The organization and functioning of the State judiciary, including subordinate courts, are regulated by law."
+    },
+    {
+        "article": "230",
+        "title": "Constitution of Subordinate Courts",
+        "simplfied": "The State Legislature can establish subordinate courts and define their powers and jurisdiction."
+    },
+    {
+        "article": "230",
+        "title": "Constitution of Subordinate Courts",
+        "simplfied": "The State Legislature can establish subordinate courts and define their powers and jurisdiction."
+    },
+    {
+        "article": "231",
+        "title": "Constitution of High Courts",
+        "simplfied": "High Courts are established for each State or group of States and their structure and jurisdiction are determined by law."
+    },
+    {
+        "article": "232",
+        "title": "Powers of the High Court",
+        "simplfied": "The High Court has powers to hear appeals, revise decisions, and issue writs to ensure justice."
+    },
+    {
+        "article": "233",
+        "title": "Appointment and Conditions of Service of District Judges",
+        "simplfied": "District judges are appointed by the Governor, and their conditions of service are determined by law."
+    },
+    {
+        "article": "234",
+        "title": "Powers of District Judges",
+        "simplfied": "District judges have powers to hear and decide civil and criminal cases within their jurisdiction."
+    },
+    {
+        "article": "235",
+        "title": "Control of Subordinate Courts",
+        "simplfied": "The High Court has control over subordinate courts and can supervise their functioning."
+    },
+    {
+        "article": "236",
+        "title": "Administrative Functions of High Courts",
+        "simplfied": "High Courts handle administrative functions related to the subordinate courts, including transfers and promotions."
+    },
+    {
+        "article": "237",
+        "title": "Judicial Functions of High Courts",
+        "simplfied": "High Courts have jurisdiction to hear appeals, revise judgments, and issue writs for the enforcement of rights."
+    },
+    {
+        "article": "238",
+        "title": "Powers of the Chief Justice",
+        "simplfied": "The Chief Justice of the High Court has administrative and judicial powers, including the appointment of judges."
+    },
+    {
+        "article": "239",
+        "title": "Appointment of Additional Judges",
+        "simplfied": "The President can appoint additional judges to handle increased workload in the High Court."
+    },
+    {
+        "article": "240",
+        "title": "Oath of Office for Judges",
+        "simplfied": "Judges of the High Court must take an oath of office before assuming their duties."
+    },
+    {
+        "article": "241",
+        "title": "Transfer of High Court Judges",
+        "simplfied": "High Court judges can be transferred to other High Courts by the President."
+    },
+    {
+        "article": "242",
+        "title": "Powers of the High Court",
+        "simplfied": "High Courts have powers to review lower court decisions, supervise their functioning, and issue legal directions."
+    },
+    {
+        "article": "243",
+        "title": "Establishment of Local Courts",
+        "simplfied": "Local courts may be established to handle specific types of cases as determined by the State Legislature."
+    },
+    {
+        "article": "244",
+        "title": "Powers of Local Courts",
+        "simplfied": "Local courts have powers to handle cases within their jurisdiction as defined by law."
+    },
+    {
+        "article": "245",
+        "title": "Appointment of Local Court Judges",
+        "simplfied": "Judges of local courts are appointed by the State Government or other authorities as prescribed by law."
+    },
+    {
+        "article": "246",
+        "title": "Conditions of Service for Local Court Judges",
+        "simplfied": "The conditions of service for local court judges are determined by law and include salaries and allowances."
+    },
+    {
+        "article": "247",
+        "title": "Powers and Functions of Local Courts",
+        "simplfied": "Local courts perform functions and exercise powers as defined by the State Legislature."
+    },
+    {
+        "article": "248",
+        "title": "Review and Revision of Local Court Decisions",
+        "simplfied": "Decisions of local courts can be reviewed or revised by higher courts or authorities as defined by law."
+    },
+    {
+        "article": "249",
+        "title": "Appeals to Higher Courts",
+        "simplfied": "Appeals from local courts can be made to higher courts, including High Courts and the Supreme Court."
+    },
+    {
+        "article": "250",
+        "title": "Powers of Local Courts in Special Cases",
+        "simplfied": "Local courts may have special powers to handle specific types of cases as determined by law."
+    },
+    {
+        "article": "251",
+        "title": "Supervision of Local Courts",
+        "simplfied": "Local courts are supervised by higher courts or authorities to ensure proper functioning and adherence to law."
+    },
+    {
+        "article": "252",
+        "title": "Administration of Justice",
+        "simplfied": "The administration of justice in local courts and other judicial bodies is conducted according to law."
+    },
+    {
+        "article": "253",
+        "title": "Constitution of Special Courts",
+        "simplfied": "Special courts may be established for specific types of cases, such as economic offenses or terrorism."
+    },
+    {
+        "article": "254",
+        "title": "Powers of Special Courts",
+        "simplfied": "Special courts have powers to hear and decide cases related to their specific jurisdiction."
+    },
+    {
+        "article": "255",
+        "title": "Appointment of Judges to Special Courts",
+        "simplfied": "Judges of special courts are appointed by the President or other authorities as prescribed by law."
+    },
+    {
+        "article": "256",
+        "title": "Conditions of Service for Judges of Special Courts",
+        "simplfied": "The conditions of service for judges of special courts are determined by law and include salaries and allowances."
+    },
+    {
+        "article": "257",
+        "title": "Powers and Functions of Special Courts",
+        "simplfied": "Special courts perform functions and exercise powers as defined by the legislation establishing them."
+    },
+    {
+        "article": "258",
+        "title": "Appeals to Supreme Court",
+        "simplfied": "Appeals from special courts can be made to the Supreme Court of India."
+    },
+    {
+        "article": "259",
+        "title": "Review of Special Court Decisions",
+        "simplfied": "Decisions of special courts can be reviewed or revised by higher judicial authorities or courts."
+    },
+    {
+        "article": "260",
+        "title": "Powers of the Supreme Court",
+        "simplfied": "The Supreme Court has powers to hear appeals, review decisions, and issue directions on legal matters."
+    },
+    {
+        "article": "261",
+        "title": "Full Faith and Credit",
+        "simplfied": "Full faith and credit shall be given to the public acts, records, and judicial proceedings of every State."
+    },
+    {
+        "article": "262",
+        "title": "Adjudication of Disputes Relating to Waters",
+        "simplfied": "Disputes relating to water resources between States are adjudicated by a tribunal appointed by the President."
+    },
+    {
+        "article": "263",
+        "title": "Inter-State Council",
+        "simplfied": "The Inter-State Council is established to promote coordination between States and the Union."
+    },
+    {
+        "article": "264",
+        "title": "Distribution of Revenue",
+        "simplfied": "The distribution of revenue between the Union and States is regulated by the Finance Commission."
+    },
+    {
+        "article": "265",
+        "title": "Taxes and Duties",
+        "simplfied": "No tax shall be levied or collected except by authority of law."
+    },
+    {
+        "article": "266",
+        "title": "Consolidated Funds",
+        "simplfied": "All revenues and expenses of the State Government must be accounted for in the Consolidated Fund of the State."
+    },
+    {
+        "article": "267",
+        "title": "Contingency Fund",
+        "simplfied": "The Contingency Fund is used for emergencies and is replenished by the Legislature."
+    },
+    {
+        "article": "268",
+        "title": "Taxes Levied and Collected by the Union but Assigned to the States",
+        "simplfied": "Certain taxes are collected by the Union but are assigned to the States for their use."
+    },
+    {
+        "article": "269",
+        "title": "Taxes Levied and Collected by the States but Assigned to the Union",
+        "simplfied": "Certain taxes are levied by the States but are assigned to the Union for collection."
+    },
+    {
+        "article": "270",
+        "title": "Distribution of Taxes between the Union and States",
+        "simplfied": "The distribution of taxes between the Union and States is determined by the Finance Commission."
+    },
+    {
+        "article": "271",
+        "title": "Surcharge on Taxes",
+        "simplfied": "The Union may levy a surcharge on taxes to augment the resources of the States."
+    },
+    {
+        "article": "272",
+        "title": "Distribution of Revenue from Taxes",
+        "simplfied": "Revenue from taxes is distributed between the Union and States based on legal provisions."
+    },
+    {
+        "article": "273",
+        "title": "Grants-in-Aid to States",
+        "simplfied": "The Union may provide grants-in-aid to States to support their financial needs."
+    },
+    {
+        "article": "274",
+        "title": "Revenue Sharing between the Union and States",
+        "simplfied": "Revenue sharing between the Union and States is based on principles laid out by the Finance Commission."
+    },
+    {
+        "article": "275",
+        "title": "Additional Grants to States",
+        "simplfied": "Additional grants may be given to States for specific purposes as determined by the Union."
+    },
+    {
+        "article": "276",
+        "title": "Accounts of the Union and States",
+        "simplfied": "The accounts of the Union and States are maintained and audited as prescribed by law."
+    },
+    {
+        "article": "277",
+        "title": "Miscellaneous Provisions",
+        "simplfied": "Miscellaneous provisions related to finance and accounts are detailed in this article."
+    },
+    {
+        "article": "278",
+        "title": "Application of Laws",
+        "simplfied": "The application of laws relating to finance and accounts is subject to provisions of the Constitution."
+    },
+    {
+        "article": "279",
+        "title": "Calculation of Income Tax",
+        "simplfied": "Income tax calculations are regulated by law and account for various exemptions and deductions."
+    },
+    {
+        "article": "280",
+        "title": "Finance Commission",
+        "simplfied": "The Finance Commission is responsible for recommending the distribution of financial resources between the Union and States."
+    },
+    {
+        "article": "281",
+        "title": "Reports of the Finance Commission",
+        "simplfied": "The Finance Commission submits reports on financial matters and recommendations to the President."
+    },
+    {
+        "article": "282",
+        "title": "Allocation of Resources",
+        "simplfied": "Allocation of resources between the Union and States is managed based on recommendations and legal provisions."
+    },
+    {
+        "article": "283",
+        "title": "Public Accounts",
+        "simplfied": "Public accounts of the Union and States are managed and audited in accordance with legal requirements."
+    },
+    {
+        "article": "284",
+        "title": "Emergency Provisions",
+        "simplfied": "Provisions for emergency situations, including financial emergencies, are defined in this article."
+    },
+    {
+        "article": "285",
+        "title": "Financial Provisions for Emergency",
+        "simplfied": "Financial provisions and procedures during emergencies are detailed in this article."
+    },
+    {
+        "article": "286",
+        "title": "Provisions for the Imposition of Taxes",
+        "simplfied": "Conditions and procedures for the imposition of taxes by the Union and States are outlined in this article."
+    },
+    {
+        "article": "287",
+        "title": "Audit of Accounts",
+        "simplfied": "The audit of Union and State accounts is conducted by the Comptroller and Auditor General of India."
+    },
+    {
+        "article": "288",
+        "title": "Maintenance of Accounts",
+        "simplfied": "The maintenance of accounts for both the Union and States is regulated by law."
+    },
+    {
+        "article": "289",
+        "title": "Audit Reports",
+        "simplfied": "Audit reports of Union and State accounts are submitted to the respective Legislatures for review."
+    },
+    {
+        "article": "290",
+        "title": "Distribution of Resources",
+        "simplfied": "The distribution of resources between Union and States is managed based on constitutional and legal provisions."
+    },
+    {
+        "article": "291",
+        "title": "Grants-in-Aid",
+        "simplfied": "Grants-in-aid are provided to States for specific purposes as determined by the Union Government."
+    },
+    {
+        "article": "292",
+        "title": "Financial Provisions for States",
+        "simplfied": "Financial provisions for States, including grants and resources, are managed under this article."
+    },
+    {
+        "article": "293",
+        "title": "Surcharge on Taxes",
+        "simplfied": "The Union may impose a surcharge on taxes to augment State resources."
+    },
+    {
+        "article": "294",
+        "title": "Public Debt",
+        "simplfied": "Public debt management and repayment procedures are defined under this article."
+    },
+    {
+        "article": "295",
+        "title": "Financial Provisions for Local Bodies",
+        "simplfied": "Financial provisions for local bodies, including municipalities and panchayats, are specified in this article."
+    },
+    {
+        "article": "296",
+        "title": "Regulation of Local Body Finances",
+        "simplfied": "Regulation of finances for local bodies is managed according to constitutional and legal provisions."
+    },
+    {
+        "article": "297",
+        "title": "Allocation of Revenue",
+        "simplfied": "Revenue allocation between Union, States, and local bodies is managed based on legal guidelines."
+    },
+    {
+        "article": "298",
+        "title": "Management of Resources",
+        "simplfied": "Management and allocation of resources for various governmental functions are defined in this article."
+    },
+    {
+        "article": "299",
+        "title": "Contracts and Agreements",
+        "simplfied": "Contracts and agreements involving the Union and State Governments must be conducted according to law."
+    },
+    {
+        "article": "300",
+        "title": "Suits and Legal Proceedings",
+        "simplfied": "Legal proceedings and suits involving the Union and State Governments are managed according to this article."
+    },
+    {
+        "article": "301",
+        "title": "Freedom of Trade, Commerce and Intercourse",
+        "simplfied": "Trade, commerce, and intercourse throughout the territory of India shall be free."
+    },
+    {
+        "article": "302",
+        "title": "Power to Restrict Trade and Commerce",
+        "simplfied": "The Parliament can impose restrictions on trade and commerce in public interest."
+    },
+    {
+        "article": "303",
+        "title": "Restrictions on the Power of the State",
+        "simplfied": "State laws affecting trade and commerce must not discriminate against other States."
+    },
+    {
+        "article": "304",
+        "title": "Restrictions on the Power of the State",
+        "simplfied": "States can impose restrictions on trade and commerce only if it is in the public interest."
+    },
+    {
+        "article": "305",
+        "title": "Exemption from State Taxes",
+        "simplfied": "Goods and passengers passing through a State cannot be taxed by that State."
+    },
+    {
+        "article": "306",
+        "title": "Special Provisions for Certain States",
+        "simplfied": "Special provisions may be made for trade and commerce in certain States."
+    },
+    {
+        "article": "307",
+        "title": "Appointment of a Commission",
+        "simplfied": "A Commission may be appointed to investigate and report on trade and commerce."
+    },
+    {
+        "article": "308",
+        "title": "Power of the State Legislature to Regulate Trade",
+        "simplfied": "State Legislatures can regulate trade and commerce with certain limitations."
+    },
+    {
+        "article": "309",
+        "title": "Recruitment to Public Services",
+        "simplfied": "Recruitment to public services in the States is regulated by the State Legislature."
+    },
+    {
+        "article": "310",
+        "title": "Conditions of Service for Public Servants",
+        "simplfied": "Conditions of service for public servants are defined by law."
+    },
+    {
+        "article": "311",
+        "title": "Dismissal, Removal or Reduction in Rank of Public Servants",
+        "simplfied": "No public servant can be dismissed, removed, or reduced in rank without proper procedure and a reasonable opportunity to be heard."
+    },
+    {
+        "article": "312",
+        "title": "All-India Services",
+        "simplfied": "The Parliament may create All-India Services for the Union and States."
+    },
+    {
+        "article": "313",
+        "title": "Recruitment to All-India Services",
+        "simplfied": "Recruitment to All-India Services is managed by the Union Government."
+    },
+    {
+        "article": "314",
+        "title": "Conditions of Service for All-India Services",
+        "simplfied": "Conditions of service for All-India Services are determined by law."
+    },
+    {
+        "article": "315",
+        "title": "Public Service Commissions",
+        "simplfied": "State Public Service Commissions are established to oversee recruitment and service conditions."
+    },
+    {
+        "article": "316",
+        "title": "Appointment of the Members of the Commission",
+        "simplfied": "The members of the State Public Service Commission are appointed by the Governor."
+    },
+    {
+        "article": "317",
+        "title": "Conditions of Service of Members",
+        "simplfied": "The conditions of service for the members of the Public Service Commission are determined by law."
+    },
+    {
+        "article": "318",
+        "title": "Power to Remove Members",
+        "simplfied": "Members of the Public Service Commission can be removed by the President or the Governor, as the case may be."
+    },
+    {
+        "article": "319",
+        "title": "Provisions Relating to the Public Service Commission",
+        "simplfied": "Provisions related to the functions and powers of the Public Service Commission are detailed in this article."
+    },
+    {
+        "article": "320",
+        "title": "Functions of the State Public Service Commission",
+        "simplfied": "The State Public Service Commission is responsible for conducting examinations and making recommendations for recruitment."
+    },
+    {
+        "article": "321",
+        "title": "Functions of the All-India Services Commission",
+        "simplfied": "The All-India Services Commission handles matters related to All-India Services."
+    },
+    {
+        "article": "322",
+        "title": "Audit of Public Service Commission",
+        "simplfied": "The accounts of the Public Service Commission are audited by the Comptroller and Auditor General of India."
+    },
+    {
+        "article": "323",
+        "title": "Expenditure of the Public Service Commission",
+        "simplfied": "Expenditure related to the Public Service Commission is charged on the Consolidated Fund of the State."
+    },
+    {
+        "article": "324",
+        "title": "Elections to the Parliament and State Legislatures",
+        "simplfied": "The Election Commission oversees the conduct of elections to the Parliament and State Legislatures."
+    },
+    {
+        "article": "325",
+        "title": "Elections to the Parliament and State Legislatures",
+        "simplfied": "Elections are to be conducted on the basis of universal adult suffrage and no person is to be denied the right to vote based on religion, race, caste, sex, or place of birth."
+    },
+    {
+        "article": "326",
+        "title": "Elections to the Parliament and State Legislatures",
+        "simplfied": "The election process for Parliament and State Legislatures is conducted by the Election Commission."
+    },
+    {
+        "article": "327",
+        "title": "Powers of the Election Commission",
+        "simplfied": "The Election Commission has the power to supervise, direct, and control the entire process of elections."
+    },
+    {
+        "article": "328",
+        "title": "State Election Commission",
+        "simplfied": "Each State has its own Election Commission to oversee local elections and ensure their conduct."
+    },
+    {
+        "article": "329",
+        "title": "Elections to the Panchayats",
+        "simplfied": "The State Election Commission conducts elections to the Panchayats and other local bodies."
+    },
+    {
+        "article": "330",
+        "title": "Elections to the Municipalities",
+        "simplfied": "Elections to Municipalities are conducted under the supervision of the State Election Commission."
+    },
+    {
+        "article": "331",
+        "title": "Representation of Scheduled Castes and Tribes",
+        "simplfied": "Representation of Scheduled Castes and Tribes in the House of the People is provided to ensure their participation."
+    },
+    {
+        "article": "332",
+        "title": "Representation of Scheduled Castes and Tribes in the State Legislatures",
+        "simplfied": "Scheduled Castes and Tribes are represented in State Legislatures to ensure their participation."
+    },
+    {
+        "article": "333",
+        "title": "Representation of Scheduled Castes and Tribes in the State Legislatures",
+        "simplfied": "Representation of Scheduled Castes and Tribes in the State Legislatures is based on their population and ensures adequate representation."
+    },
+    {
+        "article": "334",
+        "title": "Reservation of Seats",
+        "simplfied": "Seats are reserved for Scheduled Castes and Scheduled Tribes in the Parliament and State Legislatures."
+    },
+    {
+        "article": "335",
+        "title": "Claims of Scheduled Castes and Tribes",
+        "simplfied": "Claims of Scheduled Castes and Tribes to certain positions and benefits are considered based on their representation."
+    },
+    {
+        "article": "336",
+        "title": "Special Provisions for the Anglo-Indian Community",
+        "simplfied": "Special provisions are made for the representation of the Anglo-Indian community in the House of the People."
+    },
+    {
+        "article": "337",
+        "title": "Special Provisions for the Anglo-Indian Community",
+        "simplfied": "Representation of the Anglo-Indian community in the State Legislatures is provided under specific conditions."
+    },
+    {
+        "article": "338",
+        "title": "National Commission for Scheduled Castes",
+        "simplfied": "The National Commission for Scheduled Castes is established to safeguard the rights and welfare of Scheduled Castes."
+    },
+    {
+        "article": "339",
+        "title": "National Commission for Scheduled Tribes",
+        "simplfied": "The National Commission for Scheduled Tribes is established to protect the rights and interests of Scheduled Tribes."
+    },
+    {
+        "article": "340",
+        "title": "Commission for the Protection of the Rights of Children",
+        "simplfied": "A commission is established to protect and promote the rights of children."
+    },
+    {
+        "article": "341",
+        "title": "Provisions Related to the Protection of the Rights of the Children",
+        "simplfied": "Special provisions are made to ensure the protection and promotion of children's rights."
+    },
+    {
+        "article": "342",
+        "title": "Commission for the Protection of the Rights of Women",
+        "simplfied": "A commission is established to protect and promote the rights of women."
+    },
+    {
+        "article": "343",
+        "title": "Official Language of the Union",
+        "simplfied": "The official language of the Union is Hindi in Devanagari script, and English is used for official purposes."
+    },
+    {
+        "article": "344",
+        "title": "Commission for the Protection of the Rights of Women",
+        "simplfied": "A commission is established to protect and promote the rights of women."
+    },
+    {
+        "article": "345",
+        "title": "Language of the State",
+        "simplfied": "Each State can have its own official language, and the use of Hindi and English is regulated for communication with the Union."
+    },
+    {
+        "article": "346",
+        "title": "Official Language of the State",
+        "simplfied": "The official language of a State is determined by the State Legislature, with provisions for the use of Hindi and English."
+    },
+    {
+        "article": "347",
+        "title": "Language to be Used in the Courts",
+        "simplfied": "Languages used in courts, including the Supreme Court and High Courts, are regulated by the Constitution and laws."
+    },
+    {
+        "article": "348",
+        "title": "Use of Hindi and English",
+        "simplfied": "Hindi and English can be used for official purposes, and the language of communication between the Union and States is regulated."
+    },
+    {
+        "article": "349",
+        "title": "Commission for the Promotion of the Hindi Language",
+        "simplfied": "A Commission is established to promote the use of the Hindi language in the Union and States."
+    },
+    {
+        "article": "350",
+        "title": "Commission for the Protection of the Rights of Linguistic Minorities",
+        "simplfied": "A Commission is established to protect the rights of linguistic minorities and ensure their ability to use their languages."
+    },
+    {
+        "article": "351",
+        "title": "Promotion of Hindi Language",
+        "simplfied": "The Union is responsible for promoting the Hindi language and its use in official communications."
+    },
+    {
+        "article": "352",
+        "title": "Emergency Provisions",
+        "simplfied": "The President can declare a state of emergency in case of threats to the security of India or any part thereof."
+    },
+    {
+        "article": "353",
+        "title": "Proclamation of Emergency",
+        "simplfied": "The President may issue a proclamation of emergency if the security of India is threatened by war or external aggression."
+    },
+    {
+        "article": "354",
+        "title": "Proclamation of Emergency by the President",
+        "simplfied": "The President can proclaim an emergency in response to threats of war or aggression."
+    },
+    {
+        "article": "355",
+        "title": "Duties of the Union in Case of Emergency",
+        "simplfied": "During an emergency, the Union Government is responsible for the protection of States against threats to security."
+    },
+    {
+        "article": "356",
+        "title": "State Emergency",
+        "simplfied": "If a State Government is unable to function according to the provisions of the Constitution, the President can dissolve the State Legislature and impose emergency rule."
+    },
+    {
+        "article": "357",
+        "title": "Provision for State Emergency",
+        "simplfied": "The President may assume control of the State Government if it fails to function as per the Constitution."
+    },
+    {
+        "article": "358",
+        "title": "Suspension of Fundamental Rights",
+        "simplfied": "During an emergency, the enforcement of certain Fundamental Rights may be suspended."
+    },
+    {
+        "article": "359",
+        "title": "Suspension of Fundamental Rights",
+        "simplfied": "The President can suspend the enforcement of Fundamental Rights during an emergency, except for the Right to Life and Personal Liberty."
+    },
+    {
+        "article": "360",
+        "title": "Financial Emergency",
+        "simplfied": "The President can declare a financial emergency if the financial stability of India is threatened."
+    },
+    {
+        "article": "361",
+        "title": "Protection of the President and Governors",
+        "simplfied": "The President and Governors are protected from legal proceedings in respect of their official actions."
+    },
+    {
+        "article": "362",
+        "title": "Powers of the Union in Financial Emergency",
+        "simplfied": "During a financial emergency, the Union Government has the power to reduce salaries and pensions of public servants."
+    },
+    {
+        "article": "363",
+        "title": "Powers of the Union in Financial Emergency",
+        "simplfied": "The Union Government can take measures to address the financial emergency, including imposing restrictions on financial matters."
+    },
+    {
+        "article": "364",
+        "title": "Regulation of Financial Matters",
+        "simplfied": "Financial matters and procedures during emergencies are regulated by the Constitution."
+    },
+    {
+        "article": "365",
+        "title": "Proclamation of Emergency by the President",
+        "simplfied": "The President can proclaim an emergency if the financial stability of India is threatened."
+    },
+    {
+        "article": "366",
+        "title": "Definition of the State",
+        "simplfied": "The term 'State' includes the Union and State Governments and all local authorities."
+    },
+    {
+        "article": "367",
+        "title": "Interpretation of the Constitution",
+        "simplfied": "The interpretation of the Constitution and its provisions is managed by the Supreme Court."
+    },
+    {
+        "article": "368",
+        "title": "Amendment of the Constitution",
+        "simplfied": "The Constitution can be amended by Parliament through a process outlined in this article."
+    },
+    {
+        "article": "369",
+        "title": "Amendment of the Constitution",
+        "simplfied": "The procedure for amending the Constitution is detailed, including requirements for approval by both Houses of Parliament."
+    },
+    {
+        "article": "370",
+        "title": "Special Provisions for Jammu and Kashmir",
+        "simplfied": "Special provisions were made for Jammu and Kashmir's autonomy and its relationship with the Union."
+    },
+    {
+        "article": "371",
+        "title": "Special Provisions for Certain States",
+        "simplfied": "Special provisions are made for certain States regarding their administration and development."
+    },
+    {
+        "article": "372",
+        "title": "Continuance in Force of Existing Laws",
+        "simplfied": "Existing laws continue to be in force until altered or repealed by new legislation."
+    },
+    {
+        "article": "373",
+        "title": "Power to Make Laws for Jammu and Kashmir",
+        "simplfied": "The Union Parliament has the power to make laws for Jammu and Kashmir on specific matters."
+    },
+    {
+        "article": "374",
+        "title": "Special Provisions for Sikkim",
+        "simplfied": "Special provisions are made for the administration and development of Sikkim."
+    },
+    {
+        "article": "375",
+        "title": "Sikkim's Representation",
+        "simplfied": "Sikkim's representation in Parliament and its administration is managed according to special provisions."
+    },
+    {
+        "article": "376",
+        "title": "Regulations for Union Territories",
+        "simplfied": "Regulations and administration for Union Territories are defined under this article."
+    },
+    {
+        "article": "377",
+        "title": "Power to Create New States",
+        "simplfied": "The Union Parliament has the power to create new States and alter existing boundaries."
+    },
+    {
+        "article": "378",
+        "title": "Representation of Union Territories",
+        "simplfied": "Representation of Union Territories in Parliament and State Legislatures is specified."
+    },
+    {
+        "article": "379",
+        "title": "Union Territories",
+        "simplfied": "The administration and governance of Union Territories are defined."
+    },
+    {
+        "article": "380",
+        "title": "Elections to Union Territories",
+        "simplfied": "Elections to the bodies governing Union Territories are conducted under the supervision of the Election Commission."
+    },
+    {
+        "article": "381",
+        "title": "Representation of Union Territories in Parliament",
+        "simplfied": "Representation of Union Territories in Parliament is provided to ensure their participation."
+    },
+    {
+        "article": "382",
+        "title": "Administration of Union Territories",
+        "simplfied": "The administration of Union Territories is managed by the Union Government with specific provisions."
+    },
+    {
+        "article": "383",
+        "title": "Elections to Municipalities and Panchayats",
+        "simplfied": "Elections to Municipalities and Panchayats are conducted to ensure local governance."
+    },
+    {
+        "article": "384",
+        "title": "Appointment of Administrators",
+        "simplfied": "Administrators for Union Territories are appointed by the President."
+    },
+    {
+        "article": "385",
+        "title": "Regulations for Union Territories",
+        "simplfied": "Regulations for the governance of Union Territories are defined under this article."
+    },
+    {
+        "article": "386",
+        "title": "Special Provisions for Union Territories",
+        "simplfied": "Special provisions and regulations for Union Territories are outlined in this article."
+    },
+    {
+        "article": "387",
+        "title": "Financial Provisions for Union Territories",
+        "simplfied": "Financial provisions and resources for Union Territories are specified."
+    },
+    {
+        "article": "388",
+        "title": "Representation of Union Territories",
+        "simplfied": "Union Territories are represented in Parliament and State Legislatures based on specific provisions."
+    },
+    {
+        "article": "389",
+        "title": "Elections to Local Bodies",
+        "simplfied": "Elections to local bodies in Union Territories are conducted to ensure local governance."
+    },
+    {
+        "article": "390",
+        "title": "Special Provisions for Certain Union Territories",
+        "simplfied": "Special provisions for the administration and governance of certain Union Territories are defined."
+    },
+    {
+        "article": "391",
+        "title": "Regulations for Local Governance",
+        "simplfied": "Regulations for local governance and administration in Union Territories are outlined."
+    },
+    {
+        "article": "392",
+        "title": "Elections to Local Bodies in Union Territories",
+        "simplfied": "Elections to local bodies in Union Territories are conducted to ensure effective local governance."
+    },
+    {
+        "article": "393",
+        "title": "Representation of Union Territories in Parliament",
+        "simplfied": "Union Territories' representation in Parliament is regulated according to specific provisions."
+    },
+    {
+        "article": "394",
+        "title": "Elections to Municipalities and Panchayats in Union Territories",
+        "simplfied": "Elections to municipalities and panchayats in Union Territories are conducted to ensure local governance."
+    },
+    {
+        "article": "395",
+        "title": "Power of Parliament to Make Laws",
+        "simplfied": "Parliament has the power to make laws for the governance and administration of Union Territories."
+    }
+]
