@@ -1,4 +1,4 @@
-UPDATE OR ADD -> RohitFrontEnd folder (it is final folder).
+UPDATE OR ADD -> Flask-applied-site (it is final folder).
 ----------------------------------------------------------
 git access to you main file
 git init
