@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Constitution Articles</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .table-container {
+            margin-top: 20px;
+            max-width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .table th,
+        .table td {
+            vertical-align: middle;
+            padding: 12px 20px;
+        }
+
+        .table td button {
+            float: right;
+        }
+
+        .table thead th {
+            background-color: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .pagination .page-link {
+            font-size: 1.25rem;
+            padding: 10px 20px;
+        }
+
+        .slider-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            margin-top: 10px;
+            appearance: none;
+            height: 10px;
+            background: #e0e0e0;
+            outline: none;
+            border-radius: 10px;
+            transition: background 0.2s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: #6c757d;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: transform 0.2s ease;
+        }
+
+        input[type="range"]:active::-webkit-slider-thumb {
+            transform: scale(1.2);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #6c757d;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: transform 0.2s ease;
+        }
+
+        input[type="range"]:active::-moz-range-thumb {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container table-container">
+        <h1 class="text-center">Articles on Indian Constitution</h1>
+
+        <!-- Table -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title of Article</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="articleTable">
+                <!-- Articles will be dynamically inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Pagination Bar with Extra Buttons -->
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center" id="paginationBar">
+                <!-- Pagination buttons will be dynamically generated here -->
+            </ul>
+        </nav>
+
+        <!-- Slider for page navigation -->
+        <div class="slider-container">
+            <input type="range" min="1" max="24" value="1" id="pageSlider">
+            <p>Page: <span id="sliderValue">1</span></p>
+        </div>
+    </div>
+
+    <!-- Modal for Article Details -->
+    <div class="modal fade" id="articleModal" tabindex="-1" aria-labelledby="articleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="articleModalLabel">Article Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Article:</h6>
+                    <p id="articleText">Original article text goes here...</p>
+                    <h6>Simplified Form:</h6>
+                    <p id="simplifiedText">Simplified form of the article goes here...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Example articles array; this will be populated from the fetched JSON
+const articles = [];
+
+// Fetch JSON data for actual and simplified content
+Promise.all([
+    fetch('../static/data/constitution_of_india.json'),    // Replace with actual path
+    fetch('../static/data/simplified_.json') // Replace with actual path
+])
+    .then(responses => Promise.all(responses.map(res => res.json())))
+    .then(data => {
+        const [actualContent, simplifiedContent] = data;
+
+        // Map the fetched content into the articles array
+        actualContent.forEach((item, index) => {
+            articles.push({
+                id: item.article, 
+                title: item.title,
+                articleText: item.description, // Actual content
+                simplifiedText: simplifiedContent[index]?.simplfied || "Simplified text not available" // Simplified content
+            });
+        });
+
+        // Initial load of articles and setup pagination
+        displayArticles(currentPage);
+        setupPagination();
+        setupSlider(Math.ceil(articles.length / articlesPerPage));
+    })
+    .catch(err => console.error('Error loading data:', err));
+
+// Articles per page and pagination logic
+const articlesPerPage = 15;
+let currentPage = 1;
+
+function displayArticles(page) {
+    const start = (page - 1) * articlesPerPage;
+    const end = start + articlesPerPage;
+    const articlesToDisplay = articles.slice(start, end);
+
+    const articleTable = document.getElementById('articleTable');
+    articleTable.innerHTML = '';
+
+    articlesToDisplay.forEach((article, index) => {
+        articleTable.innerHTML += `
+            <tr>
+                <th scope="row">${start + index + 1}</th>
+                <td>${article.title}</td>
+                <td><button class="btn btn-primary view-details" data-id="${article.id}">View Details</button></td>
+            </tr>
+        `;
+    });
+
+    attachButtonClickEvents();
+}
+
+function setupPagination() {
+    const totalPages = Math.ceil(articles.length / articlesPerPage);
+    updatePaginationBar(totalPages);
+}
+
+function updatePaginationBar(totalPages) {
+    const paginationBar = document.getElementById('paginationBar');
+    paginationBar.innerHTML = `
+        <li class="page-item"><a class="page-link" href="#" id="firstPage">&laquo;</a></li>
+        <li class="page-item"><a class="page-link" href="#" id="prevPage">&lsaquo;</a></li>
+    `;
+
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(totalPages, currentPage + 2);
+
+    if (currentPage <= 3) {
+        endPage = 4;
+    }
+    if (currentPage > totalPages - 3) {
+        startPage = totalPages - 3;
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+        if (i === currentPage) {
+            paginationBar.innerHTML += `
+                <li class="page-item active" aria-current="page">
+                    <span class="page-link">${i}</span>
+                </li>
+            `;
+        } else {
+            paginationBar.innerHTML += `
+                <li class="page-item">
+                    <a class="page-link" href="#" onclick="goToPage(${i})">${i}</a>
+                </li>
+            `;
+        }
+    }
+
+    paginationBar.innerHTML += `
+        <li class="page-item"><a class="page-link" href="#" id="nextPage">&rsaquo;</a></li>
+        <li class="page-item"><a class="page-link" href="#" id="lastPage">&raquo;</a></li>
+    `;
+
+    document.getElementById('firstPage').addEventListener('click', () => goToPage(1));
+    document.getElementById('prevPage').addEventListener('click', () => goToPage(currentPage - 1));
+    document.getElementById('nextPage').addEventListener('click', () => goToPage(currentPage + 1));
+    document.getElementById('lastPage').addEventListener('click', () => goToPage(totalPages));
+}
+
+function goToPage(page) {
+    const totalPages = Math.ceil(articles.length / articlesPerPage);
+    if (page < 1) page = 1;
+    if (page > totalPages) page = totalPages;
+
+    currentPage = page;
+    displayArticles(currentPage);
+    document.getElementById('pageSlider').value = currentPage;
+    document.getElementById('sliderValue').textContent = currentPage;
+    updatePaginationBar(totalPages);
+}
+
+function attachButtonClickEvents() {
+    const buttons = document.querySelectorAll('.view-details');
+    buttons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            const articleId = parseInt(button.getAttribute('data-id'));
+
+            // Find the corresponding article
+            const article = articles.find(article => article.id === articleId);
+
+            // Update modal content with actual and simplified text
+            document.getElementById('articleModalLabel').textContent = article.title;
+            document.getElementById('articleText').textContent = article.articleText;
+            document.getElementById('simplifiedText').textContent = article.simplifiedText;
+
+            // Show the modal
+            const articleModal = new bootstrap.Modal(document.getElementById('articleModal'));
+            articleModal.show();
+        });
+    });
+}
+
+function setupSlider(totalPages) {
+    const slider = document.getElementById('pageSlider');
+    slider.max = totalPages;
+
+    slider.addEventListener('input', (e) => {
+        currentPage = parseInt(e.target.value);
+        displayArticles(currentPage);
+        document.getElementById('sliderValue').textContent = currentPage;
+        updatePaginationBar(totalPages);
+    });
+}
+
+// Initial load happens after JSON fetch
+
+    </script>
+</body>
+
+</html>
