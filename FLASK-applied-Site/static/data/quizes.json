@@ -1,0 +1,1532 @@
+[
+    {
+        "part": 1,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part I of the Constitution of India primarily deal with?",
+                "options": [
+                    "Fundamental Rights",
+                    "The Union and its Territory",
+                    "Directive Principles of State Policy",
+                    "Amendment of the Constitution"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution defines the name and territory of India?",
+                "options": [
+                    "Article 1",
+                    "Article 3",
+                    "Article 7",
+                    "Article 10"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "According to Article 1 of the Indian Constitution, India is a ____.",
+                "options": [
+                    "Federation of States",
+                    "Union of States",
+                    "Confederation of States",
+                    "Collection of Independent Territories"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Constitution provides for the admission or establishment of new states?",
+                "options": [
+                    "Article 2",
+                    "Article 4",
+                    "Article 5",
+                    "Article 6"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article allows for the formation of new states and alteration of areas, boundaries, or names of existing states?",
+                "options": [
+                    "Article 1",
+                    "Article 2",
+                    "Article 3",
+                    "Article 4"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Under which Article can Parliament by law form a new State by separation of territory from any State?",
+                "options": [
+                    "Article 2",
+                    "Article 3",
+                    "Article 5",
+                    "Article 6"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "What does Article 4 of the Indian Constitution deal with?",
+                "options": [
+                    "Formation of new states",
+                    "Laws made under Articles 2 and 3",
+                    "Establishment of Union Territories",
+                    "Language of the Constitution"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution states that no law made under Articles 2 and 3 shall be considered an amendment of the Constitution?",
+                "options": [
+                    "Article 4",
+                    "Article 1",
+                    "Article 3",
+                    "Article 2"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which part of the Constitution deals with the Union and its territory?",
+                "options": [
+                    "Part II",
+                    "Part III",
+                    "Part I",
+                    "Part IV"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 10,
+                "question": "Which schedule of the Indian Constitution lists the States and Union Territories?",
+                "options": [
+                    "First Schedule",
+                    "Second Schedule",
+                    "Third Schedule",
+                    "Fourth Schedule"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which of the following is not included in the First Schedule of the Constitution?",
+                "options": [
+                    "Names of States",
+                    "Names of Union Territories",
+                    "Laws governing Union Territories",
+                    "Territorial extent of States"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 12,
+                "question": "Under Article 1, the territory of India consists of which of the following?",
+                "options": [
+                    "States",
+                    "Union Territories",
+                    "Territories that may be acquired",
+                    "All of the above"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the reorganization of states on a linguistic basis?",
+                "options": [
+                    "Article 3",
+                    "Article 1",
+                    "Article 4",
+                    "Article 2"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which of the following Articles does not pertain to Part I of the Indian Constitution?",
+                "options": [
+                    "Article 1",
+                    "Article 5",
+                    "Article 2",
+                    "Article 4"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "The reorganization of states in 1956 was carried out under which constitutional provision?",
+                "options": [
+                    "Article 3",
+                    "Article 4",
+                    "Article 2",
+                    "Article 1"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "part": 2,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part I of the Constitution of India primarily deal with?",
+                "options": [
+                    "Fundamental Rights",
+                    "The Union and its Territory",
+                    "Directive Principles of State Policy",
+                    "Amendment of the Constitution"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution defines the name and territory of India?",
+                "options": [
+                    "Article 1",
+                    "Article 3",
+                    "Article 7",
+                    "Article 10"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "According to Article 1 of the Indian Constitution, India is a ____.",
+                "options": [
+                    "Federation of States",
+                    "Union of States",
+                    "Confederation of States",
+                    "Collection of Independent Territories"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Constitution provides for the admission or establishment of new states?",
+                "options": [
+                    "Article 2",
+                    "Article 4",
+                    "Article 5",
+                    "Article 6"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article allows for the formation of new states and alteration of areas, boundaries, or names of existing states?",
+                "options": [
+                    "Article 1",
+                    "Article 2",
+                    "Article 3",
+                    "Article 4"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Under which Article can Parliament by law form a new State by separation of territory from any State?",
+                "options": [
+                    "Article 2",
+                    "Article 3",
+                    "Article 5",
+                    "Article 6"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "What does Article 4 of the Indian Constitution deal with?",
+                "options": [
+                    "Formation of new states",
+                    "Laws made under Articles 2 and 3",
+                    "Establishment of Union Territories",
+                    "Language of the Constitution"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution states that no law made under Articles 2 and 3 shall be considered an amendment of the Constitution?",
+                "options": [
+                    "Article 4",
+                    "Article 1",
+                    "Article 3",
+                    "Article 2"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which part of the Constitution deals with the Union and its territory?",
+                "options": [
+                    "Part II",
+                    "Part III",
+                    "Part I",
+                    "Part IV"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 10,
+                "question": "Which schedule of the Indian Constitution lists the States and Union Territories?",
+                "options": [
+                    "First Schedule",
+                    "Second Schedule",
+                    "Third Schedule",
+                    "Fourth Schedule"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which of the following is not included in the First Schedule of the Constitution?",
+                "options": [
+                    "Names of States",
+                    "Names of Union Territories",
+                    "Laws governing Union Territories",
+                    "Territorial extent of States"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 12,
+                "question": "Under Article 1, the territory of India consists of which of the following?",
+                "options": [
+                    "States",
+                    "Union Territories",
+                    "Territories that may be acquired",
+                    "All of the above"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the reorganization of states on a linguistic basis?",
+                "options": [
+                    "Article 3",
+                    "Article 1",
+                    "Article 4",
+                    "Article 2"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which of the following Articles does not pertain to Part I of the Indian Constitution?",
+                "options": [
+                    "Article 1",
+                    "Article 5",
+                    "Article 2",
+                    "Article 4"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "The reorganization of states in 1956 was carried out under which constitutional provision?",
+                "options": [
+                    "Article 3",
+                    "Article 4",
+                    "Article 2",
+                    "Article 1"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "part": 3,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part III of the Constitution of India deal with?",
+                "options": [
+                    "Directive Principles of State Policy",
+                    "Citizenship",
+                    "Fundamental Rights",
+                    "The Union and its Territory"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution defines the term 'State'?",
+                "options": [
+                    "Article 12",
+                    "Article 14",
+                    "Article 16",
+                    "Article 19"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution provides for equality before the law?",
+                "options": [
+                    "Article 13",
+                    "Article 14",
+                    "Article 15",
+                    "Article 17"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Article 19 of the Indian Constitution provides which of the following freedoms?",
+                "options": [
+                    "Freedom of speech and expression",
+                    "Freedom of assembly",
+                    "Freedom to form associations",
+                    "All of the above"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article abolishes 'untouchability' in India?",
+                "options": [
+                    "Article 15",
+                    "Article 17",
+                    "Article 18",
+                    "Article 19"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article guarantees the right to constitutional remedies?",
+                "options": [
+                    "Article 32",
+                    "Article 19",
+                    "Article 21",
+                    "Article 24"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution deals with the prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth?",
+                "options": [
+                    "Article 13",
+                    "Article 14",
+                    "Article 15",
+                    "Article 16"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution guarantees the protection of life and personal liberty?",
+                "options": [
+                    "Article 19",
+                    "Article 21",
+                    "Article 22",
+                    "Article 24"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 9,
+                "question": "Under which Article is the right against exploitation guaranteed?",
+                "options": [
+                    "Article 21",
+                    "Article 23",
+                    "Article 25",
+                    "Article 27"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution deals with the freedom of conscience and free profession, practice, and propagation of religion?",
+                "options": [
+                    "Article 24",
+                    "Article 25",
+                    "Article 27",
+                    "Article 28"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article deals with the protection of interests of minorities?",
+                "options": [
+                    "Article 28",
+                    "Article 29",
+                    "Article 30",
+                    "Article 31"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution provides for the establishment and administration of educational institutions by minorities?",
+                "options": [
+                    "Article 30",
+                    "Article 31",
+                    "Article 32",
+                    "Article 33"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article provides for the saving of laws providing for the acquisition of estates, etc.?",
+                "options": [
+                    "Article 30",
+                    "Article 31",
+                    "Article 32",
+                    "Article 33"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution allows the Parliament to modify the rights conferred by this Part in their application to Forces, etc.?",
+                "options": [
+                    "Article 33",
+                    "Article 34",
+                    "Article 35",
+                    "Article 36"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article allows Parliament to provide for indemnity of acts done during operation of martial law?",
+                "options": [
+                    "Article 33",
+                    "Article 34",
+                    "Article 35",
+                    "Article 36"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "part": 4,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part IV of the Constitution of India deal with?",
+                "options": [
+                    "Fundamental Rights",
+                    "Directive Principles of State Policy",
+                    "The Union and its Territory",
+                    "Citizenship"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution defines the Directive Principles of State Policy?",
+                "options": [
+                    "Article 36",
+                    "Article 38",
+                    "Article 40",
+                    "Article 42"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article directs the State to secure a social order for the promotion of the welfare of the people?",
+                "options": [
+                    "Article 36",
+                    "Article 38",
+                    "Article 39",
+                    "Article 41"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article emphasizes equal pay for equal work for both men and women?",
+                "options": [
+                    "Article 37",
+                    "Article 39",
+                    "Article 41",
+                    "Article 43"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Under which Article is the State required to promote the educational and economic interests of the weaker sections of the people?",
+                "options": [
+                    "Article 41",
+                    "Article 42",
+                    "Article 46",
+                    "Article 48"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution deals with the organization of village panchayats?",
+                "options": [
+                    "Article 38",
+                    "Article 40",
+                    "Article 42",
+                    "Article 44"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article directs the State to make provision for just and humane conditions of work and maternity relief?",
+                "options": [
+                    "Article 41",
+                    "Article 42",
+                    "Article 43",
+                    "Article 44"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article emphasizes the duty of the State to raise the level of nutrition and the standard of living and to improve public health?",
+                "options": [
+                    "Article 47",
+                    "Article 48",
+                    "Article 49",
+                    "Article 50"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article deals with the separation of the judiciary from the executive?",
+                "options": [
+                    "Article 49",
+                    "Article 50",
+                    "Article 51",
+                    "Article 52"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution deals with the promotion of international peace and security?",
+                "options": [
+                    "Article 48",
+                    "Article 49",
+                    "Article 50",
+                    "Article 51"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article promotes the preservation of monuments and places and objects of national importance?",
+                "options": [
+                    "Article 48",
+                    "Article 49",
+                    "Article 50",
+                    "Article 51"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution provides for the promotion of agriculture and animal husbandry?",
+                "options": [
+                    "Article 48",
+                    "Article 49",
+                    "Article 50",
+                    "Article 51"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article emphasizes the organization of agriculture and animal husbandry on modern and scientific lines?",
+                "options": [
+                    "Article 48",
+                    "Article 49",
+                    "Article 50",
+                    "Article 51"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution deals with the prohibition of slaughter of cows, calves, and other milch and draught cattle?",
+                "options": [
+                    "Article 48",
+                    "Article 49",
+                    "Article 50",
+                    "Article 51"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article directs the State to take steps to separate the judiciary from the executive in the public services of the State?",
+                "options": [
+                    "Article 49",
+                    "Article 50",
+                    "Article 51",
+                    "Article 52"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "parts": 5,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part V of the Constitution of India deal with?",
+                "options": [
+                    "The Union",
+                    "The States",
+                    "The Panchayats",
+                    "The Municipalities"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the establishment of the Parliament?",
+                "options": [
+                    "Article 79",
+                    "Article 81",
+                    "Article 83",
+                    "Article 85"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article defines the composition of the Council of States (Rajya Sabha)?",
+                "options": [
+                    "Article 79",
+                    "Article 80",
+                    "Article 81",
+                    "Article 82"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article specifies the composition of the House of the People (Lok Sabha)?",
+                "options": [
+                    "Article 80",
+                    "Article 81",
+                    "Article 82",
+                    "Article 83"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article provides for the sessions of Parliament?",
+                "options": [
+                    "Article 85",
+                    "Article 87",
+                    "Article 89",
+                    "Article 91"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Under which Article is the President of India empowered to dissolve the Lok Sabha?",
+                "options": [
+                    "Article 83",
+                    "Article 85",
+                    "Article 87",
+                    "Article 89"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article deals with the qualification of members of Parliament?",
+                "options": [
+                    "Article 84",
+                    "Article 86",
+                    "Article 88",
+                    "Article 90"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article lays down the procedure for the impeachment of the President?",
+                "options": [
+                    "Article 61",
+                    "Article 63",
+                    "Article 65",
+                    "Article 67"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article outlines the qualifications for election as President of India?",
+                "options": [
+                    "Article 57",
+                    "Article 58",
+                    "Article 59",
+                    "Article 60"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Constitution of India defines the role and powers of the Vice-President?",
+                "options": [
+                    "Article 63",
+                    "Article 64",
+                    "Article 65",
+                    "Article 66"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article specifies the procedure for a joint session of Parliament?",
+                "options": [
+                    "Article 108",
+                    "Article 110",
+                    "Article 112",
+                    "Article 114"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article deals with the power of the President to promulgate ordinances during the recess of Parliament?",
+                "options": [
+                    "Article 123",
+                    "Article 125",
+                    "Article 127",
+                    "Article 129"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article provides for the appointment and conditions of the office of the Prime Minister?",
+                "options": [
+                    "Article 74",
+                    "Article 75",
+                    "Article 76",
+                    "Article 77"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution deals with the Attorney General for India?",
+                "options": [
+                    "Article 74",
+                    "Article 75",
+                    "Article 76",
+                    "Article 77"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article provides for the Comptroller and Auditor-General of India?",
+                "options": [
+                    "Article 147",
+                    "Article 148",
+                    "Article 149",
+                    "Article 150"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "parts": 5,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part V of the Constitution of India deal with?",
+                "options": [
+                    "The Union",
+                    "The States",
+                    "The Panchayats",
+                    "The Municipalities"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the establishment of the Parliament?",
+                "options": [
+                    "Article 79",
+                    "Article 81",
+                    "Article 83",
+                    "Article 85"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article defines the composition of the Council of States (Rajya Sabha)?",
+                "options": [
+                    "Article 79",
+                    "Article 80",
+                    "Article 81",
+                    "Article 82"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article specifies the composition of the House of the People (Lok Sabha)?",
+                "options": [
+                    "Article 80",
+                    "Article 81",
+                    "Article 82",
+                    "Article 83"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article provides for the sessions of Parliament?",
+                "options": [
+                    "Article 85",
+                    "Article 87",
+                    "Article 89",
+                    "Article 91"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Under which Article is the President of India empowered to dissolve the Lok Sabha?",
+                "options": [
+                    "Article 83",
+                    "Article 85",
+                    "Article 87",
+                    "Article 89"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article deals with the qualification of members of Parliament?",
+                "options": [
+                    "Article 84",
+                    "Article 86",
+                    "Article 88",
+                    "Article 90"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article lays down the procedure for the impeachment of the President?",
+                "options": [
+                    "Article 61",
+                    "Article 63",
+                    "Article 65",
+                    "Article 67"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article outlines the qualifications for election as President of India?",
+                "options": [
+                    "Article 57",
+                    "Article 58",
+                    "Article 59",
+                    "Article 60"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Constitution of India defines the role and powers of the Vice-President?",
+                "options": [
+                    "Article 63",
+                    "Article 64",
+                    "Article 65",
+                    "Article 66"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article specifies the procedure for a joint session of Parliament?",
+                "options": [
+                    "Article 108",
+                    "Article 110",
+                    "Article 112",
+                    "Article 114"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article deals with the power of the President to promulgate ordinances during the recess of Parliament?",
+                "options": [
+                    "Article 123",
+                    "Article 125",
+                    "Article 127",
+                    "Article 129"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article provides for the appointment and conditions of the office of the Prime Minister?",
+                "options": [
+                    "Article 74",
+                    "Article 75",
+                    "Article 76",
+                    "Article 77"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution deals with the Attorney General for India?",
+                "options": [
+                    "Article 74",
+                    "Article 75",
+                    "Article 76",
+                    "Article 77"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article provides for the Comptroller and Auditor-General of India?",
+                "options": [
+                    "Article 147",
+                    "Article 148",
+                    "Article 149",
+                    "Article 150"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "parts": 6,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part VI of the Constitution of India deal with?",
+                "options": [
+                    "The Union",
+                    "The States",
+                    "The Panchayats",
+                    "The Municipalities"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the establishment of the Governor?",
+                "options": [
+                    "Article 152",
+                    "Article 153",
+                    "Article 154",
+                    "Article 155"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article defines the powers and functions of the Governor?",
+                "options": [
+                    "Article 153",
+                    "Article 154",
+                    "Article 155",
+                    "Article 156"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article deals with the Council of Ministers in the states?",
+                "options": [
+                    "Article 163",
+                    "Article 164",
+                    "Article 165",
+                    "Article 166"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Under which Article is the Governor required to act on the advice of the Council of Ministers?",
+                "options": [
+                    "Article 162",
+                    "Article 163",
+                    "Article 164",
+                    "Article 165"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article specifies the duties of the Chief Minister of a State?",
+                "options": [
+                    "Article 166",
+                    "Article 167",
+                    "Article 168",
+                    "Article 169"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article provides for the establishment of High Courts for states?",
+                "options": [
+                    "Article 214",
+                    "Article 215",
+                    "Article 216",
+                    "Article 217"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article defines the jurisdiction of High Courts?",
+                "options": [
+                    "Article 214",
+                    "Article 215",
+                    "Article 216",
+                    "Article 217"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article outlines the powers of the Advocate General for the State?",
+                "options": [
+                    "Article 165",
+                    "Article 166",
+                    "Article 167",
+                    "Article 168"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution provides for the legislative powers of the states?",
+                "options": [
+                    "Article 245",
+                    "Article 246",
+                    "Article 247",
+                    "Article 248"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article specifies the term of the Legislative Assemblies of States?",
+                "options": [
+                    "Article 172",
+                    "Article 173",
+                    "Article 174",
+                    "Article 175"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article deals with the composition of the Legislative Councils in states?",
+                "options": [
+                    "Article 171",
+                    "Article 172",
+                    "Article 173",
+                    "Article 174"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article outlines the procedure for the introduction of Money Bills in the State Legislature?",
+                "options": [
+                    "Article 198",
+                    "Article 199",
+                    "Article 200",
+                    "Article 201"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article deals with the power of the Governor to promulgate ordinances?",
+                "options": [
+                    "Article 212",
+                    "Article 213",
+                    "Article 214",
+                    "Article 215"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article provides for the amendment of the Constitution as it applies to the states?",
+                "options": [
+                    "Article 368",
+                    "Article 370",
+                    "Article 371",
+                    "Article 372"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "parts": 7,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What did Part VII of the original Constitution of India deal with?",
+                "options": [
+                    "The Union",
+                    "The States in Part B of the First Schedule",
+                    "The Panchayats",
+                    "The Municipalities"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 2,
+                "question": "Which Amendment Act led to the repeal of Part VII of the Indian Constitution?",
+                "options": [
+                    "The Constitution (Fourth Amendment) Act, 1955",
+                    "The Constitution (Seventh Amendment) Act, 1956",
+                    "The Constitution (Eighth Amendment) Act, 1959",
+                    "The Constitution (Ninth Amendment) Act, 1960"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "What was the primary purpose of Part VII before it was repealed?",
+                "options": [
+                    "To outline the rights of the states",
+                    "To manage the territories of states in Part B",
+                    "To provide for the establishment of municipalities",
+                    "To define the powers of the Union government"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which schedule was affected by the repeal of Part VII?",
+                "options": [
+                    "First Schedule",
+                    "Second Schedule",
+                    "Third Schedule",
+                    "Fourth Schedule"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which states were originally listed in Part B of the First Schedule before the repeal of Part VII?",
+                "options": [
+                    "States like Punjab, Rajasthan, and Mysore",
+                    "Union Territories",
+                    "Princely states like Hyderabad and Mysore",
+                    "British Indian provinces"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article defined the territories of the states in Part B before the repeal?",
+                "options": [
+                    "Article 1",
+                    "Article 2",
+                    "Article 3",
+                    "Article 4"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 7,
+                "question": "What was the impact of the repeal of Part VII on state boundaries?",
+                "options": [
+                    "No impact",
+                    "Redefinition of state boundaries",
+                    "Creation of new states",
+                    "Dissolution of states"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 8,
+                "question": "Which part of the Constitution replaced the provisions of Part VII after its repeal?",
+                "options": [
+                    "Part VI",
+                    "Part VIII",
+                    "Part IX",
+                    "Part X"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Amendment Act integrated the states in Part B into the existing framework of states?",
+                "options": [
+                    "The Constitution (Sixth Amendment) Act, 1955",
+                    "The Constitution (Seventh Amendment) Act, 1956",
+                    "The Constitution (Eighth Amendment) Act, 1959",
+                    "The Constitution (Ninth Amendment) Act, 1960"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Part of the Constitution now governs the areas that were previously covered under Part B?",
+                "options": [
+                    "Part VI",
+                    "Part VII",
+                    "Part VIII",
+                    "Part IX"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which state was specifically redefined after the repeal of Part VII?",
+                "options": [
+                    "Hyderabad",
+                    "Mysore",
+                    "Punjab",
+                    "Rajasthan"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article governed the allocation of state boundaries before the repeal of Part VII?",
+                "options": [
+                    "Article 1",
+                    "Article 2",
+                    "Article 3",
+                    "Article 4"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 13,
+                "question": "What legislative change accompanied the repeal of Part VII?",
+                "options": [
+                    "Expansion of Parliament powers",
+                    "Modification of state laws",
+                    "Reorganization of state territories",
+                    "Redefinition of state functions"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 14,
+                "question": "Which states were merged into the Union of India after the repeal of Part VII?",
+                "options": [
+                    "Former princely states",
+                    "Union Territories",
+                    "British Indian provinces",
+                    "None"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "What effect did the repeal of Part VII have on the federal structure of India?",
+                "options": [
+                    "Strengthened the federal structure",
+                    "Weakened the federal structure",
+                    "No effect",
+                    "Revised state powers"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "parts": 8,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part VIII of the Constitution of India deal with?",
+                "options": [
+                    "The Union",
+                    "The States",
+                    "The Union Territories",
+                    "The Municipalities"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution deals with the administration of the Union Territories?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article provides for the appointment of a Lieutenant Governor for Union Territories?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Union Territory was granted legislative powers under Article 239A?",
+                "options": [
+                    "Delhi",
+                    "Puducherry",
+                    "Ladakh",
+                    "Lakshadweep"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article outlines the powers of the Administrator of a Union Territory?",
+                "options": [
+                    "Article 240",
+                    "Article 241",
+                    "Article 242",
+                    "Article 243"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of Part VIII deals with the administration of the Union Territory of Delhi?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article provides for the establishment of a Legislative Assembly in Union Territories with a legislative assembly?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article provides for the representation of Union Territories in the Rajya Sabha?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 9,
+                "question": "Which Union Territory was given the status of a National Capital Territory (NCT) under Article 239AA?",
+                "options": [
+                    "Delhi",
+                    "Puducherry",
+                    "Ladakh",
+                    "Lakshadweep"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Union Territory is administered by the President of India directly?",
+                "options": [
+                    "Delhi",
+                    "Puducherry",
+                    "Ladakh",
+                    "Lakshadweep"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article deals with the financial powers of the Union Territories?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article provides for the establishment of a High Court for Union Territories?",
+                "options": [
+                    "Article 241",
+                    "Article 242",
+                    "Article 243",
+                    "Article 244"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Union Territory is not given legislative powers?",
+                "options": [
+                    "Delhi",
+                    "Puducherry",
+                    "Ladakh",
+                    "Lakshadweep"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article allows the President to make regulations for the Union Territories?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article was amended to provide Delhi with special status as a National Capital Territory?",
+                "options": [
+                    "Article 239",
+                    "Article 240",
+                    "Article 241",
+                    "Article 242"
+                ],
+                "answer": 3
+            }
+        ]
+    }
+]

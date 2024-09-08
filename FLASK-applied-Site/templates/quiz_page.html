@@ -1,0 +1,590 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .quiz-container {
+      margin: 50px;
+      padding: 20px;
+      background-color: #e0f7fa;
+      border: 2px solid #bcaaa4;
+      border-radius: 10px;
+    }
+
+    .quiz-nav {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .quiz-nav button {
+      margin: 5px;
+      background-color: #e3f2fd;
+      border-color: #bcaaa4;
+      color: #6a1b9a;
+      border-radius: 5px;
+    }
+
+    .quiz-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f57c00;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .quiz-question {
+      font-size: 20px;
+      font-weight: bold;
+      color: #4e342e;
+    }
+
+    .quiz-options {
+      margin-top: 20px;
+    }
+
+    .quiz-options input[type="radio"] {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container quiz-container">
+    <div class="quiz-nav">
+      <button type="button" class="btn" onclick="loadQuiz(1)">Quiz 1</button>
+      <button type="button" class="btn" onclick="loadQuiz(2)">Quiz 2</button>
+      <button type="button" class="btn" onclick="loadQuiz(3)">Quiz 3</button>
+    </div>
+    <div class="quiz-content">
+      <div class="quiz-title">Generated Quiz</div>
+      <div class="quiz-question" id="quiz-question">
+        Quiz: What does Part I of the Constitution of India primarily deal
+        with?
+      </div>
+      <div class="quiz-options" id="quiz-options">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option1" value="option1" />
+          <label class="form-check-label" for="option1">
+            Option 1: The Union and its Territory
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option2" value="option2" />
+          <label class="form-check-label" for="option2">
+            Option 2: Fundamental Rights
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option3" value="option3" />
+          <label class="form-check-label" for="option3">
+            Option 3: Directive Principles of State Policy
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option4" value="option4" />
+          <label class="form-check-label" for="option4">
+            Option 4: The State Government
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let quizzes;
+    window.onload = async () => {
+      try {
+        const response = await fetch("/quiz_questions", {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'  // Send as JSON
+          },
+          body: JSON.stringify({ quiz_no: {{quiz_no}} })
+        })
+        console.log(response);
+        if (!response.ok) throw new Error(`Failed to fetch quiz `);
+        quizzes = await response.json();
+      } catch (error) {
+        console.error("Error fetching quiz:", error);
+        alert("Failed to load quiz");
+      } finally {
+        loadQuiz(1);
+      }
+    };
+
+    function loadQuiz(quizNumber) {
+      const quiz = quizzes[quizNumber - 1];
+      const questionElement = document.getElementById("quiz-question");
+      const optionsElement = document.getElementById("quiz-options");
+
+      // Update question
+      console.log(quiz["question"]);
+      questionElement.textContent = `Quiz: ${quiz["question"]}`;
+
+      // Update options
+      optionsElement.innerHTML = ""; // Clear current options
+      console.log(quiz);
+      quiz["options"].forEach((option, index) => {
+        const optionId = `option${index + 1}`;
+        const optionHtml = `
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="quizOption" id="${optionId}" value="${optionId}">
+                    <label class="form-check-label" for="${optionId}">
+                        ${option}
+                    </label>
+                </div>
+            `;
+        optionsElement.innerHTML += optionHtml;
+      });
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Fables" />
+  <meta name="author" content="Enterprise Development" />
+  <link rel="shortcut icon" href="../static/assets/custom/images/shortcut.png" />
+
+  <title>Home 4</title>
+  <!-- animate.css-->
+  <link href="../static/assets/vendor/animate.css-master/animate.min.css" rel="stylesheet" />
+  <!-- Load Screen -->
+  <link href="../static/assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet" />
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet" />
+  <!-- Font Awesome 5 -->
+  <link href="../static/assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet" />
+  <!-- Fables Icons -->
+  <link href="../static/assets/custom/css/fables-icons.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet" />
+  <!-- portfolio filter gallery -->
+  <link href="../static/assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet" />
+  <!-- Video Background -->
+  <link href="../static/assets/vendor/video-background/video-background.css" rel="stylesheet" />
+  <!-- FANCY BOX -->
+  <link href="../static/assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet" />
+  <!-- RANGE SLIDER -->
+  <link href="../static/assets/vendor/range-slider/range-slider.css" rel="stylesheet" />
+  <!-- OWL CAROUSEL  -->
+  <link href="../static/assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet" />
+  <link href="../static/assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet" />
+  <!-- FABLES CUSTOM CSS FILE -->
+  <link href="../static/assets/custom/css/custom.css" rel="stylesheet" />
+  <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+  <link href="../static/assets/custom/css/custom-responsive.css" rel="stylesheet" />
+
+  <style>
+    .article-card {
+      background-color: #f0f7ff;
+      border-radius: 5px;
+      padding: 100px;
+      margin: 50px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      flex: 1 1 30%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .quiz-section {
+      display: none;
+    }
+    .quiz-container {
+      padding: 40px;
+      background-color: #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      margin: 10px;
+      
+    }
+
+    .quiz-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      text-align: center;
+    }
+
+    .quiz-nav button {
+      font-weight: bold;
+      font-size: larger;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .quiz-title {
+      margin-top: 40px;
+      font-size: 35px;
+      font-weight: bolder;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 50px;
+      
+    }
+
+    .quiz-question {
+      font-size: 20px;
+      margin-bottom:50px;
+      font-weight: bold;
+      color: #4e342e;
+      font-size: larger;
+    }
+    .quiz-options {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      margin-top: 20px;
+
+      align-items: start;
+      margin-left: 10vh;
+      margin-right: 10vh;
+      font-size: large;
+    }
+    .quiz-options div{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .quiz-options input{
+      margin-top: 7px;
+      background-color: black;
+      margin-bottom: 5px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="search-section">
+    <a class="close-search" href="#"></a>
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <form method="post" action="#" class="w-50">
+        <div class="row">
+          <div class="col-10">
+            <input type="search" value="" class="form-control palce bg-transparent border-0 search-input"
+              placeholder="Search Here ..." />
+          </div>
+          <div class="col-2 mt-3">
+            <button type="submit" class="btn bg-transparent text-white">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="ju-loading-screen">
+    <div class="sk-double-bounce">
+      <div class="sk-child sk-double-bounce1"></div>
+      <div class="sk-child sk-double-bounce2"></div>
+    </div>
+  </div>
+
+  <!-- /End Top Header -->
+  <!-- Start Fables Navigation -->
+  <div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-10 col-lg-9 pr-md-0">
+          <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+            <div class="collapse navbar-collapse" id="fablesNavDropdown">
+              <ul class="navbar-nav mx-auto fables-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="index.html" id="sub-nav1" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="about3.html" id="sub-nav2" aria-haspopup="true"
+                    aria-expanded="false">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="description.html" id="sub-nav" aria-haspopup="true"
+                    aria-expanded="false">
+                    Article descriptions
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="resources.html" id="sub-nav4" aria-haspopup="true"
+                    aria-expanded="false">
+                    Resources
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="sub-nav5" aria-haspopup="true" aria-expanded="false">
+                    Games
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="sub-nav6">
+                    <li>
+                      <a class="dropdown-item" href="quiz.html">Quiz</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Spin the wheel</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="contactus1.html" id="sub-nav7" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
+          <div class="fables-header-icons">
+            <a href="signin.html"
+              class="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"><span
+                class="fables-iconuser"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /End Fables Navigation -->
+
+
+  <div class="fables-header fables-after-overlay overlay-lighter bg-rules"
+    style="background-image: url(../static/assets/custom/images/header.jpg)">
+    <div class="container overflow-hidden">
+      <div class="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig" data-wow-duration="2s">
+        <div>
+          <h1 class="white-color bold-font mt-lg-5 mb-4">
+            Quiz on Part {{quiz_no}} of constitution.<br />
+            <span class="fables-second-text-color">{{quiz_title}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+  </header>
+
+  <div class="article-card">
+    <div class="quiz-nav">
+      <button type="button" class="btn btn-primary" onclick="loadQuiz(1)">Quiz 1</button>
+      <button type="button" class="btn btn-primary" onclick="loadQuiz(2)">Quiz 2</button>
+      <button type="button" class="btn btn-primary" onclick="loadQuiz(3)">Quiz 3</button>
+    </div>
+    <div class="quiz-content">
+      <div class="quiz-title h1 bold">Generated Quiz</div>
+      <div class="quiz-question" id="quiz-question">
+        Quiz: What does Part I of the Constitution of India primarily deal with?
+      </div>
+      <div class="quiz-options" id="quiz-options">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option1" value="option1">
+          <label class="form-check-label" for="option1">
+            Option 1: The Union and its Territory
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option2" value="option2">
+          <label class="form-check-label" for="option2">
+            Option 2: Fundamental Rights
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option3" value="option3">
+          <label class="form-check-label" for="option3">
+            Option 3: Directive Principles of State Policy
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quizOption" id="option4" value="option4">
+          <label class="form-check-label" for="option4">
+            Option 4: The State Government
+          </label>
+        </div>
+      </div>
+      <div>
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Footer 2 Background Image  -->
+  <div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+          <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">
+            Article Insights
+          </h2>
+          <p class="font-15 fables-third-text-color">
+            Read clear, concise summaries of constitutional articles for easy
+            understanding and quick reference
+          </p>
+          <p class="font-15 fables-third-text-color">
+            Stay informed with the latest amendments and interpretations,
+            ensuring your understanding is always up-to-date
+          </p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">
+            Contact us
+          </h2>
+          <div class="my-3">
+            <h4 class="font-16 semi-font">
+              <span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+              Address Information
+            </h4>
+            <p class="font-14 fables-fifth-text-color mt-2 ml-4">
+              level13, 2Elizabeth St, Melbourne, Victor 2000
+            </p>
+          </div>
+          <div class="my-3">
+            <h4 class="font-16 semi-font">
+              <span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+              Call Now
+            </h4>
+            <p class="font-14 fables-fifth-text-color mt-2 ml-4">
+              +333 111 111 000
+            </p>
+          </div>
+          <div class="my-3">
+            <h4 class="font-16 semi-font">
+              <span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+              Mail
+            </h4>
+            <p class="font-14 fables-fifth-text-color mt-2 ml-4">
+              adminsupport@website.com
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">
+            EXPLORE OUR SITE
+          </h2>
+          <ul class="nav fables-footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Article Description</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright fables-main-background-color mt-0 border-0 white-color">
+    <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-google-plus-square"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
+    <p class="mb-0">Copyright © ArticleInsights 2024. All rights reserved.</p>
+  </div>
+  <!-- Bootstrap JS and dependencies -->
+  <script>
+    let quizzes
+    window.onload = async () => {
+      try {
+        const response = await fetch("/quiz_questions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ quiz_no: {{ quiz_no }} }), // Send quiz_no in the body
+    });
+    console.log(response)
+    if (!response.ok) throw new Error("Failed to fetch quiz ");
+    quizzes = await response.json();
+
+      } catch (error) {
+      console.error("Error fetching quiz:", error);
+      alert("Failed to load quiz");
+    } finally {
+      loadQuiz(1)
+    }
+    }
+
+    function loadQuiz(quizNumber) {
+      const quiz = quizzes[quizNumber - 1];
+      const questionElement = document.getElementById('quiz-question');
+      const optionsElement = document.getElementById('quiz-options');
+
+      // Update question
+      console.log(quiz["question"])
+      questionElement.textContent = `Quiz: ${quiz["question"]} `;
+
+      // Update options
+      optionsElement.innerHTML = ''; // Clear current options
+      console.log(quiz)
+      quiz["options"].forEach((option, index) => {
+        const optionId = `option${index + 1} `;
+        const optionHtml = `
+          <div class="form-check" >
+            <input class="form-check-input" type="radio" name="quizOption" id="${optionId}" value="${optionId}">
+            <label class="form-check-label" for="${optionId}">${option}</label>
+          </div>
+          `;
+        optionsElement.innerHTML += optionHtml;
+      });
+    }
+  </script>
+  <script src="../static/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../static/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="../static/assets/vendor/timeline/jquery.timelify.js"></script>
+  <script src="../static/assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+  <script src="../static/assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+  <script src="../static/assets/vendor/popper/popper.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+  <script src="../static/assets/vendor/WOW-master/dist/wow.min.js"></script>
+  <script src="../static/assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../static/assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+  <script src="../static/assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+  <script src="../static/assets/custom/js/custom.js"></script>
+</body>
+
+</html>
