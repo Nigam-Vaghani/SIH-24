@@ -43,6 +43,10 @@ def games():
     return render_template("games.html")
 
 
+@app.route("/article")
+def article():
+    return render_template('article.html')
+
 @app.route("/quiz")
 def quiz():
     return render_template("quiz.html")

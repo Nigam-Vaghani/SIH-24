@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 hello this is SIH 24
 team _> NIRMa
 jjkhkh
 dhanesh
 =======
 UPDATE OR ADD -> RohitFrontEnd folder (it is final folder).
+=======
+UPDATE OR ADD -> Flask-applied-site (it is final folder).
+>>>>>>> bc3c8f6285c8fc948393c10ca94d8adb8ebbd393
 ----------------------------------------------------------
 git access to you main file
 git init
