@@ -30,8 +30,7 @@ def about():
 
 @app.route("/description")
 def description():
-    return render_template("description.html")
-
+    return render_template("article_desc.html")
 
 @app.route("/resources")
 def resources():
