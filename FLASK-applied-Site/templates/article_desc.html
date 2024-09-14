@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Fables" />
+  <meta name="author" content="Enterprise Development" />
+  <link rel="shortcut icon" href="../static/assets/custom/images/shortcut.png" />
+
+  <title>Article Description</title>
+
+  <!-- animate.css-->
+  <link href="../static/assets/vendor/animate.css-master/animate.min.css" rel="stylesheet" />
+  <!-- Load Screen -->
+  <link href="../static/assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet" />
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet" />
+  <!-- Font Awesome 5 -->
+  <link href="../static/assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet" />
+  <!-- Fables Icons -->
+  <link href="../static/assets/custom/css/fables-icons.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet" />
+  <!-- portfolio filter gallery -->
+  <link href="../static/assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet" />
+  <!-- Video Background -->
+  <link href="../static/assets/vendor/video-background/video-background.css" rel="stylesheet" />
+  <!-- FANCY BOX -->
+  <link href="../static/assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet" />
+  <!-- RANGE SLIDER -->
+  <link href="../static/assets/vendor/range-slider/range-slider.css" rel="stylesheet" />
+  <!-- OWL CAROUSEL  -->
+  <link href="../static/assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet" />
+  <link href="../static/assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet" />
+  <!-- FABLES CUSTOM CSS FILE -->
+  <link href="../static/assets/custom/css/custom.css" rel="stylesheet" />
+  <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+  <link href="../static/assets/custom/css/custom-responsive.css" rel="stylesheet" />
+
+  <style>
+    .part-card {
+      background-color: #e5e5e6;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      /* display: flex; */
+      text-align: center;
+    }
+
+    .articles-cards {
+      display: flex;
+    }
+
+    .article-card {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      /* flex: 1 1 10%; */
+      text-align: center;
+    }
+
+    .article-card h4 {
+      margin-bottom: 10px;
+    }
+
+    .article-card button {
+      margin-top: 10px;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+
+      justify-content: space-around;
+    }
+
+    .quiz-section {
+      display: none;
+    }
+
+    .align {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="search-section">
+    <a class="close-search" href="#"></a>
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <form method="post" action="#" class="w-50">
+        <div class="row">
+          <div class="col-10">
+            <input type="search" value="" class="form-control palce bg-transparent border-0 search-input"
+              placeholder="Search Here ..." />
+          </div>
+          <div class="col-2 mt-3">
+            <button type="submit" class="btn bg-transparent text-white">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="ju-loading-screen">
+    <div class="sk-double-bounce">
+      <div class="sk-child sk-double-bounce1"></div>
+      <div class="sk-child sk-double-bounce2"></div>
+    </div>
+  </div>
+
+  <!-- /End Top Header -->
+
+  <!-- Start Fables Navigation -->
+  <div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-10 col-lg-9 pr-md-0">
+          <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+            <div class="collapse navbar-collapse" id="fablesNavDropdown">
+              <ul class="navbar-nav mx-auto fables-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="index.html" id="sub-nav1" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="about3.html" id="sub-nav2" aria-haspopup="true"
+                    aria-expanded="false">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="description.html" id="sub-nav" aria-haspopup="true"
+                    aria-expanded="false">
+                    Article descriptions
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="resources.html" id="sub-nav4" aria-haspopup="true"
+                    aria-expanded="false">
+                    Resources
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="sub-nav5" aria-haspopup="true" aria-expanded="false">
+                    Games
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="sub-nav6">
+                    <li>
+                      <a class="dropdown-item" href="quiz.html">Quiz</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Spin the wheel</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link toggle" href="contactus1.html" id="sub-nav7" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
+          <div class="fables-header-icons">
+            <a href="signin.html"
+              class="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"><span
+                class="fables-iconuser"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /End Fables Navigation -->
+
+  <!-- Start Header -->
+  <div class="fables-header fables-after-overlay overlay-lighter bg-rules"
+    style="background-image: url(../static/assets/custom/images/header.jpg)">
+    <div class="container overflow-hidden">
+      <div class="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig" data-wow-duration="2s">
+        <div>
+          <h1 class="white-color bold-font mt-lg-5 mb-4">
+            Constitution Simplified:<br />
+            <span class="fables-second-text-color">Key Insights at a Glance</span>
+          </h1>
+          <p class="fables-third-text-color mt-3 mb-5 light-font fables-header-slider-details">
+            An intuitive platform that delivers clear, concise summaries of
+            constitutional articles for easy understanding and quick reference
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /End Header -->
+
+  <!-- Start page content -->
+  <!-- Article Selection Section -->
+  <div class="container mt-5" id="articleSelection">
+    <h2 class="text-center">The Articles of Indian Constitution</h2>
+    <div class="flex-container">
+      <!-- Generate cards for Articles 1 to 15 -->
+      <!-- Static cards -->
+      <!-- Part 1 -->
+      <!DOCTYPE html>
+      <html lang="en">
+
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Constitution Quiz</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      </head>
+
+      <body>
+
+        <div class="part-card container" id="part1">
+          <h1><strong>Part 1</strong></h1>
+          <hr>
+          <p><i><strong>This part defines India's territory, including states and Union Territories, and outlines the processes for
+            forming new states and altering boundaries.</strong></i></p>
+          <br>
+          <div class="articles-cards row">
+            <!-- Article 1 -->
+            <div class="article-card col">
+              <h2><strong>Article 1</strong></h2>
+              <hr>
+              <h4><u>State and Union Territories</u></h4>
+              <br>
+              <div class="align">
+                <h6><strong>Territory of India</strong></h6>
+                <p>Article 1 declares India as a Union of States, encompassing all states and Union Territories, with
+                  flexibility for future territorial changes.</p>
+                <h6><strong>States in India</strong></h6>
+                <p>India has 28 states and 8 Union Territories, each with its own government, legislative powers, and
+                  revenue-raising capabilities.</p>
+                <h6><strong>Union Territories</strong></h6>
+                <p>Union Territories are directly governed by the central government, with some having legislative
+                  assemblies and others administered centrally.</p>
+                <h6><strong>Special Provisions</strong></h6>
+                <p>Special statuses were previously granted to regions like Jammu and Kashmir, now reorganized into
+                  Union
+                  Territories, while Puducherry retains limited self-governance.</p>
+                <h5><strong>Conclusion:</strong></h5>
+                <p>Article 1 establishes India's federal structure and provides mechanisms for territorial adjustments,
+                  supporting unity and diversity.</p>
+              </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="article-card col">
+              <h2><strong>Article 2</strong></h2>
+              <hr>
+              <h4><u>Admission or Establishment of New States</u></h4>
+              <br>
+              <div class="align">
+                <h6><strong>Admission of New States</strong></h6>
+                <p>Article 2 allows Parliament to admit new states into the Union, facilitating integration of new
+                  territories.</p>
+                <h6><strong>Establishment of New States</strong></h6>
+                <p>Parliament can also create new states from existing territories, adapting to administrative and
+                  political needs.</p>
+                <h5><strong>Conclusion:</strong></h5>
+                <p>Article 2 ensures flexibility in India's federal structure, supporting the addition and creation of
+                  new
+                  states as needed.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="articles-cards row">
+            <!-- Article 3 -->
+            <div class="article-card col">
+              <h2><strong>Article 3</strong></h2>
+              <hr>
+              <h4><u>Formation of New States and Alteration of Boundaries</u></h4>
+              <br>
+              <div class="align">
+                <h6><strong>Formation of New States</strong></h6>
+                <p>Article 3 allows Parliament to create new states and alter existing boundaries based on
+                  recommendations
+                  and regional needs.</p>
+                <h6><strong>Alteration of Boundaries</strong></h6>
+                <p>It also enables renaming states and adjusting boundaries, supporting responsive governance.</p>
+                <h5><strong>Conclusion:</strong></h5>
+                <p>Article 3 provides a framework for reorganizing states and boundaries to align with administrative
+                  and
+                  regional requirements.</p>
+              </div>
+            </div>
+
+            <!-- Article 4 -->
+            <div class="article-card col">
+              <h2><strong>Article 4</strong></h2>
+              <hr>
+              <h4><u>Provisions Related to the Representation of States</u></h4>
+              <br>
+              <div class="align">
+                <h6><strong>Representation in Parliament</strong></h6>
+                <p>Article 4 ensures that changes in state representation in Parliament reflect any reorganization,
+                  maintaining fairness and balance.</p>
+                <h6><strong>Adjustments Following Reorganization</strong></h6>
+                <p>It includes provisions for recalibrating parliamentary seats in response to state changes.</p>
+                <h5><strong>Conclusion:</strong></h5>
+                <p>Article 4 ensures equitable representation in Parliament, upholding the integrity of legislative
+                  processes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="articles-cards row">
+            <!-- Article 5 -->
+            <div class="article-card col">
+              <h2><strong>Article 5</strong></h2>
+              <hr>
+              <h4><u>Citizenship at the Commencement of the Constitution</u></h4>
+              <br>
+              <div class="align">
+                <h6><strong>Citizenship Status</strong></h6>
+                <p>Article 5 ensures that individuals who were citizens at the Constitution's commencement on January
+                  26,
+                  1950, retain their citizenship.</p>
+                <h6><strong>Implications for Citizenship</strong></h6>
+                <p>It provides a baseline for citizenship, maintaining continuity during the transition to the new
+                  constitutional framework.</p>
+                <h5><strong>Conclusion:</strong></h5>
+                <p>Article 5 is crucial for defining initial citizenship status, ensuring legal clarity and continuity
+                  for
+                  Indian citizens.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="article-card" id="part1">
+            <h2><strong>Article 1</strong></h2>
+            <hr>
+            <h4><u>State and Union Territories Explained</u></h4>
+             <br>
+             <h5><strong>Description</strong></h5>
+            <p>This part defines the territory of India, including the states and Union Territories. It outlines the process for the formation of new states, and the alteration of state boundaries or names.</p>
+            <h5><strong>Conclusion:</strong></h5>
+            <p>Part 1 establishes the foundational framework for India's territorial integrity and administrative divisions, ensuring clarity in the Union's geographical and political structure.</p>
+        </div> -->
+
+      </body>
+
+      </html>
+      <!-- Repeat for Articles 6 to 13 and 15 -->
+    </div>
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="container mt-5 quiz-section" id="quizSection">
+    <h2 class="text-center">Quiz on <span id="articleTitle"></span></h2>
+    <form id="quizForm">
+      <!-- Questions will be dynamically inserted here -->
+    </form>
+    <button class="btn btn-success mt-4" onclick="submitQuiz()">
+      Submit Quiz
+    </button>
+  </div>
+
+  <!-- Quiz Result Section -->
+  <div class="container mt-5 quiz-section" id="quizResult">
+    <h2 class="text-center">Your Quiz Results</h2>
+    <p id="resultMessage" class="text-center"></p>
+    <button class="btn btn-primary d-block mx-auto" onclick="restartQuiz()">
+      Restart Quiz
+    </button>
+  </div>
+
+  <!-- /End page content -->
+
+  <!-- Start Footer 2 Background Image  -->
+  <div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+          <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">
+            Article Insights
+          </h2>
+          <p class="font-15 fables-third-text-color">
+            Read clear, concise summaries of constitutional articles for easy
+            understanding and quick reference
+          </p>
+          <p class="font-15 fables-third-text-color">
+            Stay informed with the latest amendments and interpretations,
+            ensuring your understanding is always up-to-date
+          </p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Contact us</h2>
+          
+          <div class="my-3">
+              <h4 class="font-16 semi-font"><span
+                      class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+                  Call Now </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">+91 95743 97879</p>
+          </div>
+          <div class="my-3">
+              <h4 class="font-16 semi-font"><span
+                      class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+                  Mail </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">vaghaninigam2003@gmail.com</p>
+          </div>
+      </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">
+            EXPLORE OUR SITE
+          </h2>
+          <ul class="nav fables-footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Article Description</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright fables-main-background-color mt-0 border-0 white-color">
+    <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-google-plus-square"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+      </li>
+      <li>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
+    <p class="mb-0">Copyright © ArticleInsights 2024. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="../static/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../static/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="../static/assets/vendor/timeline/jquery.timelify.js"></script>
+  <script src="../static/assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+  <script src="../static/assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+  <script src="../static/assets/vendor/popper/popper.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+  <script src="../static/assets/vendor/WOW-master/dist/wow.min.js"></script>
+  <script src="../static/assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../static/assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+  <script src="../static/assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+  <script src="../static/assets/custom/js/custom.js"></script>
+</body>
+
+</html>
