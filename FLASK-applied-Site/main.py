@@ -13,7 +13,6 @@ def load_questions():
     with open("./static/data/quizes.json", "r") as file:
         return json.load(file)
 
-
 def get_random_questions(data, num_questions=3):
     return random.sample(data, min(len(data), num_questions))
 
@@ -51,7 +50,13 @@ def article():
 def quiz():
     return render_template("quiz.html")
 
+@app.route("/signin")
+def signin():
+    return render_template("signin.html")
 
+@app.route("/register")
+def register():
+    return render_template("register.html")
 
 @app.route("/quiz_questions", methods=['POST'])
 def quiz_questions():
@@ -59,6 +64,7 @@ def quiz_questions():
     questions = load_questions()[quiz_no - 1]["questions"]
     random_questions = get_random_questions(questions)
     print(random_questions[random.randrange(0, 3)])
+    
     return jsonify(random_questions)
 
 

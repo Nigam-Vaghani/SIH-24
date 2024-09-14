@@ -1528,5 +1528,2902 @@
                 "answer": 3
             }
         ]
+    },
+    {
+        "part": 9,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "What does Part IX of the Constitution of India deal with?",
+                "options": [
+                    "The Union",
+                    "The States",
+                    "The Panchayats",
+                    "The Union Territories"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution mandates the establishment of Panchayats?",
+                "options": [
+                    "Article 243",
+                    "Article 243A",
+                    "Article 243B",
+                    "Article 243C"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article deals with the composition of Panchayats?",
+                "options": [
+                    "Article 243",
+                    "Article 243A",
+                    "Article 243B",
+                    "Article 243C"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article provides for the powers, authority, and responsibilities of Panchayats?",
+                "options": [
+                    "Article 243D",
+                    "Article 243E",
+                    "Article 243F",
+                    "Article 243G"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article mandates the establishment of a State Finance Commission to review the financial position of Panchayats?",
+                "options": [
+                    "Article 243H",
+                    "Article 243I",
+                    "Article 243J",
+                    "Article 243K"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the reservation of seats in Panchayats for Scheduled Castes and Scheduled Tribes?",
+                "options": [
+                    "Article 243D",
+                    "Article 243E",
+                    "Article 243F",
+                    "Article 243G"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article specifies the duration of Panchayats?",
+                "options": [
+                    "Article 243E",
+                    "Article 243F",
+                    "Article 243G",
+                    "Article 243H"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article provides for the qualifications and disqualifications for membership of Panchayats?",
+                "options": [
+                    "Article 243F",
+                    "Article 243G",
+                    "Article 243H",
+                    "Article 243I"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article empowers Panchayats to impose taxes, duties, tolls, and fees?",
+                "options": [
+                    "Article 243H",
+                    "Article 243I",
+                    "Article 243J",
+                    "Article 243K"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article mandates that elections to Panchayats should be conducted by the State Election Commission?",
+                "options": [
+                    "Article 243K",
+                    "Article 243L",
+                    "Article 243M",
+                    "Article 243N"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article deals with the application of Part IX to Union Territories?",
+                "options": [
+                    "Article 243L",
+                    "Article 243M",
+                    "Article 243N",
+                    "Article 243O"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article provides for the extension of Part IX to scheduled and tribal areas?",
+                "options": [
+                    "Article 243M",
+                    "Article 243N",
+                    "Article 243O",
+                    "Article 243P"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article provides for the continuation of existing laws and Panchayats?",
+                "options": [
+                    "Article 243N",
+                    "Article 243O",
+                    "Article 243P",
+                    "Article 243Q"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article provides for the disqualification of members of Panchayats?",
+                "options": [
+                    "Article 243O",
+                    "Article 243P",
+                    "Article 243Q",
+                    "Article 243R"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "What does Part IX-A of the Indian Constitution deal with?",
+                "options": [
+                    "The Panchayats",
+                    "The Union Territories",
+                    "The Municipalities",
+                    "The States"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 16,
+                "question": "Which Article of Part IX-A provides for the constitution of Municipalities?",
+                "options": [
+                    "Article 243Q",
+                    "Article 243R",
+                    "Article 243S",
+                    "Article 243T"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 17,
+                "question": "Which Article of Part IX-A deals with the composition of Municipalities?",
+                "options": [
+                    "Article 243R",
+                    "Article 243S",
+                    "Article 243T",
+                    "Article 243U"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 18,
+                "question": "Which Article of Part IX-A provides for the reservation of seats in Municipalities?",
+                "options": [
+                    "Article 243T",
+                    "Article 243U",
+                    "Article 243V",
+                    "Article 243W"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 19,
+                "question": "Which Article of Part IX-A specifies the duration of Municipalities?",
+                "options": [
+                    "Article 243U",
+                    "Article 243V",
+                    "Article 243W",
+                    "Article 243X"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 20,
+                "question": "Which Article of Part IX-A deals with the powers, authority, and responsibilities of Municipalities?",
+                "options": [
+                    "Article 243V",
+                    "Article 243W",
+                    "Article 243X",
+                    "Article 243Y"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 21,
+                "question": "Which Article of Part IX-A empowers Municipalities to levy taxes, duties, tolls, and fees?",
+                "options": [
+                    "Article 243X",
+                    "Article 243Y",
+                    "Article 243Z",
+                    "Article 243ZA"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 22,
+                "question": "Which Article of Part IX-A mandates the establishment of a State Finance Commission to review the financial position of Municipalities?",
+                "options": [
+                    "Article 243Y",
+                    "Article 243Z",
+                    "Article 243ZA",
+                    "Article 243ZB"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 23,
+                "question": "Which Article of Part IX-A provides for the Constitution of Committees for Municipalities?",
+                "options": [
+                    "Article 243Z",
+                    "Article 243ZA",
+                    "Article 243ZB",
+                    "Article 243ZC"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 24,
+                "question": "Which Article of Part IX-A deals with the audit of accounts of Municipalities?",
+                "options": [
+                    "Article 243Z",
+                    "Article 243ZA",
+                    "Article 243ZB",
+                    "Article 243ZC"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 25,
+                "question": "Which Article of Part IX-A provides for the conduct of elections to Municipalities?",
+                "options": [
+                    "Article 243ZA",
+                    "Article 243ZB",
+                    "Article 243ZC",
+                    "Article 243ZD"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 26,
+                "question": "Which Article of Part IX-A deals with the application of Part IX-A to Union Territories?",
+                "options": [
+                    "Article 243ZB",
+                    "Article 243ZC",
+                    "Article 243ZD",
+                    "Article 243ZE"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 27,
+                "question": "Which Article of Part IX-A deals with the application of Part IX-A to scheduled and tribal areas?",
+                "options": [
+                    "Article 243ZC",
+                    "Article 243ZD",
+                    "Article 243ZE",
+                    "Article 243ZF"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 28,
+                "question": "Which Article of Part IX-A provides for the continuation of existing laws relating to Municipalities?",
+                "options": [
+                    "Article 243ZD",
+                    "Article 243ZE",
+                    "Article 243ZF",
+                    "Article 243ZG"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 29,
+                "question": "Which Article of Part IX-A deals with the disqualification of members of Municipalities?",
+                "options": [
+                    "Article 243ZF",
+                    "Article 243ZZG",
+                    "Article 243H",
+                    "Article 243ZI"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 30,
+                "question": "Which Article of Part IX-A deals with the duration of Municipalities?",
+                "options": [
+                    "Article 243T",
+                    "Article 243U",
+                    "Article 243V",
+                    "Article 243W"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 31,
+                "question": "Which Article of Part IX-A provides for the powers of Municipalities to levy taxes?",
+                "options": [
+                    "Article 243T",
+                    "Article 243U",
+                    "Article 243V",
+                    "Article 243X"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 32,
+                "question": "Which Article of Part IX-A deals with the audit of accounts of Municipalities?",
+                "options": [
+                    "Article 243Y",
+                    "Article 243Z",
+                    "Article 243ZA",
+                    "Article 243ZB"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 33,
+                "question": "Which Article of Part IX-B provides for the incorporation, regulation, and winding up of Cooperative Societies?",
+                "options": [
+                    "Article 243ZP",
+                    "Article 243ZQ",
+                    "Article 243ZR",
+                    "Article 243ZT"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 34,
+                "question": "Which Article of Part IX-B deals with the number and term of the Board of Directors of Cooperative Societies?",
+                "options": [
+                    "Article 243ZS",
+                    "Article 243ZT",
+                    "Article 243ZU",
+                    "Article 243ZV"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 35,
+                "question": "Which Article of Part IX-B provides for the audit of accounts of Cooperative Societies?",
+                "options": [
+                    "Article 243ZR",
+                    "Article 243ZS",
+                    "Article 243ZT",
+                    "Article 243ZU"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 36,
+                "question": "Which Article of Part IX-B relates to the elections of Cooperative Societies?",
+                "options": [
+                    "Article 243ZR",
+                    "Article 243ZS",
+                    "Article 243ZT",
+                    "Article 243ZV"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 37,
+                "question": "Which Article of Part IX-B provides for the application of this part to multi-state cooperative societies?",
+                "options": [
+                    "Article 243ZW",
+                    "Article 243ZX",
+                    "Article 243ZY",
+                    "Article 243ZZ"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 38,
+                "question": "Which Article of Part IX-B provides for the right of members to get information regarding their Cooperative Society?",
+                "options": [
+                    "Article 243ZX",
+                    "Article 243ZY",
+                    "Article 243ZZ",
+                    "Article 243ZZB"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 39,
+                "question": "Which Article of Part IX-B deals with the reservation of seats for SCs, STs, and women in the Board of Cooperative Societies?",
+                "options": [
+                    "Article 243ZY",
+                    "Article 243ZZ",
+                    "Article 243ZZB",
+                    "Article 243ZZC"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 40,
+                "question": "Which Article of Part IX-B specifies the offenses and penalties in relation to Cooperative Societies?",
+                "options": [
+                    "Article 243ZZ",
+                    "Article 243ZZB",
+                    "Article 243ZZC",
+                    "Article 243ZZD"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 41,
+                "question": "Which Article of Part IX-B provides for the supersession and suspension of the Board of Cooperative Societies?",
+                "options": [
+                    "Article 243ZZC",
+                    "Article 243ZZD",
+                    "Article 243ZZE",
+                    "Article 243ZZF"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 42,
+                "question": "Which Article of Part IX-B relates to the settlement of disputes concerning Cooperative Societies?",
+                "options": [
+                    "Article 243ZZD",
+                    "Article 243ZZE",
+                    "Article 243ZZF",
+                    "Article 243ZZG"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 43,
+                "question": "Which Article of Part IX-B mandates the State to promote the voluntary formation, autonomous functioning, democratic control, and professional management of Cooperative Societies?",
+                "options": [
+                    "Article 243ZZE",
+                    "Article 243ZZF",
+                    "Article 243ZZG",
+                    "Article 243ZZH"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 44,
+                "question": "Which Article of Part IX-B specifies the application of this part to the Union territories?",
+                "options": [
+                    "Article 243ZZF",
+                    "Article 243ZZG",
+                    "Article 243ZZH",
+                    "Article 243ZZI"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 45,
+                "question": "Which Article of Part IX-B deals with the power to make laws regarding Cooperative Societies?",
+                "options": [
+                    "Article 243ZZH",
+                    "Article 243ZZI",
+                    "Article 243ZZJ",
+                    "Article 243ZZK"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "part": 10,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution declares India as a Union of States?",
+                "options": [
+                    "Article 1",
+                    "Article 2",
+                    "Article 3",
+                    "Article 4"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution deals with the admission or establishment of new States?",
+                "options": [
+                    "Article 2",
+                    "Article 3",
+                    "Article 4",
+                    "Article 5"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article provides for the formation of new States and alteration of areas, boundaries, or names of existing States?",
+                "options": [
+                    "Article 2",
+                    "Article 3",
+                    "Article 4",
+                    "Article 5"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution outlines the laws made under Articles 2 and 3 for the admission or establishment of new States?",
+                "options": [
+                    "Article 1",
+                    "Article 2",
+                    "Article 3",
+                    "Article 4"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article defines who shall be citizens of India at the commencement of the Constitution?",
+                "options": [
+                    "Article 5",
+                    "Article 6",
+                    "Article 7",
+                    "Article 8"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution deals with the rights of citizenship of certain persons who have migrated to India from Pakistan?",
+                "options": [
+                    "Article 5",
+                    "Article 6",
+                    "Article 7",
+                    "Article 8"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article provides for the rights of citizenship of certain migrants to Pakistan?",
+                "options": [
+                    "Article 5",
+                    "Article 6",
+                    "Article 7",
+                    "Article 8"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution deals with the rights of citizenship of certain persons of Indian origin residing outside India?",
+                "options": [
+                    "Article 5",
+                    "Article 6",
+                    "Article 7",
+                    "Article 8"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article empowers the Parliament to regulate the right of citizenship by law?",
+                "options": [
+                    "Article 8",
+                    "Article 9",
+                    "Article 10",
+                    "Article 11"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution states that every person who is a citizen of India shall continue to be such a citizen, subject to any law made by the Parliament?",
+                "options": [
+                    "Article 8",
+                    "Article 9",
+                    "Article 10",
+                    "Article 11"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution deals with the acquisition of citizenship by persons voluntarily acquiring the citizenship of a foreign state?",
+                "options": [
+                    "Article 8",
+                    "Article 9",
+                    "Article 10",
+                    "Article 11"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution prohibits discrimination on grounds of religion, race, caste, sex, or place of birth?",
+                "options": [
+                    "Article 12",
+                    "Article 14",
+                    "Article 15",
+                    "Article 16"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article guarantees equality before the law and equal protection of the laws?",
+                "options": [
+                    "Article 13",
+                    "Article 14",
+                    "Article 15",
+                    "Article 16"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution deals with the right to equality of opportunity in matters of public employment?",
+                "options": [
+                    "Article 13",
+                    "Article 14",
+                    "Article 15",
+                    "Article 16"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution guarantees the protection of certain rights regarding freedom of speech, etc.?",
+                "options": [
+                    "Article 18",
+                    "Article 19",
+                    "Article 20",
+                    "Article 21"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "part": 11,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution deals with the extent of laws made by Parliament and by the Legislatures of States?",
+                "options": [
+                    "Article 245",
+                    "Article 246",
+                    "Article 247",
+                    "Article 248"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution defines the distribution of legislative powers between the Union and the States?",
+                "options": [
+                    "Article 245",
+                    "Article 246",
+                    "Article 247",
+                    "Article 248"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution gives Parliament the power to provide for the establishment of certain additional courts?",
+                "options": [
+                    "Article 246",
+                    "Article 247",
+                    "Article 248",
+                    "Article 249"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution deals with the residuary powers of legislation?",
+                "options": [
+                    "Article 246",
+                    "Article 247",
+                    "Article 248",
+                    "Article 249"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution provides for the power of Parliament to legislate with respect to a matter in the State List in the national interest?",
+                "options": [
+                    "Article 248",
+                    "Article 249",
+                    "Article 250",
+                    "Article 251"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the power of Parliament to legislate with respect to any matter in the State List if a Proclamation of Emergency is in operation?",
+                "options": [
+                    "Article 248",
+                    "Article 249",
+                    "Article 250",
+                    "Article 251"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution deals with the inconsistency between laws made by Parliament and laws made by the Legislatures of States?",
+                "options": [
+                    "Article 250",
+                    "Article 251",
+                    "Article 252",
+                    "Article 253"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution deals with the power of Parliament to legislate for two or more States by consent?",
+                "options": [
+                    "Article 251",
+                    "Article 252",
+                    "Article 253",
+                    "Article 254"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution gives Parliament the power to legislate for the whole or any part of the territory of India to implement treaties and international agreements?",
+                "options": [
+                    "Article 252",
+                    "Article 253",
+                    "Article 254",
+                    "Article 255"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution addresses the relationship between laws made by Parliament and laws made by the State Legislatures?",
+                "options": [
+                    "Article 253",
+                    "Article 254",
+                    "Article 255",
+                    "Article 256"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution deals with the requirement of Presidential assent for laws passed by State Legislatures?",
+                "options": [
+                    "Article 254",
+                    "Article 255",
+                    "Article 256",
+                    "Article 257"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution specifies that the executive power of every State shall be so exercised as to ensure compliance with the laws made by Parliament?",
+                "options": [
+                    "Article 255",
+                    "Article 256",
+                    "Article 257",
+                    "Article 258"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the control of the Union over States in certain cases?",
+                "options": [
+                    "Article 256",
+                    "Article 257",
+                    "Article 258",
+                    "Article 259"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution allows the President to entrust the executive power of the Union to a State?",
+                "options": [
+                    "Article 257",
+                    "Article 258",
+                    "Article 259",
+                    "Article 260"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution deals with the jurisdiction of the Union in relation to territories outside India?",
+                "options": [
+                    "Article 258",
+                    "Article 259",
+                    "Article 260",
+                    "Article 261"
+                ],
+                "answer": 3
+            }
+        ]
+    },
+    {
+        "part": 12,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution defines the distribution of revenues between the Union and the States?",
+                "options": [
+                    "Article 264",
+                    "Article 265",
+                    "Article 266",
+                    "Article 267"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution states that no tax shall be levied or collected except by authority of law?",
+                "options": [
+                    "Article 264",
+                    "Article 265",
+                    "Article 266",
+                    "Article 267"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution deals with the Consolidated Funds and Public Accounts of India and of the States?",
+                "options": [
+                    "Article 265",
+                    "Article 266",
+                    "Article 267",
+                    "Article 268"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution provides for Contingency Funds of India and of the States?",
+                "options": [
+                    "Article 266",
+                    "Article 267",
+                    "Article 268",
+                    "Article 269"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution outlines the distribution of certain taxes between the Union and the States?",
+                "options": [
+                    "Article 267",
+                    "Article 268",
+                    "Article 269",
+                    "Article 270"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution deals with the assignment of certain taxes and duties to the States?",
+                "options": [
+                    "Article 268",
+                    "Article 269",
+                    "Article 270",
+                    "Article 271"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution provides for the levy and collection of taxes on the sale or purchase of goods in the course of inter-state trade?",
+                "options": [
+                    "Article 269",
+                    "Article 270",
+                    "Article 271",
+                    "Article 272"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution empowers Parliament to impose a surcharge on certain duties and taxes for purposes of the Union?",
+                "options": [
+                    "Article 269",
+                    "Article 270",
+                    "Article 271",
+                    "Article 272"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution deals with the distribution of the net proceeds of taxes between the Union and the States?",
+                "options": [
+                    "Article 270",
+                    "Article 271",
+                    "Article 272",
+                    "Article 273"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution provides for the grants in aid of the revenues of the States?",
+                "options": [
+                    "Article 270",
+                    "Article 271",
+                    "Article 273",
+                    "Article 274"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution relates to the prior recommendation of the President required to bills affecting taxation in which States are interested?",
+                "options": [
+                    "Article 273",
+                    "Article 274",
+                    "Article 275",
+                    "Article 276"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution deals with the provision of grants from the Union to certain States in need of assistance?",
+                "options": [
+                    "Article 274",
+                    "Article 275",
+                    "Article 276",
+                    "Article 277"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution allows the States to impose taxes on professions, trades, callings, and employments?",
+                "options": [
+                    "Article 275",
+                    "Article 276",
+                    "Article 277",
+                    "Article 278"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution guarantees the continuance of certain existing taxes until they are abolished or altered by Parliament?",
+                "options": [
+                    "Article 276",
+                    "Article 277",
+                    "Article 278",
+                    "Article 279"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution provides for the constitution of a Finance Commission?",
+                "options": [
+                    "Article 278",
+                    "Article 279",
+                    "Article 280",
+                    "Article 281"
+                ],
+                "answer": 3
+            }
+        ]
+    },
+    {
+        "part": 13,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution ensures the freedom of trade, commerce, and intercourse throughout the territory of India?",
+                "options": [
+                    "Article 301",
+                    "Article 302",
+                    "Article 303",
+                    "Article 304"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution grants Parliament the power to impose restrictions on trade, commerce, and intercourse among the States?",
+                "options": [
+                    "Article 301",
+                    "Article 302",
+                    "Article 303",
+                    "Article 304"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution prohibits discrimination between States in matters of trade and commerce?",
+                "options": [
+                    "Article 302",
+                    "Article 303",
+                    "Article 304",
+                    "Article 305"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution provides for the power of the States to impose restrictions on trade, commerce, and intercourse with or within the State?",
+                "options": [
+                    "Article 303",
+                    "Article 304",
+                    "Article 305",
+                    "Article 306"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution saves existing laws and laws providing for State monopolies?",
+                "options": [
+                    "Article 304",
+                    "Article 305",
+                    "Article 306",
+                    "Article 307"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the appointment of an authority for carrying out the purposes of Articles 301 to 304?",
+                "options": [
+                    "Article 305",
+                    "Article 306",
+                    "Article 307",
+                    "Article 308"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution refers to the exclusion of laws made by Parliament under Articles 302 and 303 from judicial review on grounds of their necessity for the preservation of freedom of trade?",
+                "options": [
+                    "Article 301",
+                    "Article 302",
+                    "Article 303",
+                    "Article 304"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution allows States to impose reasonable restrictions on the freedom of trade, commerce, and intercourse in the public interest?",
+                "options": [
+                    "Article 304",
+                    "Article 305",
+                    "Article 306",
+                    "Article 307"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution deals with the imposition of tax on goods imported from other States or Union territories?",
+                "options": [
+                    "Article 301",
+                    "Article 302",
+                    "Article 303",
+                    "Article 304"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution provides that trade, commerce, and intercourse within the territory of India shall be free?",
+                "options": [
+                    "Article 301",
+                    "Article 302",
+                    "Article 303",
+                    "Article 304"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution empowers Parliament to impose restrictions on the freedom of trade, commerce, and intercourse in the interest of the public?",
+                "options": [
+                    "Article 302",
+                    "Article 303",
+                    "Article 304",
+                    "Article 305"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution deals with the prohibition of discriminatory legislation by States in matters of trade and commerce?",
+                "options": [
+                    "Article 303",
+                    "Article 304",
+                    "Article 305",
+                    "Article 306"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution allows Parliament to give preference or make discrimination between States in the matter of trade, commerce, or intercourse?",
+                "options": [
+                    "Article 302",
+                    "Article 303",
+                    "Article 304",
+                    "Article 305"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution empowers States to impose restrictions on trade, commerce, and intercourse within the State?",
+                "options": [
+                    "Article 303",
+                    "Article 304",
+                    "Article 305",
+                    "Article 306"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution authorizes the appointment of an authority for carrying out the purposes of Part XIII?",
+                "options": [
+                    "Article 305",
+                    "Article 306",
+                    "Article 307",
+                    "Article 308"
+                ],
+                "answer": 3
+            }
+        ]
+    },
+    {
+        "part": 14,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution provides the definition of 'State' for the purpose of services under the Union and the States?",
+                "options": [
+                    "Article 308",
+                    "Article 309",
+                    "Article 310",
+                    "Article 311"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution empowers Parliament and the State Legislatures to regulate the recruitment and conditions of service of persons appointed to public services?",
+                "options": [
+                    "Article 308",
+                    "Article 309",
+                    "Article 310",
+                    "Article 311"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution provides for the tenure and conditions of service of the persons holding the office of a civil servant?",
+                "options": [
+                    "Article 308",
+                    "Article 309",
+                    "Article 310",
+                    "Article 311"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution deals with the dismissal or removal of public servants from their services?",
+                "options": [
+                    "Article 310",
+                    "Article 311",
+                    "Article 312",
+                    "Article 313"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution deals with the creation of All India Services and the regulation of their recruitment and conditions of service?",
+                "options": [
+                    "Article 311",
+                    "Article 312",
+                    "Article 313",
+                    "Article 314"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the constitution and powers of the State Public Service Commission?",
+                "options": [
+                    "Article 312",
+                    "Article 313",
+                    "Article 314",
+                    "Article 315"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution deals with the provision for the State Public Service Commission to advise the Governor on matters related to services?",
+                "options": [
+                    "Article 315",
+                    "Article 316",
+                    "Article 317",
+                    "Article 318"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution provides for the appointment of members to the State Public Service Commission and their conditions of service?",
+                "options": [
+                    "Article 316",
+                    "Article 317",
+                    "Article 318",
+                    "Article 319"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution deals with the removal and suspension of members of the State Public Service Commission?",
+                "options": [
+                    "Article 317",
+                    "Article 318",
+                    "Article 319",
+                    "Article 320"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution provides for the composition of the State Public Service Commission?",
+                "options": [
+                    "Article 318",
+                    "Article 319",
+                    "Article 320",
+                    "Article 321"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution empowers Parliament to establish an All India Service?",
+                "options": [
+                    "Article 312",
+                    "Article 313",
+                    "Article 314",
+                    "Article 315"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution deals with the provisions for the State Public Service Commission to conduct examinations for appointments to the State service?",
+                "options": [
+                    "Article 319",
+                    "Article 320",
+                    "Article 321",
+                    "Article 322"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides that the conditions of service of persons appointed to the All India Services shall be regulated by rules made by the President?",
+                "options": [
+                    "Article 320",
+                    "Article 321",
+                    "Article 322",
+                    "Article 323"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution provides for the establishment of the Election Commission and its powers?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution deals with the powers and functions of the Election Commission in relation to the conduct of elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 16,
+                "question": "Which Article of the Indian Constitution deals with the delimitation of constituencies?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 17,
+                "question": "Which Article of the Indian Constitution provides the procedure for the removal of the Election Commissioner?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 18,
+                "question": "Which Article of the Indian Constitution deals with the conduct of elections to the Lok Sabha and the Rajya Sabha?",
+                "options": [
+                    "Article 325",
+                    "Article 326",
+                    "Article 327",
+                    "Article 328"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 19,
+                "question": "Which Article of the Indian Constitution empowers the Election Commission to supervise, direct, and control the entire process of elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 20,
+                "question": "Which Article of the Indian Constitution provides for the uniformity of electoral rolls in all States?",
+                "options": [
+                    "Article 325",
+                    "Article 326",
+                    "Article 327",
+                    "Article 328"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 21,
+                "question": "Which Article of the Indian Constitution deals with the procedure for filling vacancies in the Lok Sabha?",
+                "options": [
+                    "Article 325",
+                    "Article 326",
+                    "Article 327",
+                    "Article 328"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 22,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a State Election Commissioner?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 23,
+                "question": "Which Article of the Indian Constitution deals with the powers of the Election Commission in relation to the State Elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 24,
+                "question": "Which Article of the Indian Constitution provides for the State Public Service Commission to be consulted on the matters related to appointments to State services?",
+                "options": [
+                    "Article 315",
+                    "Article 316",
+                    "Article 317",
+                    "Article 318"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 25,
+                "question": "Which Article of the Indian Constitution deals with the powers and duties of the Election Commission in conducting elections to the Rajya Sabha?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 26,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a member of the State Public Service Commission as a member of the Union Public Service Commission?",
+                "options": [
+                    "Article 315",
+                    "Article 316",
+                    "Article 317",
+                    "Article 318"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 27,
+                "question": "Which Article of the Indian Constitution deals with the tenure and conditions of service of the State Election Commissioner?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 28,
+                "question": "Which Article of the Indian Constitution allows the Governor to consult the State Public Service Commission for matters related to State services?",
+                "options": [
+                    "Article 315",
+                    "Article 316",
+                    "Article 317",
+                    "Article 318"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 29,
+                "question": "Which Article of the Indian Constitution provides for the establishment of the Union Public Service Commission?",
+                "options": [
+                    "Article 315",
+                    "Article 316",
+                    "Article 317",
+                    "Article 318"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 30,
+                "question": "Which Article of the Indian Constitution stipulates the procedure for the removal of the members of the Union Public Service Commission?",
+                "options": [
+                    "Article 316",
+                    "Article 317",
+                    "Article 318",
+                    "Article 319"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "part": 15,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution establishes the Election Commission and defines its powers and responsibilities?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the uniformity of electoral rolls in all States?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution deals with the conduct of elections to the Lok Sabha and the Rajya Sabha?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution deals with the powers of the Election Commission to supervise, direct, and control the entire process of elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution empowers the Election Commission to supervise the conduct of elections to the Panchayats and the Municipalities?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution allows Parliament to provide for the creation of special provisions for the conduct of elections in certain circumstances?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution provides for the appointment of the State Election Commissioner?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution deals with the conduct of elections to the State Legislative Assemblies and the State Legislative Councils?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution provides for the removal and suspension of members of the Election Commission?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution deals with the delimitation of constituencies for elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution stipulates that the Chief Election Commissioner can only be removed by impeachment?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution deals with the regulation of the electoral rolls and the preparation of the electoral lists?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the powers of the Election Commission to supervise and control the entire process of elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution authorizes the Election Commission to supervise and control the elections to the President and Vice-President?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution specifies the procedure for filling vacancies in the Lok Sabha and the Rajya Sabha?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "part": 16,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution establishes the Election Commission and defines its powers and responsibilities?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the uniformity of electoral rolls in all States?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution deals with the conduct of elections to the Lok Sabha and the Rajya Sabha?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution deals with the powers of the Election Commission to supervise, direct, and control the entire process of elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution empowers the Election Commission to supervise the conduct of elections to the Panchayats and the Municipalities?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution allows Parliament to provide for the creation of special provisions for the conduct of elections in certain circumstances?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution provides for the appointment of the State Election Commissioner?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution deals with the conduct of elections to the State Legislative Assemblies and the State Legislative Councils?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution provides for the removal and suspension of members of the Election Commission?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution deals with the delimitation of constituencies for elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution stipulates that the Chief Election Commissioner can only be removed by impeachment?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution deals with the regulation of the electoral rolls and the preparation of the electoral lists?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the powers of the Election Commission to supervise and control the entire process of elections?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution authorizes the Election Commission to supervise and control the elections to the President and Vice-President?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution specifies the procedure for filling vacancies in the Lok Sabha and the Rajya Sabha?",
+                "options": [
+                    "Article 324",
+                    "Article 325",
+                    "Article 326",
+                    "Article 327"
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
+        "part": 16,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution provides for the reservation of seats for Scheduled Castes and Scheduled Tribes in the Lok Sabha?",
+                "options": [
+                    "Article 330",
+                    "Article 331",
+                    "Article 332",
+                    "Article 333"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the representation of the Anglo-Indian community in the Lok Sabha?",
+                "options": [
+                    "Article 331",
+                    "Article 332",
+                    "Article 333",
+                    "Article 334"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution provides for the reservation of seats for Scheduled Castes and Scheduled Tribes in the State Legislative Assemblies?",
+                "options": [
+                    "Article 331",
+                    "Article 332",
+                    "Article 333",
+                    "Article 334"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution deals with the reservation of seats for the Anglo-Indian community in State Legislative Assemblies?",
+                "options": [
+                    "Article 331",
+                    "Article 332",
+                    "Article 333",
+                    "Article 334"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution provides for the representation of Scheduled Castes and Scheduled Tribes in the Rajya Sabha?",
+                "options": [
+                    "Article 330",
+                    "Article 331",
+                    "Article 332",
+                    "Article 334"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the creation of a Commission to investigate the conditions of Scheduled Castes and Scheduled Tribes?",
+                "options": [
+                    "Article 335",
+                    "Article 336",
+                    "Article 337",
+                    "Article 338"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a Commissioner for Scheduled Castes and Scheduled Tribes?",
+                "options": [
+                    "Article 338",
+                    "Article 339",
+                    "Article 340",
+                    "Article 341"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution deals with the powers and functions of the Commissioner for Scheduled Castes and Scheduled Tribes?",
+                "options": [
+                    "Article 338",
+                    "Article 339",
+                    "Article 340",
+                    "Article 341"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution provides for the formation of a Commission to investigate the conditions of the backward classes?",
+                "options": [
+                    "Article 340",
+                    "Article 341",
+                    "Article 342",
+                    "Article 343"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution deals with the definition of Scheduled Castes and Scheduled Tribes?",
+                "options": [
+                    "Article 341",
+                    "Article 342",
+                    "Article 343",
+                    "Article 344"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution provides for the powers of the President to specify the Scheduled Tribes in the States?",
+                "options": [
+                    "Article 342",
+                    "Article 343",
+                    "Article 344",
+                    "Article 345"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution deals with the establishment of a Commission for the advancement of backward classes?",
+                "options": [
+                    "Article 340",
+                    "Article 341",
+                    "Article 342",
+                    "Article 343"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a Commissioner for the backward classes?",
+                "options": [
+                    "Article 340",
+                    "Article 341",
+                    "Article 342",
+                    "Article 343"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution provides for the President's power to specify the Scheduled Castes in a State?",
+                "options": [
+                    "Article 341",
+                    "Article 342",
+                    "Article 343",
+                    "Article 344"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution allows the Parliament to define the conditions for recognition of backward classes?",
+                "options": [
+                    "Article 340",
+                    "Article 341",
+                    "Article 342",
+                    "Article 343"
+                ],
+                "answer": 3
+            }
+        ]
+    },
+    {
+        "part": 17,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution designates Hindi as the official language of the Republic of India?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the use of English for official purposes in addition to Hindi?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution authorizes the use of regional languages for official purposes in the States?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a Commission for the development of languages in the States?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 347"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution deals with the status of the Hindi language and the use of English in certain circumstances?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a special officer for linguistic minorities?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution stipulates that the President shall appoint a Commission to investigate the conditions of the linguistic minorities?",
+                "options": [
+                    "Article 347",
+                    "Article 348",
+                    "Article 349",
+                    "Article 350"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution deals with the use of Hindi and English in the courts and the procedures of the Union?",
+                "options": [
+                    "Article 348",
+                    "Article 349",
+                    "Article 350",
+                    "Article 351"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution mandates that the President shall appoint a Commission to review the status of Hindi and other languages?",
+                "options": [
+                    "Article 347",
+                    "Article 348",
+                    "Article 349",
+                    "Article 350"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution requires the President to ensure the promotion and development of the Hindi language?",
+                "options": [
+                    "Article 347",
+                    "Article 348",
+                    "Article 349",
+                    "Article 350"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution provides for the development of the Hindi language as a medium of instruction in schools and colleges?",
+                "options": [
+                    "Article 347",
+                    "Article 348",
+                    "Article 349",
+                    "Article 350"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution specifies that English will continue to be used for official purposes in the Union of India?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a Commission to report on the status of the regional languages?",
+                "options": [
+                    "Article 347",
+                    "Article 348",
+                    "Article 349",
+                    "Article 350"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution mandates that the official language of the Union is Hindi in Devanagari script, while English is also used?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution specifies the procedures for the use of Hindi and English in the central government and courts?",
+                "options": [
+                    "Article 343",
+                    "Article 344",
+                    "Article 345",
+                    "Article 346"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "part": 18,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution deals with the proclamation of Emergency due to the breakdown of constitutional machinery in the States?",
+                "options": [
+                    "Article 352",
+                    "Article 353",
+                    "Article 354",
+                    "Article 355"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution provides for the Proclamation of Emergency due to war or external aggression?",
+                "options": [
+                    "Article 352",
+                    "Article 353",
+                    "Article 354",
+                    "Article 355"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution deals with the proclamation of National Emergency?",
+                "options": [
+                    "Article 352",
+                    "Article 353",
+                    "Article 354",
+                    "Article 355"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution empowers the President to proclaim Emergency in case of internal disturbances?",
+                "options": [
+                    "Article 352",
+                    "Article 353",
+                    "Article 354",
+                    "Article 355"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution deals with the effects of the National Emergency on the distribution of powers between the Union and the States?",
+                "options": [
+                    "Article 352",
+                    "Article 353",
+                    "Article 354",
+                    "Article 355"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution provides for the suspension of certain Fundamental Rights during a National Emergency?",
+                "options": [
+                    "Article 352",
+                    "Article 353",
+                    "Article 354",
+                    "Article 355"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution deals with the suspension of the enforcement of Fundamental Rights under Part III during the Emergency?",
+                "options": [
+                    "Article 356",
+                    "Article 357",
+                    "Article 358",
+                    "Article 359"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution provides for the suspension of the enforcement of Fundamental Rights during the proclamation of Emergency?",
+                "options": [
+                    "Article 356",
+                    "Article 357",
+                    "Article 358",
+                    "Article 359"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution deals with the imposition of President’s Rule in a State?",
+                "options": [
+                    "Article 356",
+                    "Article 357",
+                    "Article 358",
+                    "Article 359"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution empowers the President to dissolve the State Legislative Assembly during the Emergency?",
+                "options": [
+                    "Article 356",
+                    "Article 357",
+                    "Article 358",
+                    "Article 359"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution provides for the extension of the period of Emergency beyond six months with the approval of the Parliament?",
+                "options": [
+                    "Article 356",
+                    "Article 357",
+                    "Article 358",
+                    "Article 359"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution specifies the procedure for the declaration of Financial Emergency?",
+                "options": [
+                    "Article 360",
+                    "Article 361",
+                    "Article 362",
+                    "Article 363"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution allows the President to direct the Governor to act in accordance with the provisions of the Emergency?",
+                "options": [
+                    "Article 360",
+                    "Article 361",
+                    "Article 362",
+                    "Article 363"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution deals with the proclamation of Financial Emergency due to a threat to the financial stability of India?",
+                "options": [
+                    "Article 360",
+                    "Article 361",
+                    "Article 362",
+                    "Article 363"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution provides the procedure for revoking the proclamation of Emergency?",
+                "options": [
+                    "Article 356",
+                    "Article 357",
+                    "Article 358",
+                    "Article 359"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "part": 19,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution provides for the immunity of the President from legal proceedings during their term of office?",
+                "options": [
+                    "Article 361",
+                    "Article 362",
+                    "Article 363",
+                    "Article 364"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution specifies that the President cannot be subjected to any legal process in respect of his or her actions while in office?",
+                "options": [
+                    "Article 361",
+                    "Article 362",
+                    "Article 363",
+                    "Article 364"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution provides immunity to the Governor of a State similar to that of the President?",
+                "options": [
+                    "Article 361",
+                    "Article 362",
+                    "Article 363",
+                    "Article 364"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution states that the Governor cannot be questioned in any court of law for the exercise of his powers?",
+                "options": [
+                    "Article 361",
+                    "Article 362",
+                    "Article 363",
+                    "Article 364"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution provides for the establishment of a National Commission for SCs and STs?",
+                "options": [
+                    "Article 366",
+                    "Article 367",
+                    "Article 368",
+                    "Article 369"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution deals with the provisions for the official language of the State Legislature and the official language of communication between the State and the Union?",
+                "options": [
+                    "Article 361",
+                    "Article 362",
+                    "Article 363",
+                    "Article 364"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution provides for the amendment of the Constitution by Parliament?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 4
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution states the definition of the term 'State' for the purpose of the Constitution?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 2
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution provides for the construction of laws made under the Constitution?",
+                "options": [
+                    "Article 367",
+                    "Article 368",
+                    "Article 369",
+                    "Article 370"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution deals with the procedure for interpreting the Constitution and resolving ambiguities?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution provides for the continuation of laws in force until they are repealed or amended?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution specifies that all laws that were in force before the commencement of the Constitution continue to be in force?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the interpretation of the Constitution to ensure the application of laws?",
+                "options": [
+                    "Article 367",
+                    "Article 368",
+                    "Article 369",
+                    "Article 370"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution provides for the construction of the Constitution with respect to the jurisdiction of the Supreme Court and High Courts?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 3
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution empowers Parliament to legislate on matters not enumerated in the State List or the Concurrent List?",
+                "options": [
+                    "Article 365",
+                    "Article 366",
+                    "Article 367",
+                    "Article 368"
+                ],
+                "answer": 4
+            }
+        ]
+    },
+    {
+        "part": 20,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution deals with the procedure for amending the Constitution?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution requires that an amendment be passed by both Houses of Parliament by a special majority?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution specifies that certain amendments require ratification by at least half of the State Legislatures?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution empowers Parliament to amend the Constitution by adding new provisions?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution provides that no amendment can alter the federal structure of the Constitution without the consent of the States?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution outlines the procedure for the amendment of the Constitution by Parliament?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution states that no amendment to the Constitution can be made without the President's recommendation?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution allows Parliament to amend the Constitution in a manner not covered by the existing provisions?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution specifies the process for the ratification of certain amendments by State Legislatures?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution states that amendments affecting the representation of States in Parliament must be ratified by the States?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution outlines the categories of amendments that require different procedures for enactment?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution requires that a proposed amendment must be referred to the President before it can be introduced in Parliament?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution provides for the procedure to be followed when the Constitution is amended?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution stipulates that no amendment can affect the provisions relating to the federal structure of the Constitution without the consent of the States?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution details the powers of Parliament to amend the Constitution?",
+                "options": [
+                    "Article 368",
+                    "Article 369",
+                    "Article 370",
+                    "Article 371"
+                ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "part":21,
+        "questions":[
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution provides for the continuation of existing laws until they are altered or repealed?",
+                "options": ["Article 372", "Article 373", "Article 374", "Article 375"],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution deals with the temporary provisions for Jammu and Kashmir?",
+                "options": ["Article 370", "Article 371", "Article 372", "Article 373"],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution provides for the power of the President to grant pardons, reprieves, or commutations of sentences?",
+                "options": ["Article 72", "Article 73", "Article 74", "Article 75"],
+                "answer": 1
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution specifies the provisions relating to the continuance of existing laws and their adaptation to the new Constitution?",
+                "options": ["Article 372", "Article 373", "Article 374", "Article 375"],
+                "answer": 1
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution deals with the special provisions relating to the administration of certain areas and the status of certain states?",
+                "options": ["Article 371", "Article 372", "Article 373", "Article 374"],
+                "answer": 1
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution contains provisions related to the special status of Arunachal Pradesh and other northeastern states?",
+                "options": ["Article 371", "Article 372", "Article 373", "Article 374"],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution provides for the continuance of existing laws relating to the administration of Union Territories?",
+                "options": ["Article 371", "Article 372", "Article 373", "Article 374"],
+                "answer": 2
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution allows for the creation of new states and the alteration of boundaries of existing states?",
+                "options": ["Article 371", "Article 372", "Article 373", "Article 374"],
+                "answer": 3
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution details the temporary provisions for the administration of the Union Territories of Delhi and Puducherry?",
+                "options": ["Article 371", "Article 372", "Article 373", "Article 374"],
+                "answer": 3
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a Commission for the advancement of Scheduled Castes and Scheduled Tribes?",
+                "options": ["Article 338", "Article 339", "Article 340", "Article 341"],
+                "answer": 2
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution provides for the appointment of a Special Officer for linguistic minorities?",
+                "options": ["Article 338", "Article 339", "Article 340", "Article 341"],
+                "answer": 3
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution relates to the appointment of the Governor and the powers and duties of the Governor?",
+                "options": ["Article 151", "Article 152", "Article 153", "Article 154"],
+                "answer": 3
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution deals with the distribution of powers between the Union and State Legislatures?",
+                "options": ["Article 362", "Article 363", "Article 364", "Article 365"],
+                "answer": 2
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution outlines the special provisions for the administration of Scheduled Areas and Tribal Areas?",
+                "options": ["Article 371", "Article 372", "Article 373", "Article 374"],
+                "answer": 4
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution provides for the application of the Constitution to the states and Union Territories?",
+                "options": ["Article 372", "Article 373", "Article 374", "Article 375"],
+                "answer": 1
+            }
+        ]
+        
+    },
+    {
+        "part": 22,
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "Which Article of the Indian Constitution provides for the short title of the Constitution?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 2,
+                "question": "Which Article of the Indian Constitution deals with the commencement of the Constitution?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 3,
+                "question": "Which Article of the Indian Constitution states that the Constitution shall come into force on a date appointed by the President?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 4,
+                "question": "Which Article of the Indian Constitution provides for the repeal of certain laws upon the commencement of the Constitution?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 2
+            },
+            {
+                "question_no": 5,
+                "question": "Which Article of the Indian Constitution repeals the Indian Independence Act, 1947, and certain other laws?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 2
+            },
+            {
+                "question_no": 6,
+                "question": "Which Article of the Indian Constitution outlines the provisions for the continuation of existing laws until they are repealed or amended?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 7,
+                "question": "Which Article of the Indian Constitution specifies the short title of the Constitution as 'The Constitution of India'?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 8,
+                "question": "Which Article of the Indian Constitution mentions that the Constitution may be cited as 'The Constitution of India'?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 9,
+                "question": "Which Article of the Indian Constitution provides that all existing laws inconsistent with the provisions of the Constitution shall cease to have effect?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 2
+            },
+            {
+                "question_no": 10,
+                "question": "Which Article of the Indian Constitution details the provisions for the commencement of the Constitution and the repeal of earlier laws?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 11,
+                "question": "Which Article of the Indian Constitution provides for the repeal of certain enactments in force immediately before the commencement of the Constitution?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 2
+            },
+            {
+                "question_no": 12,
+                "question": "Which Article of the Indian Constitution addresses the continuation of certain laws despite their inconsistency with the Constitution until they are repealed or amended?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 13,
+                "question": "Which Article of the Indian Constitution states that the Constitution will come into force on a date appointed by the President by notification?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            },
+            {
+                "question_no": 14,
+                "question": "Which Article of the Indian Constitution repeals laws inconsistent with the provisions of the new Constitution?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 2
+            },
+            {
+                "question_no": 15,
+                "question": "Which Article of the Indian Constitution provides for the citation of the Constitution as 'The Constitution of India'?",
+                "options": ["Article 394", "Article 395", "Article 396", "Article 397"],
+                "answer": 1
+            }
+        ]
+        
     }
 ]

@@ -193,9 +193,11 @@
     .article-card {
       background-color: #f0f7ff;
       border-radius: 5px;
-      padding: 100px;
-      margin: 50px;
+      margin: 2rem;
+      padding-top: 2.5rem;
       margin-bottom: 50px;
+      padding-left: 1rem;
+      padding-right: 1rem;
       margin-top: 50px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       flex: 1 1 30%;
@@ -215,67 +217,99 @@
     .quiz-section {
       display: none;
     }
+
     .quiz-container {
-      padding: 40px;
+      
       background-color: #ffffff;
       border: 2px solid #ffffff;
       border-radius: 10px;
-      margin: 10px;
-      
+
     }
 
     .quiz-nav {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 1rem 3.5rem ;
       text-align: center;
     }
 
     .quiz-nav button {
       font-weight: bold;
       font-size: larger;
+      background-color: #00000000;
       padding-left: 20px;
-      padding-right: 20px;
+      color: #0026ff;
+      border: 3px solid #0026ff;
+      
+    }
+    .quiz-nav button::hover {
+      background-color: #0026ff;
     }
 
     .quiz-title {
-      margin-top: 40px;
-      font-size: 35px;
+      font-size: 2rem;
       font-weight: bolder;
       color: #000000;
       text-align: center;
-      margin-bottom: 50px;
-      
+      margin-bottom: 30px;
     }
 
     .quiz-question {
-      font-size: 20px;
-      margin-bottom:50px;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
       font-weight: bold;
+      padding-left: 2vw;
       color: #4e342e;
       font-size: larger;
+      text-align: start;
     }
+
     .quiz-options {
       display: flex;
       justify-content: start;
       flex-direction: column;
-      margin-top: 20px;
-
       align-items: start;
-      margin-left: 10vh;
-      margin-right: 10vh;
+      margin-left: 2vw;
       font-size: large;
     }
-    .quiz-options div{
+
+    .quiz-options div {
       margin-top: 5px;
       margin-bottom: 5px;
     }
-    .quiz-options input{
+
+    .quiz-options input {
       margin-top: 7px;
       background-color: black;
       margin-bottom: 5px;
       margin-right: 10px;
     }
+
+    .result-container{
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+    .submit-btn{
+      margin-left: 2vw;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 5vw;
+    }
+
+    .result-container div{
+      margin: 20px;
+      text-align: start;
+      padding-left: 15px;
+      font-size: larger;
+      font-weight: bold;
+    }
+    
+    #result-box{
+      display: none;
+    }
+
   </style>
 </head>
 
@@ -381,7 +415,7 @@
       <div class="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig" data-wow-duration="2s">
         <div>
           <h1 class="white-color bold-font mt-lg-5 mb-4">
-            Quiz on Part {{quiz_no}} of constitution.<br />
+            Quiz on Part {{quiz_no}} of constitution.<br/>
             <span class="fables-second-text-color">{{quiz_title}}</span>
         </div>
       </div>
@@ -389,9 +423,8 @@
   </div>
   <header>
   </header>
-
   <div class="article-card">
-    <div class="quiz-nav">
+    <div class="quiz-nav d-flex justify-content-center flex-wrap">
       <button type="button" class="btn btn-primary" onclick="loadQuiz(1)">Quiz 1</button>
       <button type="button" class="btn btn-primary" onclick="loadQuiz(2)">Quiz 2</button>
       <button type="button" class="btn btn-primary" onclick="loadQuiz(3)">Quiz 3</button>
@@ -403,32 +436,36 @@
       </div>
       <div class="quiz-options" id="quiz-options">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="quizOption" id="option1" value="option1">
+          <input class="form-check-input" type="radio" name="quizOption" id="option1" value="1">
           <label class="form-check-label" for="option1">
             Option 1: The Union and its Territory
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="quizOption" id="option2" value="option2">
+          <input class="form-check-input" type="radio" name="quizOption" id="option2" value="2">
           <label class="form-check-label" for="option2">
             Option 2: Fundamental Rights
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="quizOption" id="option3" value="option3">
+          <input class="form-check-input" type="radio" name="quizOption" id="option3" value="3">
           <label class="form-check-label" for="option3">
             Option 3: Directive Principles of State Policy
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="quizOption" id="option4" value="option4">
+          <input class="form-check-input" type="radio" name="quizOption" id="option4" value="4">
           <label class="form-check-label" for="option4">
             Option 4: The State Government
           </label>
         </div>
       </div>
-      <div>
-        <button class="btn btn-primary">Submit</button>
+      <div class="result-container">
+        <button class="btn btn-primary submit-btn " id="quiz-submit-btn" onclick="quiz_submit()">Submit</button>
+        <div class="alert alert-success" id="result-box">
+          <span class="result-title"><strong>CORRECT ANSWER: </strong></span>
+          <span class="result-box"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -525,6 +562,7 @@
   <!-- Bootstrap JS and dependencies -->
   <script>
     let quizzes
+    let current_quiz_no = 0
     window.onload = async () => {
       try {
         const response = await fetch("/quiz_questions", {
@@ -532,37 +570,67 @@
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ quiz_no: {{ quiz_no }} }), // Send quiz_no in the body
+          body: JSON.stringify({ quiz_no: {{ quiz_no }}}), // Send quiz_no in the body
     });
+    
     console.log(response)
+    
     if (!response.ok) throw new Error("Failed to fetch quiz ");
     quizzes = await response.json();
 
       } catch (error) {
-      console.error("Error fetching quiz:", error);
-      alert("Failed to load quiz");
-    } finally {
-      loadQuiz(1)
-    }
+        console.error("Error fetching quiz:", error);
+        alert("Failed to load quiz");
+      } finally {
+        loadQuiz(1)
+      }
     }
 
-    function loadQuiz(quizNumber) {
+
+    function quiz_submit(quizNumber) {
+      console.log(quizNumber)
+      const selectedOption = document.querySelector('input[name="quizOption"]:checked');
+
+      console.log()
+      
+      if (selectedOption){
+        console.log("THE VALUE is here")
+        console.log(selectedOption.value=={{quiz_no}})
+        document.querySelector("#result-box").style.display = "flex"
+        if (selectedOption.value==quizzes[current_quiz_no-1]['answer']){
+          document.querySelector("#result-box").classList.add("alert-success")
+          document.querySelector("#result-box").classList.remove("alert-danger")
+          document.querySelector("#result-box").children[0].style.display = "inline"
+          document.querySelector(".result-box").textContent = " ("+selectedOption.value+") "+quizzes[current_quiz_no-1]['options'][selectedOption.value-1];
+        } else {
+          document.querySelector("#result-box").classList.add("alert-danger")
+          document.querySelector("#result-box").children[0].style.display = "none"
+          document.querySelector("#result-box").classList.remove("alert-success")
+          document.querySelector(".result-box").textContent = "WRONG ANSWER"
+        }
+      }
+      
+    }
+    
+    function loadQuiz(quizNumber){
+      current_quiz_no = quizNumber
       const quiz = quizzes[quizNumber - 1];
+      document.querySelector("#result-box").style.display = "none"
       const questionElement = document.getElementById('quiz-question');
       const optionsElement = document.getElementById('quiz-options');
 
       // Update question
       console.log(quiz["question"])
-      questionElement.textContent = `Quiz: ${quiz["question"]} `;
+      questionElement.textContent = `Quiz: ${quiz["question"]}`;
 
       // Update options
       optionsElement.innerHTML = ''; // Clear current options
       console.log(quiz)
       quiz["options"].forEach((option, index) => {
-        const optionId = `option${index + 1} `;
+        const optionId = `option${index + 1}`;
         const optionHtml = `
-          <div class="form-check" >
-            <input class="form-check-input" type="radio" name="quizOption" id="${optionId}" value="${optionId}">
+          <div class="form-check" > 
+            <input class="form-check-input" type="radio" name="quizOption" id="${optionId}" value="${index+1}">
             <label class="form-check-label" for="${optionId}">${option}</label>
           </div>
           `;
